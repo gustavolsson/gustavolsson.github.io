@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html><head>
+    <title>December Adventure 2023 - Gustav Olsson</title>
+    
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="alternate" type="application/rss+xml" href="http://gustavolsson.com//index.xml" title="Gustav Olsson">
+</head>
+<body>
+        <div class="container">
+            <div class="menu">
+                <p><b>gustav olsson</b></p>
+                
+                    <p class="link"><a href="/blog/">blog</a></p>
+                
+                    <p class="link"><a href="/projects/">projects</a></p>
+                
+                    <p class="link"><a href="/contact/">contact</a></p>
+                
+                    <p class="link"><a href="/about/">about</a></p>
+                
+                <p class="link">
+                    <a rel="me" href="https://merveilles.town/@gustav"><img src="/img/mastodon.svg" width="20px" height="20px"></a>
+                    <a href="/index.xml"><img src="/img/rss.svg" width="20px" height="20px"></a>
+                </p>
+            </div>
+            <div class="content"><div class="header"></div>
+
+<div class="clampwidth">
+    <p><a href="https://eli.li/december-adventure">Eli&rsquo;s December Adventure</a> is a low-key alternative to <a href="https://adventofcode.com/">Advent of Code</a> focused on working on personal projects every day throughout December.</p>
+<p>As I find it hard to dedicate time to work on personal projects daily, my plan for the adventure is not necessarily to be productive every day but to stay focused on the things I want to do.</p>
+<p>Here are my plans:</p>
+<ul>
+<li>Get my uxn emulator <a href="http://gustavolsson.com/projects/uxnfloppy/">uxnfloppy</a> to a releasable state
+<ul>
+<li><del>Optimize vga mode 12 (640x480) sprite drawing</del></li>
+<li><del>Refactor DEO/DEI to use a device page</del></li>
+<li>Make it possible to run large roms and, if I have the time, add support for the File device and read/writes to the USB stick/floppy</li>
+</ul>
+</li>
+<li>Make a debug/gizmo renderer for my 3d game engine <a href="http://gustavolsson.com/projects/sprout-engine/">sprout</a>
+<ul>
+<li>To show collision volumes, camera frustums and the like</li>
+<li>Figure out how to handle singleton-like features that should be callable from anywhere (e.g. <code>gizmoDrawLine(...)</code>)</li>
+<li>Show the camera frustum of nodes with the Camera attribute</li>
+</ul>
+</li>
+<li>Make an uxn rom with the forest or ocean scene I have been thinking about</li>
+<li>Bring the camera with me more often, and take more pictures</li>
+<li>Improve my daily routine, waste less time</li>
+<li>Be more present when I&rsquo;m not at the computer</li>
+</ul>
+<h2 id="other-adventures-im-following">Other adventures I&rsquo;m following:</h2>
+<ul>
+<li><a href="http://wastingmoves.com/december_adventure_2023.html">tbsp</a></li>
+<li><a href="http://plastic-idolatry.com/erik/2023/dec/">d_m</a></li>
+<li><a href="https://rabbits.srht.site/decadv/">100 rabbits</a></li>
+</ul>
+<h2 id="progress">Progress</h2>
+<h3 id="day-13-14">Day 13-14</h3>
+<ul>
+<li>Further optimzied vga output by having a separate min/max range per screen layer</li>
+<li><a href="https://merveilles.town/@gustav/111578414311130420">bunnymark.tal now runs at 60 fps</a> until about 2000 bunnies are drawn in 640x480</li>
+<li><a href="https://merveilles.town/@gustav/111578436129940304">noodle.tal is also running at a high frame rate</a> but the ps/2 mouse support seems to have room for improvement (on device, only the trackpad produces smooth movements)</li>
+</ul>
+<h3 id="day-9">Day 9</h3>
+<ul>
+<li>Ran up against the slow vga bus again (6-8mhz) when blitting the backbuffer to screen which turned out to be why all roms were capped at 34 fps</li>
+<li>Optimized the blitting code to only blit changed layers and min/max byte offset</li>
+<li>noodle.tal now runs at 60 fps most of the time!</li>
+</ul>
+<h3 id="day-7">Day 7</h3>
+<ul>
+<li>Implemented the Varvara&rsquo;s Datetime device using the BIOS CMOS real-time clock
+<ul>
+<li>It turned out to be easy and was a relief after the complicated vga mode 12/ps2 work</li>
+</ul>
+</li>
+<li>With that done, bunnymark.tal reports correct fps and it runs at 30 fps up to 1000 bunnies, at which point it drops to 20 fps. I still want this emulator to be close to uxnemu in performance so there is still some ways to go, but I&rsquo;m happy for the time being. I want to investigate why bunnymark starts at 30 fps and not 60 fps with no bunnies at all, though.</li>
+</ul>
+<h3 id="day-5">Day 5</h3>
+<ul>
+<li>Reimplemented a slow version of Screen/pixel for vga mode 12 because I&rsquo;m starting to feel jaded on the x86 assembly</li>
+<li>Refactored DEO/DEI to use a device page. This gave a noticable speed-up!</li>
+<li>noodle.tal is now running well on device in 640x480! Not sure if its 30fps or 60fps though, will need to investigate.</li>
+</ul>
+<h3 id="day-3-4">Day 3-4</h3>
+<ul>
+<li>Optimized uxnfloppy sprite drawing so that no non-screen memory is used when drawing a scanline!</li>
+</ul>
+<h3 id="day-2">Day 2</h3>
+<ul>
+<li>Thought about what I wanted and put up this page</li>
+</ul>
+<div class="gallery">
+
+
+
+</div>
+</div>
+<div class="footer">Copyright 2026, Gustav Olsson</div>
+</div><div class="sidebar">
+
+<p class="dim"><i>2023-12-01</i></p>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+    </body>
+</html>

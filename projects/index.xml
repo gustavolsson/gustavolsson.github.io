@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Gustav Olsson</title>
+    <link>http://gustavolsson.com/projects/</link>
+    <description>Recent content in Projects on Gustav Olsson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Oct 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://gustavolsson.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fade Browser (iOS app)</title>
+      <link>http://gustavolsson.com/projects/fade-browser/</link>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/fade-browser/</guid>
+      <description>&lt;h2 id=&#34;fade-browser-ios-app&#34;&gt;Fade Browser (iOS app)&lt;/h2&gt;
+&lt;p&gt;This is a very simple web browser that works like a normal browser except that the saturation and contrast of the image is reduced over time. The graphical effect is designed to make browsing possible, but not enjoyable, even after the time limit has been reached. The effect is reset each day.&lt;/p&gt;
+&lt;p&gt;Features &amp;amp; lack of features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gradually fades out the image over time when in use (Clear if you use it conservatively, dim otherwise)&lt;/li&gt;
+&lt;li&gt;A single view that is reset after a while of inactivity, no tabs or multitasking (Browse to where you need to go, then stop)&lt;/li&gt;
+&lt;li&gt;No bookmarks or auto-complete in the search field (Reduce impulse visits to addictive sites)&lt;/li&gt;
+&lt;li&gt;Preconfigured AI-free search via DuckDuckGo NoAI&lt;/li&gt;
+&lt;li&gt;Supports iOS 15.4 and up&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here are 3 steps to a calmer day:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Buy &amp;amp; download this app to your iOS device&lt;/li&gt;
+&lt;li&gt;The first time you start the app, it helps you with assigning itself as the default browser of the device. The default browser can always be changed via &amp;ldquo;Settings -&amp;gt; Apps -&amp;gt; Default Apps&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;a) If you&amp;rsquo;re in the European Union or Japan, you may now remove Safari from your phone. You can always reinstall Safari again via the App Store.
+b) If you live somewhere else, you may set up Screen Time (&amp;ldquo;Settings -&amp;gt; Screen Time&amp;rdquo;) to block Safari. You can always unblock it later.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;privacy-policy&#34;&gt;Privacy policy&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Total time spent on the app and related time stamps (for the most recent day) are stored locally on the user&amp;rsquo;s device and never transmitted anywhere. This information is required to realize the graphical effect that depends on time spent in the app. Besides this information, the app itself does not track the user in any way.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The app makes use of Apple&amp;rsquo;s web view component (&lt;code&gt;WKWebView&lt;/code&gt;) and its proprietary browser engine to realize the browser functionality of the app. Since we do not have control over how this component works internally, the part of the app that relates to web browsing falls under Apple&amp;rsquo;s privacy policy.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When using the app to browse the web, it is important to note that many websites do track the user in a variety of ways. As Apple controls the browser engine (see paragraph 2), this tracking is out of the control of the app.&lt;/p&gt;
+&lt;p&gt;The user has control over how the browser engine fascilitates and prevents this tracking in the Settings app. See &lt;code&gt;Settings -&amp;gt; Apps -&amp;gt; Safari&lt;/code&gt; (or &lt;code&gt;Settings -&amp;gt; General -&amp;gt; In-App Web Browsing&lt;/code&gt; if Safari has been deleted from the device) for more information.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>camomill</title>
+      <link>http://gustavolsson.com/projects/camomill/</link>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/camomill/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/camomill/small.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/camomill/small_hu_f86d9686b07b2f6f.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;camomill&#34;&gt;camomill&lt;/h2&gt;
+&lt;p&gt;camomill is an application for generating 5-axis toolpaths for CNC machines. It aims to be a cost-effective (buy once, perpetual license) Computer-Aided Manufacturing (CAM) tool with a focus on the 5-axis operations that are traditionally reserved for very expensive industrial-grade software suites.&lt;/p&gt;
+&lt;h3 id=&#34;release-postponed&#34;&gt;Release postponed&lt;/h3&gt;
+&lt;p&gt;The release of the application is currently postponed until its export control status is clarified.&lt;/p&gt;
+&lt;h3 id=&#34;at-a-glance&#34;&gt;At a glance&lt;/h3&gt;
+&lt;p&gt;The application lets you import a 3d model file (in the STL file format) from your CAD software, create setups matching your machining setups, add multiple operations to each setups, instantly preview the generated toolpaths (with interactive editing) and export the GCode quickly and easily. The current project is saved between sessions.&lt;/p&gt;
+&lt;p&gt;A persistent tool library lets you manage your tool collection between projects. The application differentiates between tool geometry and feeds &amp;amp; speeds and a single tool can have multiple feeds &amp;amp; speeds definitions connected to it, for example to allow for different feeds &amp;amp; speeds for different materials. Depth-of-cut and width-of-cut can be specified in the feeds &amp;amp; speeds section and are respected by all operations.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;At this time, the application is focused on chamfer and deburring finishing operations, but more types of operations will be added in the future. The price will be increased as the tool is updated with more features.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>December Adventure 2023</title>
+      <link>http://gustavolsson.com/projects/december-adventure-2023/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/december-adventure-2023/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://eli.li/december-adventure&#34;&gt;Eli&amp;rsquo;s December Adventure&lt;/a&gt; is a low-key alternative to &lt;a href=&#34;https://adventofcode.com/&#34;&gt;Advent of Code&lt;/a&gt; focused on working on personal projects every day throughout December.&lt;/p&gt;
+&lt;p&gt;As I find it hard to dedicate time to work on personal projects daily, my plan for the adventure is not necessarily to be productive every day but to stay focused on the things I want to do.&lt;/p&gt;
+&lt;p&gt;Here are my plans:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Get my uxn emulator &lt;a href=&#34;http://gustavolsson.com/projects/uxnfloppy/&#34;&gt;uxnfloppy&lt;/a&gt; to a releasable state
+&lt;ul&gt;
+&lt;li&gt;&lt;del&gt;Optimize vga mode 12 (640x480) sprite drawing&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;Refactor DEO/DEI to use a device page&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;Make it possible to run large roms and, if I have the time, add support for the File device and read/writes to the USB stick/floppy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Make a debug/gizmo renderer for my 3d game engine &lt;a href=&#34;http://gustavolsson.com/projects/sprout-engine/&#34;&gt;sprout&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;To show collision volumes, camera frustums and the like&lt;/li&gt;
+&lt;li&gt;Figure out how to handle singleton-like features that should be callable from anywhere (e.g. &lt;code&gt;gizmoDrawLine(...)&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Show the camera frustum of nodes with the Camera attribute&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Make an uxn rom with the forest or ocean scene I have been thinking about&lt;/li&gt;
+&lt;li&gt;Bring the camera with me more often, and take more pictures&lt;/li&gt;
+&lt;li&gt;Improve my daily routine, waste less time&lt;/li&gt;
+&lt;li&gt;Be more present when I&amp;rsquo;m not at the computer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;other-adventures-im-following&#34;&gt;Other adventures I&amp;rsquo;m following:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wastingmoves.com/december_adventure_2023.html&#34;&gt;tbsp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://plastic-idolatry.com/erik/2023/dec/&#34;&gt;d_m&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rabbits.srht.site/decadv/&#34;&gt;100 rabbits&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;progress&#34;&gt;Progress&lt;/h2&gt;
+&lt;h3 id=&#34;day-13-14&#34;&gt;Day 13-14&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Further optimzied vga output by having a separate min/max range per screen layer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://merveilles.town/@gustav/111578414311130420&#34;&gt;bunnymark.tal now runs at 60 fps&lt;/a&gt; until about 2000 bunnies are drawn in 640x480&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://merveilles.town/@gustav/111578436129940304&#34;&gt;noodle.tal is also running at a high frame rate&lt;/a&gt; but the ps/2 mouse support seems to have room for improvement (on device, only the trackpad produces smooth movements)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;day-9&#34;&gt;Day 9&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Ran up against the slow vga bus again (6-8mhz) when blitting the backbuffer to screen which turned out to be why all roms were capped at 34 fps&lt;/li&gt;
+&lt;li&gt;Optimized the blitting code to only blit changed layers and min/max byte offset&lt;/li&gt;
+&lt;li&gt;noodle.tal now runs at 60 fps most of the time!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;day-7&#34;&gt;Day 7&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented the Varvara&amp;rsquo;s Datetime device using the BIOS CMOS real-time clock
+&lt;ul&gt;
+&lt;li&gt;It turned out to be easy and was a relief after the complicated vga mode 12/ps2 work&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;With that done, bunnymark.tal reports correct fps and it runs at 30 fps up to 1000 bunnies, at which point it drops to 20 fps. I still want this emulator to be close to uxnemu in performance so there is still some ways to go, but I&amp;rsquo;m happy for the time being. I want to investigate why bunnymark starts at 30 fps and not 60 fps with no bunnies at all, though.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;day-5&#34;&gt;Day 5&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Reimplemented a slow version of Screen/pixel for vga mode 12 because I&amp;rsquo;m starting to feel jaded on the x86 assembly&lt;/li&gt;
+&lt;li&gt;Refactored DEO/DEI to use a device page. This gave a noticable speed-up!&lt;/li&gt;
+&lt;li&gt;noodle.tal is now running well on device in 640x480! Not sure if its 30fps or 60fps though, will need to investigate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;day-3-4&#34;&gt;Day 3-4&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Optimized uxnfloppy sprite drawing so that no non-screen memory is used when drawing a scanline!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;day-2&#34;&gt;Day 2&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thought about what I wanted and put up this page&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>uxnfloppy</title>
+      <link>http://gustavolsson.com/projects/uxnfloppy/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/uxnfloppy/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/uxnfloppy/uxnfloppy_noodle.jpg&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/uxnfloppy/uxnfloppy_noodle_hu_9bb9091f085cfc19.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;uxnfloppy&#34;&gt;uxnfloppy&lt;/h2&gt;
+&lt;p&gt;uxnfloppy is a bootable Uxn/Varvara emulator that aims to be able to run graphical Uxn roms on any x86 computer built since the early 90s using only a floppy disk or thumb drive, no pre-installed operating system necessary.&lt;/p&gt;
+&lt;p&gt;The project is written in 16bit x86 assembly targetting BIOS and uses VGA for graphics and PS/2 for mouse and keyboard input. It&amp;rsquo;s not portable to other architectures (such as ARM) or the newest PCs (that lack legacy BIOS support), but it has been a great learning experience and I actually like the fact that it only works on what&amp;rsquo;s usually called &amp;ldquo;obsolete tech&amp;rdquo;, especially in the light of the massive e-waste problem.&lt;/p&gt;
+&lt;p&gt;The project is open-source and available at the link at the top of the page.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>sprout engine</title>
+      <link>http://gustavolsson.com/projects/sprout-engine/</link>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/sprout-engine/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/sprout-engine/1.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/sprout-engine/1_hu_b6ca181eb3b4a80f.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;sprout-engine&#34;&gt;sprout engine&lt;/h2&gt;
+&lt;p&gt;Sprout is a minimalist 3d game engine written in C.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    
+    
+    <item>
+      <title>turn3d (iOS app)</title>
+      <link>http://gustavolsson.com/projects/turn3d/</link>
+      <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/turn3d/</guid>
+      <description>&lt;div class=&#34;video&#34;&gt;
+    &lt;iframe
+        src=&#34;https://www.youtube-nocookie.com/embed/4Zck6mI_xPo&#34;
+        srcdoc=&#34;&lt;style&gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}&lt;/style&gt;&lt;a href=https://www.youtube-nocookie.com/embed/4Zck6mI_xPo?autoplay=1&gt;&lt;img src=https://img.youtube.com/vi/4Zck6mI_xPo/hqdefault.jpg&gt;&lt;span&gt;▶&lt;/span&gt;&lt;/a&gt;&#34;
+        frameborder=&#34;0&#34;
+        allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;
+        allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;turn3d-ios-app&#34;&gt;turn3d (iOS app)&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;3d scan the world around you using any iOS device!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This app lets you scan the real-world by creating a 3d model of what the back-facing camera sees in real-time. Place a virtual capture box around a subject, start scanning and simply walk around the subject to progressively fill in the gaps. When you&amp;rsquo;re happy with the result, you can export the 3d model to a file that you can share with your friends or upload to an online repository.&lt;/p&gt;
+&lt;p&gt;You have full ownership of any exported content that you create using the app. turn3d is to 3d scans what a camera is to pictures.&lt;/p&gt;
+&lt;p&gt;The app currently supports 3 different export file formats:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;usdz - natively supported by many iOS apps, such as iMessage&lt;/li&gt;
+&lt;li&gt;obj - can be imported into many different 3d software packages&lt;/li&gt;
+&lt;li&gt;xyz - a raw high resolution point cloud (where each line in the file describes a point with a normal in the &amp;ldquo;x y z nx ny nz r g b 0.0&amp;rdquo; format)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To get the best possible result try to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;walk around the placed capture cube before starting to scan in order to improve tracking&lt;/li&gt;
+&lt;li&gt;move the phone slowly, especially when you&amp;rsquo;re walking to a new view point&lt;/li&gt;
+&lt;li&gt;keep many objects in the camera frame at all times as this helps tracking&lt;/li&gt;
+&lt;li&gt;avoid objects closer than 35 cm to the camera&lt;/li&gt;
+&lt;li&gt;avoid uniform surfaces such as white walls or texture-less floors&lt;/li&gt;
+&lt;li&gt;avoid reflective surfaces such as shiny floors or glass windows&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;privacy-policy&#34;&gt;Privacy policy&lt;/h4&gt;
+&lt;p&gt;The app does not track the user in any way. All computation is done locally on the device and the finished 3d scan is only stored in the local storage of the device that performed the scan.&lt;/p&gt;
+&lt;p&gt;Exported 3d scans are regular files and can be shared just like any other type of file (such as text documents or image files for example). Once a 3d scan is exported to a file, it is outside the control of the app and the sole responsibility of the user.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Rope Toolkit</title>
+      <link>http://gustavolsson.com/projects/rope-toolkit/</link>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/rope-toolkit/</guid>
+      <description>&lt;div class=&#34;video&#34;&gt;
+    &lt;iframe
+        src=&#34;https://www.youtube-nocookie.com/embed/ogJTIjGgG9U&#34;
+        srcdoc=&#34;&lt;style&gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}&lt;/style&gt;&lt;a href=https://www.youtube-nocookie.com/embed/ogJTIjGgG9U?autoplay=1&gt;&lt;img src=https://img.youtube.com/vi/ogJTIjGgG9U/hqdefault.jpg&gt;&lt;span&gt;▶&lt;/span&gt;&lt;/a&gt;&#34;
+        frameborder=&#34;0&#34;
+        allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;
+        allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;rope-toolkit&#34;&gt;Rope Toolkit&lt;/h2&gt;
+&lt;p&gt;The Rope Toolkit brings &lt;em&gt;stable&lt;/em&gt; and &lt;em&gt;fast&lt;/em&gt; rope physics to your project. The rope component can be used to simulate simple wires or more advanced setups with pulleys and weights that require active collision detection. The bundled example scenes show how to connect the rope up to simulate cranes, rope bridges, swings and a boxing ring.&lt;/p&gt;
+&lt;p&gt;The rope component is written with performance in mind and many compute intensive tasks are handled by &lt;a href=&#34;https://unity.com/dots&#34;&gt;Unity jobs on separate threads accelerated using the Burst compiler&lt;/a&gt;. As a result, the toolkit has excellent performance on mobile devices.&lt;/p&gt;
+&lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Stable &amp;amp; fast rope physics&lt;/li&gt;
+&lt;li&gt;Mobile friendly!&lt;/li&gt;
+&lt;li&gt;Many tweakable user parameters&lt;/li&gt;
+&lt;li&gt;Ability to dynamically split ropes using the SplitAt() method&lt;/li&gt;
+&lt;li&gt;4 different rope connection types allow interaction with the rest of the scene
+&lt;ul&gt;
+&lt;li&gt;Pin Rope To Transform&lt;/li&gt;
+&lt;li&gt;Pin Transform To Rope&lt;/li&gt;
+&lt;li&gt;Pull Rigidbody To Rope&lt;/li&gt;
+&lt;li&gt;Two Way Coupling Between Rigidbody And Rope&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scene view handles for adjusting rope spawn curve&lt;/li&gt;
+&lt;li&gt;High performance is achieved using Unity jobs and the Burst compiler
+&lt;ul&gt;
+&lt;li&gt;Typical performance for the example scene with collisions enabled:
+&lt;ul&gt;
+&lt;li&gt;~0.2 ms spent in job threads&lt;/li&gt;
+&lt;li&gt;~0.7 ms spent on the main thread&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Typical performance for the example scene with collisions disabled:
+&lt;ul&gt;
+&lt;li&gt;~0.15 ms spent in job threads&lt;/li&gt;
+&lt;li&gt;~0.35 ms spent on the main thread&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Full source code&lt;/li&gt;
+&lt;li&gt;Example scenes
+&lt;ul&gt;
+&lt;li&gt;Main
+&lt;ul&gt;
+&lt;li&gt;Shows how ropes and rigidbodies can be connected together in a typical scene&lt;/li&gt;
+&lt;li&gt;Use the mouse to interact with the rope and the Space key to split ropes being interacted with&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DynamicAttach
+&lt;ul&gt;
+&lt;li&gt;Shows how to attach and detach ropes using the scripts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;BoxingRing
+&lt;ul&gt;
+&lt;li&gt;Shows how rope and rigidbodies can influence each other through collisions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;current-limitations&#34;&gt;Current Limitations&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Collision support for convex Mesh, Box, Sphere and Capsule colliders only&lt;/li&gt;
+&lt;li&gt;Scripting knowledge required for creating stable rope suspended platforms other than rope bridges&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;requirements&#34;&gt;Requirements&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Burst 1.1.2 or above&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Sharp Shadows Toolkit</title>
+      <link>http://gustavolsson.com/projects/sharp-shadows-toolkit/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/sharp-shadows-toolkit/</guid>
+      <description>&lt;div class=&#34;video&#34;&gt;
+    &lt;iframe
+        src=&#34;https://www.youtube-nocookie.com/embed/TGPnXySucr4&#34;
+        srcdoc=&#34;&lt;style&gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}&lt;/style&gt;&lt;a href=https://www.youtube-nocookie.com/embed/TGPnXySucr4?autoplay=1&gt;&lt;img src=https://img.youtube.com/vi/TGPnXySucr4/hqdefault.jpg&gt;&lt;span&gt;▶&lt;/span&gt;&lt;/a&gt;&#34;
+        frameborder=&#34;0&#34;
+        allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;
+        allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;sharp-shadows-toolkit&#34;&gt;Sharp Shadows Toolkit&lt;/h2&gt;
+&lt;p&gt;The Sharp Shadows Toolkit is a code package that brings sharp, pixel-perfect shadows to your Universal Render Pipeline (URP) project. Many games and experiences target a non-photo-realistic art style for which sharp shadows are better suited than the built-in shadows that tend to be either too soft or too jagged, especially on low quality settings.&lt;/p&gt;
+&lt;p&gt;The toolkit can be useful in a wide variety of scenarios, from old-school drop shadows for characters in a mobile game to ubiquitous high quality shadows for an architecture visualization project.&lt;/p&gt;
+&lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic pixel-perfect shadows for the Lightweight/Universal Render Pipeline&lt;/li&gt;
+&lt;li&gt;No jagged shadow edges or visible pixels&lt;/li&gt;
+&lt;li&gt;Seamless editor integration using automatic asset post processing&lt;/li&gt;
+&lt;li&gt;Custom shadow direction for e.g. drop shadows&lt;/li&gt;
+&lt;li&gt;Two rendering modes
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Inject Into Screen Space Shadow Resolve Texture&lt;/code&gt;: Inject into screen space shadow texture for optimal image quality&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Multiply Scene After Opaque&lt;/code&gt;: Draw after opaque geometry for optimal performance&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Handles both skinned and non-skinned meshes&lt;/li&gt;
+&lt;li&gt;No restriction on the mesh geometry of the shadow caster&lt;/li&gt;
+&lt;li&gt;Multi-object editing&lt;/li&gt;
+&lt;li&gt;Fog support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;current-limitations&#34;&gt;Current Limitations&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;For the Lightweight/Universal Render Pipeline only&lt;/li&gt;
+&lt;li&gt;Only supports the main directional light of the scene&lt;/li&gt;
+&lt;li&gt;No support for custom vertex displacement&lt;/li&gt;
+&lt;li&gt;Alpha blended or clipped geometry will produce solid shadows (the shape of the triangles)&lt;/li&gt;
+&lt;li&gt;Skinned mesh shadows may appear cracked if they are subject to large deformations&lt;/li&gt;
+&lt;li&gt;Shadows are not anti-aliased when injected into screen space shadow texture&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;supported-unity-builds&#34;&gt;Supported Unity builds&lt;/h4&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Unity version&lt;/th&gt;
+					&lt;th&gt;Build tested&lt;/th&gt;
+					&lt;th&gt;LWRP/URP version&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Unity 2019.1&lt;/td&gt;
+					&lt;td&gt;2019.1.10f1&lt;/td&gt;
+					&lt;td&gt;5.7.2&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Unity 2019.2&lt;/td&gt;
+					&lt;td&gt;2019.2.3f1&lt;/td&gt;
+					&lt;td&gt;6.9.1&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Unity 2019.3&lt;/td&gt;
+					&lt;td&gt;2019.3.0b2, 2019.3.5f1&lt;/td&gt;
+					&lt;td&gt;7.0.1, 7.1.8&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Unity 2021.1&lt;/td&gt;
+					&lt;td&gt;2021.1.11f1&lt;/td&gt;
+					&lt;td&gt;11.0.0&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Unity 2021.2&lt;/td&gt;
+					&lt;td&gt;2021.2.6f1, 2021.2.19f1&lt;/td&gt;
+					&lt;td&gt;12.1.2, 12.1.6&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Unity 2021.3&lt;/td&gt;
+					&lt;td&gt;2021.3.22f1&lt;/td&gt;
+					&lt;td&gt;12.1.10&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; Due to the large number of possible Unity/URP version combinations, only the above combinations are officially supported.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Inversed Timing Belt</title>
+      <link>http://gustavolsson.com/projects/inversed-timing-belt-idea/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/inversed-timing-belt-idea/</guid>
+      <description>&lt;div class=&#34;video&#34;&gt;
+    &lt;iframe
+        src=&#34;https://www.youtube-nocookie.com/embed/2YC-0C8oPUo&#34;
+        srcdoc=&#34;&lt;style&gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}&lt;/style&gt;&lt;a href=https://www.youtube-nocookie.com/embed/2YC-0C8oPUo?autoplay=1&gt;&lt;img src=https://img.youtube.com/vi/2YC-0C8oPUo/hqdefault.jpg&gt;&lt;span&gt;▶&lt;/span&gt;&lt;/a&gt;&#34;
+        frameborder=&#34;0&#34;
+        allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;
+        allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;inversed-timing-belt-transmission&#34;&gt;Inversed Timing Belt Transmission&lt;/h2&gt;
+&lt;p&gt;One day, I had an idea for a compact gearing mechanism. It is light, compact and has no backlash (that I&amp;rsquo;ve noticed). The inner pulley is 20 teeth, the outer ring is 120 teeth and the belt is 150 teeth.&lt;/p&gt;
+&lt;p&gt;It was a nightmare to compute the dimensions analytically so I finally gave up and made a small python program that solved the problem numerically. This worked out great and I was able to 3d print the prototype shown in the video above.&lt;/p&gt;
+&lt;h4 id=&#34;behavior-under-load&#34;&gt;Behavior under load&lt;/h4&gt;
+&lt;p&gt;I was initially hopeful that the setup would perform well under load, but that turned out to be false. Unfortunately, when a load is applied there is a small inwards force on the belt making it prone to detaching from the outer ring.&lt;/p&gt;
+&lt;p&gt;Increasing the number of bearings or replacing them with a continous loop of pins/cylinders that rotate as the belt rotates might minimize the issue, but I&amp;rsquo;ve not gotten around to try it yet.&lt;/p&gt;
+&lt;h4 id=&#34;prior-work&#34;&gt;Prior work&lt;/h4&gt;
+&lt;p&gt;After coming up with the idea, I found a similar mechanism mentioned in the conference paper &lt;code&gt;ePaddle mechanism: Towards the development of a versatile amphibious locomotion mechanism&lt;/code&gt;. After publishing the video above I got a comment that directed me to a US patent (&lt;code&gt;US5954611&lt;/code&gt;) that seems to describe the same mechanism in detail.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Seaside Racing</title>
+      <link>http://gustavolsson.com/projects/seaside-racing/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/seaside-racing/</guid>
+      <description>&lt;div class=&#34;video&#34;&gt;
+    &lt;iframe
+        src=&#34;https://www.youtube-nocookie.com/embed/p0fVm1LTZUw&#34;
+        srcdoc=&#34;&lt;style&gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}&lt;/style&gt;&lt;a href=https://www.youtube-nocookie.com/embed/p0fVm1LTZUw?autoplay=1&gt;&lt;img src=https://img.youtube.com/vi/p0fVm1LTZUw/hqdefault.jpg&gt;&lt;span&gt;▶&lt;/span&gt;&lt;/a&gt;&#34;
+        frameborder=&#34;0&#34;
+        allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;
+        allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;seaside-racing&#34;&gt;Seaside Racing&lt;/h2&gt;
+&lt;p&gt;Experience the thrill of driving a soapbox car down a mountain in this chaotic cult classic kart racer, accidentally knocking your competitors into the sea or getting lost in green fields without as much as a road sign to help you find your way.&lt;/p&gt;
+&lt;h4 id=&#34;actual-features&#34;&gt;Actual features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Physics-based multiplayer kart racing!&lt;/li&gt;
+&lt;li&gt;Up to 12 players over the Internet or local network&lt;/li&gt;
+&lt;li&gt;1-4 local players split screen (online or offline)&lt;/li&gt;
+&lt;li&gt;Share-a-gamepad option for up to 4 players using 2 game pads&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;questionable-features&#34;&gt;Questionable features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;3 large seaside maps (no more, no less)&lt;/li&gt;
+&lt;li&gt;Randomly generated avatars (you can switch but not choose)&lt;/li&gt;
+&lt;li&gt;Possible to get lost (the game doesn&amp;rsquo;t even know where to go)&lt;/li&gt;
+&lt;li&gt;Unpredictable respawn logic (that makes it possible to reach tricky places)&lt;/li&gt;
+&lt;li&gt;No placement indicator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;cult-classic&#34;&gt;Cult classic&lt;/h4&gt;
+&lt;p&gt;This is a remastered version of the &lt;a href=&#34;http://gustavolsson.com/projects/seaside-racing-xblig/&#34;&gt;original Seaside Racing&lt;/a&gt; that was released on Xbox Live Indie Games in 2010.&lt;/p&gt;
+&lt;p&gt;The original game has a cult following among &lt;em&gt;at least&lt;/em&gt; one group of friends in Indiana, USA, since its original release on Xbox Live Indie Games in 2010. Since publishing this, I&amp;rsquo;ve also been notified that there is a cult following in High Wycombe, England, UK in addition to the aforementioned cult following in the USA.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Sokol for Android</title>
+      <link>http://gustavolsson.com/projects/sokol-android/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/sokol-android/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/sokol-android/phone.jpg&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/sokol-android/phone_hu_a3df307754823406.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The Sokol libraries by &lt;a href=&#34;https://twitter.com/FlohOfWoe&#34;&gt;@Andre Weissflog&lt;/a&gt; are simple &lt;a href=&#34;https://github.com/nothings/stb/blob/master/docs/stb_howto.txt&#34;&gt;STB-style&lt;/a&gt; cross-platform libraries for C and C++ (written in C) that make it easy to create 2d and 3d graphics projects that work on multiple platforms.&lt;/p&gt;
+&lt;p&gt;As I had an Android phone at the time, I spent some time implementing Android support in the Sokol library that takes care of context creation, &lt;code&gt;sokol_app.h&lt;/code&gt;. My changes were merged in January 2019.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>PICO-8 Display Driver</title>
+      <link>http://gustavolsson.com/projects/pico8-display-driver/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/pico8-display-driver/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/pico8-display-driver/dd_jelpi.jpg&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/pico8-display-driver/dd_jelpi_hu_1343c0c2f25aded1.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;pico-8-display-driver&#34;&gt;PICO-8 Display Driver&lt;/h2&gt;
+&lt;p&gt;I got an idea the other day to write a display driver in PICO-8 using the GPIO pins and here it is. The cart replaces the &lt;code&gt;flip()&lt;/code&gt; function with a custom one that writes the PICO-8 frame buffer to a connected display (with a ssd1351 controller) over &lt;a href=&#34;https://en.wikipedia.org/wiki/Serial_Peripheral_Interface&#34;&gt;SPI&lt;/a&gt; using the GPIO pins on a Raspberry Pi. Turns out that it actually works :)&lt;/p&gt;
+&lt;p&gt;I use &lt;a href=&#34;https://www.adafruit.com/product/1431&#34;&gt;this display/controller board from Adafruit&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Emulating SPI over the GPIO pins seems to be quite slow however and it takes about 5 seconds to render a single frame. I believe that if zep &lt;a href=&#34;http://wiringpi.com/reference/spi-library/&#34;&gt;exposes the hardware SPI functionality of wiringPi&lt;/a&gt; in addition to the GPIO pins it would run in real time. You can try commenting out the first line in &lt;code&gt;spi_write_n()&lt;/code&gt; to &amp;ldquo;emulate&amp;rdquo; hardware SPI (with DD_ENABLE=TRUE).&lt;/p&gt;
+&lt;p&gt;Instructions are included in the cart if you would like to try it at home. Remember to enable GPIO pins on the RPi first and running pico8 as super user (&amp;ldquo;sudo ./pico8&amp;rdquo;)&lt;/p&gt;
+&lt;p&gt;Wishlist:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;* hardware spi (example: spi8(byte), spi32(four_bytes), spi(0x6000,8192) -- from memory)
+* delay functionality (like Arduino&amp;#39;s delayMicros())
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;update-2020-09-05&#34;&gt;UPDATE! (2020-09-05)&lt;/h4&gt;
+&lt;p&gt;After checking the &lt;a href=&#34;https://www.lexaloffle.com/pico8_manual.txt&#34;&gt;official PICO-8 manual&lt;/a&gt;, it seems like zep added support for hardware SPI by means of the &lt;code&gt;serial()&lt;/code&gt; function in version 0.1.12!&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Master&#39;s Thesis</title>
+      <link>http://gustavolsson.com/projects/masters-thesis/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/masters-thesis/</guid>
+      <description>&lt;div class=&#34;video&#34;&gt;
+    &lt;iframe
+        src=&#34;https://www.youtube-nocookie.com/embed/2PQxhMdhRSw&#34;
+        srcdoc=&#34;&lt;style&gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}&lt;/style&gt;&lt;a href=https://www.youtube-nocookie.com/embed/2PQxhMdhRSw?autoplay=1&gt;&lt;img src=https://img.youtube.com/vi/2PQxhMdhRSw/hqdefault.jpg&gt;&lt;span&gt;▶&lt;/span&gt;&lt;/a&gt;&#34;
+        frameborder=&#34;0&#34;
+        allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;
+        allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;masters-thesis--dice-stockholm&#34;&gt;Master&amp;rsquo;s Thesis @ DICE Stockholm&lt;/h2&gt;
+&lt;p&gt;As my master&amp;rsquo;s thesis in Complex Adaptive Systems at &lt;a href=&#34;https://www.chalmers.se/&#34;&gt;Chalmers University of Technology&lt;/a&gt;, I developed a new system for real-time water animation and rendering that enables realistic interactions between water and terrain in virtual scenes. I implemented the system in Frostbite, DICE&amp;rsquo;s in-house game engine. The thesis was carried out as a master&amp;rsquo;s thesis worker/intern on the Battlefield 1 team.&lt;/p&gt;
+&lt;h4 id=&#34;abstract&#34;&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Realistic simulation and rendering of water is a challenge within the field of computer graphics because of its inherent multi-scale nature. When observing a large body of water such as the sea, there are small waves and perturbations visible close to the observer. As the distance increases, the small scale details form large scale wave patterns that may be several kilometers away. A common approach to rendering large bodies of water in real-time is to simulate deep water waves in a small area and repeat the wave motions across the water surface at different spatial scales in order to minimize repetition patterns. This method gives excellent results at open sea but cannot react to changes in water depth or the terrain of the virtual scene. In this thesis, an algorithm for rendering large expanses of water that interact with the terrain of the virtual scene in real-time is presented. The proposed algorithm first simulates water waves in a pre-computation step and saves wavefront parameters on a coarse triangle mesh as proposed by Jeschke and Wojtan [2015]. Then, the stored simulation is evaluated and the water surface is rendered in real-time using a novel staggered update scheme. The staggered update scheme effectively improves the rendering performance by a factor of 8 and makes it possible to render water surfaces of up to 16 square kilometers with excellent visual quality and wave patterns at multiple spatial scales.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Ocean Toolkit</title>
+      <link>http://gustavolsson.com/projects/ocean-toolkit/</link>
+      <pubDate>Tue, 16 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/ocean-toolkit/</guid>
+      <description>&lt;div class=&#34;video&#34;&gt;
+    &lt;iframe
+        src=&#34;https://www.youtube-nocookie.com/embed/cbI2lq2HWZU&#34;
+        srcdoc=&#34;&lt;style&gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}&lt;/style&gt;&lt;a href=https://www.youtube-nocookie.com/embed/cbI2lq2HWZU?autoplay=1&gt;&lt;img src=https://img.youtube.com/vi/cbI2lq2HWZU/hqdefault.jpg&gt;&lt;span&gt;▶&lt;/span&gt;&lt;/a&gt;&#34;
+        frameborder=&#34;0&#34;
+        allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;
+        allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;ocean-toolkit&#34;&gt;Ocean Toolkit&lt;/h2&gt;
+&lt;p&gt;The Ocean Toolkit is a code package that brings realistic infinite ocean rendering to your Unity3d project. The water surface is offset according to a custom wave function which can be used to control large scale waves. Small scale waves are realized using scrolling normal maps. The toolkit is easy-to-use and does not require any coding. Works with the &lt;a href=&#34;http://gustavolsson.com/projects/buoyancy-toolkit/&#34;&gt;Buoyancy Toolkit&lt;/a&gt; out-of-the-box.&lt;/p&gt;
+&lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Realistic infinite ocean rendering&lt;/li&gt;
+&lt;li&gt;Customizable wave function that offsets the water surface&lt;/li&gt;
+&lt;li&gt;Small scale detail realized using scrolling normal maps&lt;/li&gt;
+&lt;li&gt;Refraction and underwater light absorption to accurately convey depth&lt;/li&gt;
+&lt;li&gt;Reflections using Screen Space Raytracing or conventional reflection probes&lt;/li&gt;
+&lt;li&gt;Shoreline foam&lt;/li&gt;
+&lt;li&gt;Optional caustics for the seafloor&lt;/li&gt;
+&lt;li&gt;Clean look that fits most projects&lt;/li&gt;
+&lt;li&gt;Can be clipped to a rectangle for lakes&lt;/li&gt;
+&lt;li&gt;Runs well on high-end Android devices (tested on a Moto X 2nd gen using fixed refraction color and low poly screen space mesh)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;current-limitations&#34;&gt;Current Limitations&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;There is currently no image effect for when the camera is below the water surface&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Top-Down Resin 3d Printer</title>
+      <link>http://gustavolsson.com/projects/resin-printer-idea/</link>
+      <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/resin-printer-idea/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/resin-printer-idea/sketch.jpg&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/resin-printer-idea/sketch_hu_61463eb79adab229.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;top-down-resin-3d-printer-idea&#34;&gt;Top-Down Resin 3d Printer Idea&lt;/h2&gt;
+&lt;p&gt;The idea is to use a pocket of air to keep the surface level of the resin constant throughout the build, guaranteeing consistent layer heights. In addition, the higher pressure might ease reflow of resin after dipping?&lt;/p&gt;
+&lt;p&gt;High print speeds might be possible if the pocket is filled with pure oxygen gas that inhibits resin hardening at the surface. The focus point of the projector should then be slightly below the surface of the resin. As the resin solidifies slightly below the surface and is pulled down by the platform, new resin flows in from all sides (ideally) undisturbed by the effect of surface tension.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Mail Monster (LD#33)</title>
+      <link>http://gustavolsson.com/projects/mail-monster/</link>
+      <pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/mail-monster/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/mail-monster/1.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/mail-monster/1_hu_87b2d5a79954f34e.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;mail-monster-ludum-dare-33&#34;&gt;Mail Monster (Ludum Dare #33)&lt;/h2&gt;
+&lt;p&gt;You are the mail monster, pick up the mail without ruining the whole town! (You get a time penalty if you happen to destroy anything)&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;ARROWS TO MOVE+C TO JUMP&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Dōbutsu Ball (NMS2014)</title>
+      <link>http://gustavolsson.com/projects/dobutsu-ball/</link>
+      <pubDate>Sat, 23 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/dobutsu-ball/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/dobutsu-ball/Title.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/dobutsu-ball/Title_hu_d15606ad913586a6.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;dōbutsu-ball-no-more-sweden-2014&#34;&gt;Dōbutsu Ball (No More Sweden 2014)&lt;/h2&gt;
+&lt;p&gt;Me and two friends, &lt;a href=&#34;https://twitter.com/ossianboren&#34;&gt;Ossian&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/kjellhaften&#34;&gt;Kjell&lt;/a&gt;, made a game called Dōbutsu Ball during the No More Sweden 2014 game jam. It&amp;rsquo;s a game about two animals trapped in an eternal dodgeball match.&lt;/p&gt;
+&lt;h4 id=&#34;presentation&#34;&gt;Presentation&lt;/h4&gt;
+&lt;p&gt;See our presentation at the 1 minute 40 second mark below:&lt;/p&gt;
+&lt;div class=&#34;video&#34;&gt;
+    &lt;iframe
+        src=&#34;https://www.youtube-nocookie.com/embed/ITZBBWLYv-8&#34;
+        srcdoc=&#34;&lt;style&gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}&lt;/style&gt;&lt;a href=https://www.youtube-nocookie.com/embed/ITZBBWLYv-8?autoplay=1&gt;&lt;img src=https://img.youtube.com/vi/ITZBBWLYv-8/hqdefault.jpg&gt;&lt;span&gt;▶&lt;/span&gt;&lt;/a&gt;&#34;
+        frameborder=&#34;0&#34;
+        allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;
+        allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Quadcopter Autopilot</title>
+      <link>http://gustavolsson.com/projects/autoquad/</link>
+      <pubDate>Thu, 30 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/autoquad/</guid>
+      <description>&lt;div class=&#34;video&#34;&gt;
+    &lt;iframe
+        src=&#34;https://www.youtube-nocookie.com/embed/QRjoU2Wplj4&#34;
+        srcdoc=&#34;&lt;style&gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}&lt;/style&gt;&lt;a href=https://www.youtube-nocookie.com/embed/QRjoU2Wplj4?autoplay=1&gt;&lt;img src=https://img.youtube.com/vi/QRjoU2Wplj4/hqdefault.jpg&gt;&lt;span&gt;▶&lt;/span&gt;&lt;/a&gt;&#34;
+        frameborder=&#34;0&#34;
+        allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;
+        allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;quadcopter-autopilot&#34;&gt;Quadcopter Autopilot&lt;/h2&gt;
+&lt;p&gt;This is an autopilot for a quadcopter drone I wrote from scratch back in 2012. I used the physics engine in Unity3d to validate my ideas and develop the control logic, then I used the same autopilot code in a physical set up.&lt;/p&gt;
+&lt;p&gt;At the time, I was very new to electronics and I chose an embedded platform that required the code to run on a host computer. Thus, a sensor reading had to travel from the IMU on the quadcopter to the host computer (via USB) and then the control signal had to travel back again to the motor controllers. Unfortunately, this introduced a considerable delay in the control loop which made the quadcopter oscillate once airborne. However, the quadcopter actually flew a couple of times so I call the endeavour a success!&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Shadow Volumes Toolkit</title>
+      <link>http://gustavolsson.com/projects/shadow-volumes-toolkit/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/shadow-volumes-toolkit/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/shadow-volumes-toolkit/1.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/shadow-volumes-toolkit/1_hu_9e343f18e49d5137.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;shadow-volumes-toolkit&#34;&gt;Shadow Volumes Toolkit&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;This package is DEPRECATED&lt;/strong&gt; See the &lt;a href=&#34;http://gustavolsson.com/projects/sharp-shadows-toolkit/&#34;&gt;Sharp Shadows Toolkit&lt;/a&gt; for modern alternative!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The Shadow Volumes Toolkit adds dynamic, pixel-perfect shadows to your projects. Use the Quick Shadow Setup dialog to instantly add shadows to your game objects, specify light/shadow properties and see the results in real-time. The toolkit supports all three Unity light types and any mesh can act as a shadow caster.&lt;/p&gt;
+&lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Dynamic, pixel-perfect shadows based on the Shadow Volume algorithm&lt;/li&gt;
+&lt;li&gt;Stencil buffer support in Unity 4.2&lt;/li&gt;
+&lt;li&gt;Supports all three Unity light types&lt;/li&gt;
+&lt;li&gt;Supports skinned meshes&lt;/li&gt;
+&lt;li&gt;Works even when the camera is in shadow&lt;/li&gt;
+&lt;li&gt;No scripting required&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The toolkit is not&amp;hellip;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;a complete renderer&lt;/li&gt;
+&lt;li&gt;a replacement for Unity Pro lighting/shadows&lt;/li&gt;
+&lt;li&gt;using the patented depth-fail technique&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;limitations&#34;&gt;Limitations&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Antialiasing only works with the Stencil Buffer backend&lt;/li&gt;
+&lt;li&gt;Best performance is achieved with 2-manifold/closed source meshes&lt;/li&gt;
+&lt;li&gt;Only a single light can cast shadows at any given moment&lt;/li&gt;
+&lt;li&gt;Custom vertex shaders won&amp;rsquo;t affect shadows&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;video&#34;&gt;Video&lt;/h4&gt;
+&lt;div class=&#34;video&#34;&gt;
+    &lt;iframe
+        src=&#34;https://www.youtube-nocookie.com/embed/6u_56AH5FNo&#34;
+        srcdoc=&#34;&lt;style&gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}&lt;/style&gt;&lt;a href=https://www.youtube-nocookie.com/embed/6u_56AH5FNo?autoplay=1&gt;&lt;img src=https://img.youtube.com/vi/6u_56AH5FNo/hqdefault.jpg&gt;&lt;span&gt;▶&lt;/span&gt;&lt;/a&gt;&#34;
+        frameborder=&#34;0&#34;
+        allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;
+        allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Shatter Toolkit</title>
+      <link>http://gustavolsson.com/projects/shatter-toolkit/</link>
+      <pubDate>Fri, 08 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/shatter-toolkit/</guid>
+      <description>&lt;div class=&#34;video&#34;&gt;
+    &lt;iframe
+        src=&#34;https://www.youtube-nocookie.com/embed/zP86sce0pLk&#34;
+        srcdoc=&#34;&lt;style&gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}&lt;/style&gt;&lt;a href=https://www.youtube-nocookie.com/embed/zP86sce0pLk?autoplay=1&gt;&lt;img src=https://img.youtube.com/vi/zP86sce0pLk/hqdefault.jpg&gt;&lt;span&gt;▶&lt;/span&gt;&lt;/a&gt;&#34;
+        frameborder=&#34;0&#34;
+        allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;
+        allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;shatter-toolkit&#34;&gt;Shatter Toolkit&lt;/h2&gt;
+&lt;p&gt;The Shatter Toolkit enables you to easily shatter or split any game object dynamically in real-time, whether you want to smash walls or slice fruits. The toolkit creates the necessary geometry, fills the holes and instantiates the new game objects for you.&lt;/p&gt;
+&lt;p&gt;One line of code shatters or splits a game object and no scripting is required if you use the bundled helper scripts.&lt;/p&gt;
+&lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Split game objects by specifying an array of planes&lt;/li&gt;
+&lt;li&gt;Shatter game objects by specifying a point&lt;/li&gt;
+&lt;li&gt;Fills the holes (cut area) in the mesh after a split has occurred&lt;/li&gt;
+&lt;li&gt;Tweakable uv-mapping for the cut area
+&lt;ul&gt;
+&lt;li&gt;WorldUvMapper - repeats a texture a number of times per world-unit&lt;/li&gt;
+&lt;li&gt;TargetUvMapper - maps the cut area to a specific part of the texture&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;No scripting required&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Buoyancy Toolkit</title>
+      <link>http://gustavolsson.com/projects/buoyancy-toolkit/</link>
+      <pubDate>Sun, 09 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/buoyancy-toolkit/</guid>
+      <description>&lt;div class=&#34;video&#34;&gt;
+    &lt;iframe
+        src=&#34;https://www.youtube-nocookie.com/embed/IcAQa3lOk0g&#34;
+        srcdoc=&#34;&lt;style&gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}&lt;/style&gt;&lt;a href=https://www.youtube-nocookie.com/embed/IcAQa3lOk0g?autoplay=1&gt;&lt;img src=https://img.youtube.com/vi/IcAQa3lOk0g/hqdefault.jpg&gt;&lt;span&gt;▶&lt;/span&gt;&lt;/a&gt;&#34;
+        frameborder=&#34;0&#34;
+        allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;
+        allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;buoyancy-toolkit&#34;&gt;Buoyancy Toolkit&lt;/h2&gt;
+&lt;p&gt;The Buoyancy Toolkit is a code package for the Unity3d game engine that brings realistic buoyancy simulation to your project. Rigidbodies will float when submerged in fluid volumes of different densities and wave functions such as water pools or oceans with large waves. The shape and volume of one or more connected colliders will be taken into account to let the geometry follow the waves realistically. The toolkit is ideal for making anything float in water but can also be used to simulate the lift a balloon or airship experiences in the atmosphere. The toolkit is easy-to-use and does not require any scripting. Works with the &lt;a href=&#34;http://gustavolsson.com/projects/ocean-toolkit/&#34;&gt;Ocean Toolkit&lt;/a&gt; out-of-the-box.&lt;/p&gt;
+&lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Realistic buoyancy simulation&lt;/li&gt;
+&lt;li&gt;Surface waves if a wave function is specified (using a custom script, example provided)&lt;/li&gt;
+&lt;li&gt;Weighting for straightforward tweaking of the buoyancy force&lt;/li&gt;
+&lt;li&gt;Disable weighting and use realistic object properties (scale, mass, fluid density) to mimic real-life&lt;/li&gt;
+&lt;li&gt;Works well with other rigidbody forces&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Seaside Racing (XBLIG)</title>
+      <link>http://gustavolsson.com/projects/seaside-racing-xblig/</link>
+      <pubDate>Sun, 25 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/seaside-racing-xblig/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/seaside-racing-xblig/logo.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/seaside-racing-xblig/logo_hu_a0d25ca4f517ff3a.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;seaside-racing-xbox-live-indie-games&#34;&gt;Seaside Racing (Xbox Live Indie Games)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/seaside-racing/&#34;&gt;Check out the remastered Windows/Steam Deck/Linux version here!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Compete with your friends in this multiplayer kart racer! Play 1-4 players splitscreen either locally, over system link or on Xbox Live for a total of 8 players. Use your own Xbox Avatar and race through 3 different seaside courses!&lt;/p&gt;
+&lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Physics-based multiplayer kart racing!&lt;/li&gt;
+&lt;li&gt;Up to 8 players on Xbox Live or over System link&lt;/li&gt;
+&lt;li&gt;1-4 players splitscreen (online or offline)&lt;/li&gt;
+&lt;li&gt;3 playable maps&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Sailor (LD#11)</title>
+      <link>http://gustavolsson.com/projects/sailor/</link>
+      <pubDate>Sun, 20 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/sailor/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/sailor/1.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/sailor/1_hu_bc9317792066102.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;sailor-ludum-dare-11&#34;&gt;Sailor (Ludum Dare #11)&lt;/h2&gt;
+&lt;p&gt;The game let’s you build a boat and sail the sea. Try to stay afloat as long as possible, it’s not as easy as it sounds!&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Physics Engine</title>
+      <link>http://gustavolsson.com/projects/physics-engine-old/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/physics-engine-old/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/physics-engine-old/6.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/physics-engine-old/6_hu_1ee14025cf687511.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;physics-engine&#34;&gt;Physics Engine&lt;/h2&gt;
+&lt;p&gt;This is a 3d rigidbody physics engine I wrote in high-school. I later used it to create the &lt;a href=&#34;http://gustavolsson.com/projects/seaside-racing-xblig/&#34;&gt;original&lt;/a&gt; and the &lt;a href=&#34;http://gustavolsson.com/projects/seaside-racing/&#34;&gt;remastered&lt;/a&gt; version of Seaside Racing.&lt;/p&gt;
+&lt;h4 id=&#34;collision-detection&#34;&gt;Collision Detection&lt;/h4&gt;
+&lt;p&gt;I implemented the &lt;a href=&#34;https://en.wikipedia.org/wiki/Gilbert%E2%80%93Johnson%E2%80%93Keerthi_distance_algorithm&#34;&gt;Gilbert-Johnson-Keerthi distance algorithm&lt;/a&gt; to handle collision detection. As it turns out, the Expanding Polytype Algorithm is not needed to find good contact points when objects intersect (because of the shape of the Minkowski Sum/Difference on intersection) and I used a much simpler algorithm that simply shot a ray &amp;ldquo;out&amp;rdquo; along the line going through the two objects&amp;rsquo; centers. This worked extremely well in practice!&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Real-Time Raytracer (CPU)</title>
+      <link>http://gustavolsson.com/projects/real-time-raytracer-old/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/real-time-raytracer-old/</guid>
+      <description>&lt;p&gt;A short-lived experiment with real-time raytring on the CPU, written in C++.&lt;/p&gt;
+&lt;p&gt;The idea was that one could use an adaptively tesselated screen space grid to only raytrace pixels that influenced the end result greatly, for example pixels along the edge of an object or edge of a region in shadow.&lt;/p&gt;
+&lt;p&gt;If the 4 corner pixels of a grid cell where different enough, the grid cell would be subdivided into 4 sub-cells that were evaluated further. Once a grid cell was deemed &amp;ldquo;good enough&amp;rdquo;, pixels still left inside the cell were colored using linear interpolation.&lt;/p&gt;
+&lt;p&gt;The inner workings of the algorithm is most visible in the first set of images in the gallery below:&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Early Projects (1999-2006)</title>
+      <link>http://gustavolsson.com/projects/early-projects/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/early-projects/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/early-projects/robo2.jpg&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/early-projects/robo2_hu_656d70bf367fa21b.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;early-projects-1999-to-2007&#34;&gt;Early Projects (1999 to 2007)&lt;/h2&gt;
+&lt;p&gt;This page is dedicated to my early travels into programming and computer graphics. The code for most of these experiments and small programs are long gone, but I&amp;rsquo;ve managed to find some remnants in the form of screenshots :)&lt;/p&gt;
+&lt;h4 id=&#34;robo-2003&#34;&gt;Robo (2003)&lt;/h4&gt;
+&lt;p&gt;Robo was my first ever 3d game. I wrote it using Visual Basic 6 and DirectX8 when I was 13 years old, and I was very proud :)&lt;/p&gt;
+</description>
+    </item>
+    
+    
+  </channel>
+</rss>
