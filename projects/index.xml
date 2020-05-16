@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Gustav Olsson</title>
+    <link>http://gustavolsson.com/projects/</link>
+    <description>Recent content in Projects on Gustav Olsson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 May 2020 23:47:07 +0200</lastBuildDate>
+    
+	<atom:link href="http://gustavolsson.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Buoyancy Toolkit</title>
+      <link>http://gustavolsson.com/projects/buoyancy-toolkit/</link>
+      <pubDate>Fri, 15 May 2020 23:47:07 +0200</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/buoyancy-toolkit/</guid>
+      <description>Buoyancy Toolkit (v2.0) The Buoyancy Toolkit is a code package for the Unity3d game engine that brings realistic buoyancy simulation to your project. Rigidbodies will float when submerged in fluid volumes of different densities and wave functions such as water pools or oceans with large waves. The shape and volume of one or more connected colliders will be taken into account to let the geometry follow the waves realistically. The toolkit is ideal for making anything float in water but can also be used to simulate the lift a balloon or airship experiences in the atmosphere.</description>
+    </item>
+    
+    <item>
+      <title>Ocean Toolkit</title>
+      <link>http://gustavolsson.com/projects/ocean-toolkit/</link>
+      <pubDate>Fri, 15 May 2020 23:46:54 +0200</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/ocean-toolkit/</guid>
+      <description>Ocean Toolkit (v1.11) The Ocean Toolkit is a code package that brings realistic infinite ocean rendering to your Unity3d project. The water surface is offset according to a custom wave function which can be used to control large scale waves. Small scale waves are realized using scrolling normal maps. The toolkit is easy-to-use and does not require any coding. Works with the Buoyancy Toolkit out-of-the-box.
+Features  Realistic infinite ocean rendering Customizable wave function that offsets the water surface Small scale detail realized using scrolling normal maps Refraction and underwater light absorption to accurately convey depth Reflections using Screen Space Raytracing or conventional reflection probes Shoreline foam Optional caustics for the seafloor Clean look that fits most projects Can be clipped to a rectangle for lakes Runs well on high-end Android devices (tested on a Moto X 2nd gen using fixed refraction color and low poly screen space mesh)  Current Limitations  There is currently no image effect for when the camera is below the water surface  </description>
+    </item>
+    
+    <item>
+      <title>Shatter Toolkit</title>
+      <link>http://gustavolsson.com/projects/shatter-toolkit/</link>
+      <pubDate>Fri, 15 May 2020 23:46:47 +0200</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/shatter-toolkit/</guid>
+      <description>Shatter Toolkit (v1.61) The Shatter Toolkit enables you to easily shatter or split any game object dynamically in real-time, whether you want to smash walls or slice fruits. The toolkit creates the necessary geometry, fills the holes and instantiates the new game objects for you.
+One line of code shatters or splits a game object and no scripting is required if you use the bundled helper scripts.
+Features  Split game objects by specifying an array of planes Shatter game objects by specifying a point Fills the holes (cut area) in the mesh after a split has occurred Tweakable uv-mapping for the cut area  WorldUvMapper - repeats a texture a number of times per world-unit TargetUvMapper - maps the cut area to a specific part of the texture   No scripting required   Note Since Unity 5.</description>
+    </item>
+    
+    <item>
+      <title>Sharp Shadows Toolkit</title>
+      <link>http://gustavolsson.com/projects/sharp-shadows-toolkit/</link>
+      <pubDate>Fri, 15 May 2020 23:46:37 +0200</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/sharp-shadows-toolkit/</guid>
+      <description>Sharp Shadows Toolkit (v1.02) The Sharp Shadows Toolkit is a code package that brings sharp, pixel-perfect shadows to your Lightweight/Universal Render Pipeline project. Many games and experiences target a non-photo-realistic art style for which sharp shadows are better suited than the built-in shadows that tend to be either too soft or too jagged, especially on low quality settings.
+The toolkit can be useful in a wide variety of scenarios, from a single accurate drop-shadow for the main character in a mobile game to ubiquitous high quality shadows for an architecture visualization project.</description>
+    </item>
+    
+    <item>
+      <title>Rope Minikit</title>
+      <link>http://gustavolsson.com/projects/rope-minikit/</link>
+      <pubDate>Fri, 15 May 2020 23:45:16 +0200</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/rope-minikit/</guid>
+      <description>Rope Minikit The Rope Minikit is a code pacakge that brings stable rope physics to your Unity3d project. The rope component can be used to simulate simple hanging wires or more advanced setups with pulleys and weights that require active collision detection. The bundled example scene shows how to connect the rope for a physically simulated crane, a rope bridge and set of swings. The rope component is written with performance in mind and many compute intensive tasks are handled by Unity jobs on separate threads accelerated using the Burst compiler.</description>
+    </item>
+    
+    <item>
+      <title>turn3d</title>
+      <link>http://gustavolsson.com/projects/turn3d/</link>
+      <pubDate>Fri, 15 May 2020 23:38:49 +0200</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/turn3d/</guid>
+      <description>turn3d Use your phone to 3d scan the world around you!
+This iOS app creates a 3d model of what the back-facing camera sees in real-time. When finished, you can export the 3d model to either a sharable USDZ file (which is natively supported in iOS) or a high-resolution OBJ file (that can be imported into many different 3d software packages).
+You have full ownership of any exported 3d model that you create using the app.</description>
+    </item>
+    
+    <item>
+      <title>Seaside Racing</title>
+      <link>http://gustavolsson.com/projects/seaside-racing/</link>
+      <pubDate>Sun, 26 Apr 2020 19:35:34 +0200</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/seaside-racing/</guid>
+      <description>Seaside Racing Experience the thrill (or madness) of driving a soapbox car down a mountain, accidentally knocking your competitors into the sea or getting lost in green fields without as much as a road sign to help you find your way.
+ Physics-based multiplayer kart racing! Up to 12 players over the Internet or LAN 1-4 local players split screen (online or offline) Share-a-gamepad option (up to 4 players using 2 game pads) 3 playable maps  About the original This is a remastered version of the original Seaside Racing that was released on Xbox Live Indie Games close to 10 year ago.</description>
+    </item>
+    
+  </channel>
+</rss>

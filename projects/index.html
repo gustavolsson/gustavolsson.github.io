@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Projects - Gustav Olsson</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+        <div class="menu">
+            <p><b>gustav olsson</b></p>
+            <p><a href="/">blog</a></p>
+            <p><a href="/projects">projects</a></p>
+            <p><a href="/about">about</a></p>
+        </div>
+        <div class="content"><div class="header"></div>
+
+This is the PROJECT list template<br>
+---<br>
+
+
+<div style="border:1px solid black;">
+    <p><b>Buoyancy Toolkit</b> - posted at 23:47, 2020-05-15</p>
+    <p><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/IcAQa3lOk0g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<h2 id="buoyancy-toolkit-v20">Buoyancy Toolkit (v2.0)</h2>
+<p>The Buoyancy Toolkit is a code package for the Unity3d game engine that brings realistic buoyancy simulation to your project. Rigidbodies will float when submerged in fluid volumes of different densities and wave functions such as water pools or oceans with large waves. The shape and volume of one or more connected colliders will be taken into account to let the geometry follow the waves realistically. The toolkit is ideal for making anything float in water but can also be used to simulate the lift a balloon or airship experiences in the atmosphere. The toolkit is easy-to-use and does not require any scripting. Works with the <a href="http://gustavolsson.com/projects/ocean-toolkit/">Ocean Toolkit</a> out-of-the-box.</p>
+<h4 id="features">Features</h4>
+<ul>
+<li>Realistic buoyancy simulation</li>
+<li>Surface waves if a wave function is specified (using a custom script, example provided)</li>
+<li>Weighting for straightforward tweaking of the buoyancy force</li>
+<li>Disable weighting and use realistic object properties (scale, mass, fluid density) to mimic real-life</li>
+<li>Works well with other rigidbody forces</li>
+</ul>
+</p><div class="gallery">
+
+
+
+</div>
+</div>
+<div style="border:1px solid black;">
+    <p><b>Ocean Toolkit</b> - posted at 23:46, 2020-05-15</p>
+    <p><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/cbI2lq2HWZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<h2 id="ocean-toolkit-v111">Ocean Toolkit (v1.11)</h2>
+<p>The Ocean Toolkit is a code package that brings realistic infinite ocean rendering to your Unity3d project. The water surface is offset according to a custom wave function which can be used to control large scale waves. Small scale waves are realized using scrolling normal maps. The toolkit is easy-to-use and does not require any coding. Works with the <a href="http://gustavolsson.com/projects/buoyancy-toolkit/">Buoyancy Toolkit</a> out-of-the-box.</p>
+<h4 id="features">Features</h4>
+<ul>
+<li>Realistic infinite ocean rendering</li>
+<li>Customizable wave function that offsets the water surface</li>
+<li>Small scale detail realized using scrolling normal maps</li>
+<li>Refraction and underwater light absorption to accurately convey depth</li>
+<li>Reflections using Screen Space Raytracing or conventional reflection probes</li>
+<li>Shoreline foam</li>
+<li>Optional caustics for the seafloor</li>
+<li>Clean look that fits most projects</li>
+<li>Can be clipped to a rectangle for lakes</li>
+<li>Runs well on high-end Android devices (tested on a Moto X 2nd gen using fixed refraction color and low poly screen space mesh)</li>
+</ul>
+<h4 id="current-limitations">Current Limitations</h4>
+<ul>
+<li>There is currently no image effect for when the camera is below the water surface</li>
+</ul>
+</p><div class="gallery">
+
+
+
+</div>
+</div>
+<div style="border:1px solid black;">
+    <p><b>Shatter Toolkit</b> - posted at 23:46, 2020-05-15</p>
+    <p><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/zP86sce0pLk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<h2 id="shatter-toolkit-v161">Shatter Toolkit (v1.61)</h2>
+<p>The Shatter Toolkit enables you to easily shatter or split any game object dynamically in real-time, whether you want to smash walls or slice fruits. The toolkit creates the necessary geometry, fills the holes and instantiates the new game objects for you.</p>
+<p>One line of code shatters or splits a game object and no scripting is required if you use the bundled helper scripts.</p>
+<h4 id="features">Features</h4>
+<ul>
+<li>Split game objects by specifying an array of planes</li>
+<li>Shatter game objects by specifying a point</li>
+<li>Fills the holes (cut area) in the mesh after a split has occurred</li>
+<li>Tweakable uv-mapping for the cut area
+<ul>
+<li>WorldUvMapper - repeats a texture a number of times per world-unit</li>
+<li>TargetUvMapper - maps the cut area to a specific part of the texture</li>
+</ul>
+</li>
+<li>No scripting required</li>
+</ul>
+<blockquote>
+<p><strong>Note</strong> Since Unity 5.5, Unity&rsquo;s physics engine can be unstable when colliders are very close to intersecting (such as when having been split by the Shatter Toolkit) and the project is using persistent contact manifolds (PCM). As a result, the toolkit requires PCM to be disabled in the PhysicsManager. As PCM can be useful for a project in general, I plan to look into a workaround/Unity bug report for the next update to the toolkit.</p>
+</blockquote>
+</p><div class="gallery">
+
+
+
+</div>
+</div>
+<div style="border:1px solid black;">
+    <p><b>Sharp Shadows Toolkit</b> - posted at 23:46, 2020-05-15</p>
+    <p><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/TGPnXySucr4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<h2 id="sharp-shadows-toolkit-v102">Sharp Shadows Toolkit (v1.02)</h2>
+<p>The Sharp Shadows Toolkit is a code package that brings sharp, pixel-perfect shadows to your Lightweight/Universal Render Pipeline project. Many games and experiences target a non-photo-realistic art style for which sharp shadows are better suited than the built-in shadows that tend to be either too soft or too jagged, especially on low quality settings.</p>
+<p>The toolkit can be useful in a wide variety of scenarios, from a single accurate drop-shadow for the main character in a mobile game to ubiquitous high quality shadows for an architecture visualization project.</p>
+<h4 id="features">Features</h4>
+<ul>
+<li>Dynamic pixel-perfect shadows for the Lightweight/Universal Render Pipeline</li>
+<li>No jagged shadow edges or visible pixels</li>
+<li>Seamless editor integration using automatic asset post processing</li>
+<li>Two rendering modes
+<ul>
+<li><code>Inject Into Screen Space Shadow Resolve Texture</code>: Inject into screen space shadow texture for optimal image quality</li>
+<li><code>Multiply Scene After Opaque</code>: Draw after opaque geometry for optimal performance</li>
+</ul>
+</li>
+<li>Handles both skinned and non-skinned meshes</li>
+<li>No restriction on the mesh geometry of the shadow caster</li>
+<li>Multi-object editing</li>
+<li>Fog support</li>
+</ul>
+<h4 id="current-limitations">Current Limitations</h4>
+<blockquote>
+<p><strong>Important note on URP 7.2 and up</strong> Unity changed the way shadows are handled in Universal Render Pipeline (URP) version 7.2 and up and as a result, the <code>Inject Into Screen Space Shadow Resolve Texture</code> render mode no longer works in these versions. The <code>Multiply Scene After Opaque</code> is unaffected by the changes and works properly. I&rsquo;m currently thinking of ways to fix this.</p>
+</blockquote>
+<ul>
+<li>For the Lightweight/Universal Render Pipeline only</li>
+<li>Only supports the main directional light of the scene</li>
+<li>No support for custom vertex displacement</li>
+<li>Alpha blended or clipped geometry will produce solid shadows (the shape of the triangles)</li>
+<li>Skinned mesh shadows may appear cracked if they are subject to large deformations</li>
+<li>Shadows are not anti-aliased when injected into screen space shadow texture</li>
+</ul>
+<h4 id="requirements">Requirements</h4>
+<ul>
+<li>Unity 2019.1 or above (tested with 2019.1.10f1, 2019.2.3f1, 2019.3.0b2)</li>
+<li>Lightweight/Universal Render Pipeline 5.7.2 or above (tested with 5.7.2, 6.9.1, 7.0.1)</li>
+<li>A target platform with stencil buffer support</li>
+</ul>
+</p><div class="gallery">
+
+
+
+</div>
+</div>
+<div style="border:1px solid black;">
+    <p><b>Rope Minikit</b> - posted at 23:45, 2020-05-15</p>
+    <p><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/7DjL-l2TSU4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<h2 id="rope-minikit">Rope Minikit</h2>
+<p>The Rope Minikit is a code pacakge that brings stable rope physics to your Unity3d project. The rope component can be used to simulate simple hanging wires or more advanced setups with pulleys and weights that require active collision detection. The bundled example scene shows how to connect the rope for a physically simulated crane, a rope bridge and set of swings. The rope component is written with performance in mind and many compute intensive tasks are handled by <a href="https://unity.com/dots">Unity jobs on separate threads accelerated using the Burst compiler</a>.</p>
+<h4 id="features">Features</h4>
+<ul>
+<li>Stable rope physics</li>
+<li>Many tweakable user parameters</li>
+<li>Rigidbody connections allow interaction with the built-in physics engine</li>
+<li>Scene view handles for adjusting the spawn curve</li>
+<li>High performance is achieved using Unity jobs and the Burst compiler
+<ul>
+<li>Typical performance for the example scene with collisions enabled:
+<ul>
+<li>~0.2 ms spent in job threads</li>
+<li>~0.7 ms spent on the main thread</li>
+</ul>
+</li>
+<li>Typical performance for the example scene with collisions disabled:
+<ul>
+<li>~0.15 ms spent in job threads</li>
+<li>~0.35 ms spent on the main thread</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Full source code</li>
+<li>Example scene contains:
+<ul>
+<li>Physically simulated crane</li>
+<li>Rope bridge</li>
+<li>Swings</li>
+<li>Mouse interaction script</li>
+</ul>
+</li>
+</ul>
+<h4 id="current-limitations">Current Limitations</h4>
+<ul>
+<li>Collisions work with convex Mesh, Box, Sphere and Capsule colliders only</li>
+<li>It is difficult to get perfectly stiff ropes unless very small physics time steps are used</li>
+<li>Rope bridge currently only takes the resting mass of colliding rigidbodies into account,there is no impact effect</li>
+<li>Scripting knowledge required for creating stable rope suspended platforms other than rope bridges</li>
+</ul>
+<h4 id="requirements">Requirements</h4>
+<ul>
+<li>Burst 1.1.2 or above</li>
+</ul>
+<h4 id="about-the-minikits">About the Minikits</h4>
+<p>Minikits are small, tweakable and extendable packages with full source code that illustrate how to implement interesting behaviours for your project. They&rsquo;re designed to be easy-to-use and self-explanatory.</p>
+</p><div class="gallery">
+
+
+
+</div>
+</div>
+<div style="border:1px solid black;">
+    <p><b>turn3d</b> - posted at 23:38, 2020-05-15</p>
+    <p><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/4Zck6mI_xPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<h2 id="turn3d">turn3d</h2>
+<p><em>Use your phone to 3d scan the world around you!</em></p>
+<p>This iOS app creates a 3d model of what the back-facing camera sees in real-time. When finished, you can export the 3d model to either a sharable USDZ file (which is natively supported in iOS) or a high-resolution OBJ file (that can be imported into many different 3d software packages).</p>
+<p>You have full ownership of any exported 3d model that you create using the app. <code>turn3d</code> is to 3d scans what a camera is to pictures.</p>
+<p>To get the best possible result try to avoid scanning</p>
+<ul>
+<li>objects closer than 35 cm to the camera</li>
+<li>very uniform surfaces such as white walls or texture-less floors</li>
+<li>reflective surfaces such as shiny objects or glass windows</li>
+</ul>
+<h4 id="privacy-policy">Privacy policy</h4>
+<p>The app does not track the user in any way. All computation is done locally on the device and the finished 3d scan is only stored in the local storage of the device that performed the scan.</p>
+<p>Exported 3d scans are regular files and can be shared just like any other type of file (such as text documents or image files for example). Once a 3d scan is exported to a file, it is outside the control of the app and the sole responsibility of the user.</p>
+</p><div class="gallery">
+
+
+
+</div>
+</div>
+<div style="border:1px solid black;">
+    <p><b>Seaside Racing</b> - posted at 19:35, 2020-04-26</p>
+    <p><div class="video"><iframe src="https://www.youtube-nocookie.com/embed/PNfXdATtvCk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<h2 id="seaside-racing">Seaside Racing</h2>
+<p>Experience the thrill (or madness) of driving a soapbox car down a mountain, accidentally knocking your competitors into the sea or getting lost in green fields without as much as a road sign to help you find your way.</p>
+<ul>
+<li>Physics-based multiplayer kart racing!</li>
+<li>Up to 12 players over the Internet or LAN</li>
+<li>1-4 local players split screen (online or offline)</li>
+<li>Share-a-gamepad option (up to 4 players using 2 game pads)</li>
+<li>3 playable maps</li>
+</ul>
+<h4 id="about-the-original">About the original</h4>
+<p>This is a remastered version of the original Seaside Racing that was released on Xbox Live Indie Games close to 10 year ago. <a href="https://www.youtube.com/playlist?list=PLZ4KknZfHyaXzsKm3J9DVHbW-vi0E9Fyr">Here is a YouTube playlist</a> of people playing the original game. Everything was made from scratch, the physics engine, the graphics and all of the assets. Counting the time it took to port the game to PC, the game is now 2.5 years in the making!</p>
+<h4 id="free-to-play">Free-to-play</h4>
+<p>The game is really meant to be played with others and in order to attract new players, the game is currently free. Donations at or over 3$ will get an &ldquo;I support the developer&rdquo;-badge in a future update though (when playing over the Internet), so keep that in mind when downloading ;)</p>
+</p><div class="gallery">
+
+
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/seaside-racing/1.png"><img width="100%" src="http://gustavolsson.com/projects/seaside-racing/1_hue7d4ab67d7d26fdd440efdde4aa13d58_663459_400x0_resize_box_2.png"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/seaside-racing/2.png"><img width="100%" src="http://gustavolsson.com/projects/seaside-racing/2_hue7d4ab67d7d26fdd440efdde4aa13d58_907345_400x0_resize_box_2.png"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/seaside-racing/3.png"><img width="100%" src="http://gustavolsson.com/projects/seaside-racing/3_hue7d4ab67d7d26fdd440efdde4aa13d58_775918_400x0_resize_box_2.png"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/seaside-racing/4.png"><img width="100%" src="http://gustavolsson.com/projects/seaside-racing/4_hue7d4ab67d7d26fdd440efdde4aa13d58_1101188_400x0_resize_box_2.png"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/seaside-racing/5.png"><img width="100%" src="http://gustavolsson.com/projects/seaside-racing/5_hue7d4ab67d7d26fdd440efdde4aa13d58_596770_400x0_resize_box_2.png"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/seaside-racing/6.png"><img width="100%" src="http://gustavolsson.com/projects/seaside-racing/6_hue7d4ab67d7d26fdd440efdde4aa13d58_686906_400x0_resize_box_2.png"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/seaside-racing/7.png"><img width="100%" src="http://gustavolsson.com/projects/seaside-racing/7_hue7d4ab67d7d26fdd440efdde4aa13d58_656974_400x0_resize_box_2.png"></a></p>
+    </div>
+
+</div>
+</div>
+
+
+<div class="footer">Copyright 2020 Gustav Olsson</div>
+</div>
+        <div class="sidebar"></div>
+    </body>
+</html>

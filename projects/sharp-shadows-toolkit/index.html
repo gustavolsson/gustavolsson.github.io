@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Sharp Shadows Toolkit - Gustav Olsson</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+        <div class="menu">
+            <p><b>gustav olsson</b></p>
+            <p><a href="/">blog</a></p>
+            <p><a href="/projects">projects</a></p>
+            <p><a href="/about">about</a></p>
+        </div>
+        <div class="content"><div class="header"></div>
+
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/TGPnXySucr4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<h2 id="sharp-shadows-toolkit-v102">Sharp Shadows Toolkit (v1.02)</h2>
+<p>The Sharp Shadows Toolkit is a code package that brings sharp, pixel-perfect shadows to your Lightweight/Universal Render Pipeline project. Many games and experiences target a non-photo-realistic art style for which sharp shadows are better suited than the built-in shadows that tend to be either too soft or too jagged, especially on low quality settings.</p>
+<p>The toolkit can be useful in a wide variety of scenarios, from a single accurate drop-shadow for the main character in a mobile game to ubiquitous high quality shadows for an architecture visualization project.</p>
+<h4 id="features">Features</h4>
+<ul>
+<li>Dynamic pixel-perfect shadows for the Lightweight/Universal Render Pipeline</li>
+<li>No jagged shadow edges or visible pixels</li>
+<li>Seamless editor integration using automatic asset post processing</li>
+<li>Two rendering modes
+<ul>
+<li><code>Inject Into Screen Space Shadow Resolve Texture</code>: Inject into screen space shadow texture for optimal image quality</li>
+<li><code>Multiply Scene After Opaque</code>: Draw after opaque geometry for optimal performance</li>
+</ul>
+</li>
+<li>Handles both skinned and non-skinned meshes</li>
+<li>No restriction on the mesh geometry of the shadow caster</li>
+<li>Multi-object editing</li>
+<li>Fog support</li>
+</ul>
+<h4 id="current-limitations">Current Limitations</h4>
+<blockquote>
+<p><strong>Important note on URP 7.2 and up</strong> Unity changed the way shadows are handled in Universal Render Pipeline (URP) version 7.2 and up and as a result, the <code>Inject Into Screen Space Shadow Resolve Texture</code> render mode no longer works in these versions. The <code>Multiply Scene After Opaque</code> is unaffected by the changes and works properly. I&rsquo;m currently thinking of ways to fix this.</p>
+</blockquote>
+<ul>
+<li>For the Lightweight/Universal Render Pipeline only</li>
+<li>Only supports the main directional light of the scene</li>
+<li>No support for custom vertex displacement</li>
+<li>Alpha blended or clipped geometry will produce solid shadows (the shape of the triangles)</li>
+<li>Skinned mesh shadows may appear cracked if they are subject to large deformations</li>
+<li>Shadows are not anti-aliased when injected into screen space shadow texture</li>
+</ul>
+<h4 id="requirements">Requirements</h4>
+<ul>
+<li>Unity 2019.1 or above (tested with 2019.1.10f1, 2019.2.3f1, 2019.3.0b2)</li>
+<li>Lightweight/Universal Render Pipeline 5.7.2 or above (tested with 5.7.2, 6.9.1, 7.0.1)</li>
+<li>A target platform with stencil buffer support</li>
+</ul>
+<div class="gallery">
+
+
+
+</div>
+<div class="footer">Copyright 2020 Gustav Olsson</div>
+</div>
+        <div class="sidebar">
+    <p><b>Links</b></p>
+    
+    <p><a href="https://assetstore.unity.com/packages/vfx/shaders/sharp-shadows-toolkit-152791">Buy now on Unity Asset Store</a></p>
+    
+    <p><a href="https://gustavolsson.squarespace.com/s/SST_Readme.pdf">Readme</a></p>
+    
+    <p><a href="https://forum.unity.com/threads/sharp-shadows-toolkit-lwrp.739529/">Unity forum thread</a></p>
+    
+    <p><a href="http://gustavolssonold.squarespace.com/storage/sharpshadowstoolkit/webgl/index.html">Demo (WebGL)</a></p>
+    
+    <p><a href="http://gustavolssonold.squarespace.com/storage/sharpshadowstoolkit/sst_win.zip">Demo (Windows)</a></p>
+    
+
+
+
+
+
+    <p><b>Gallery</b></p>
+    
+        
+        
+        <div class="item">
+            <p><a href="http://gustavolsson.com/projects/sharp-shadows-toolkit/1.png"><img width="100%" src="http://gustavolsson.com/projects/sharp-shadows-toolkit/1_hu46054d474cb630ed513d82cf5297bcaa_1017118_400x0_resize_box_2.png"></a></p>
+        </div>
+    
+        
+        
+        <div class="item">
+            <p><a href="http://gustavolsson.com/projects/sharp-shadows-toolkit/2.png"><img width="100%" src="http://gustavolsson.com/projects/sharp-shadows-toolkit/2_hu4b3eb48dbb5a8f29428d36f798ab52ab_2764080_400x0_resize_box_2.png"></a></p>
+        </div>
+    
+        
+        
+        <div class="item">
+            <p><a href="http://gustavolsson.com/projects/sharp-shadows-toolkit/3.png"><img width="100%" src="http://gustavolsson.com/projects/sharp-shadows-toolkit/3_hub94220652887ce1bc5b5c621efcf85eb_3718357_400x0_resize_box_2.png"></a></p>
+        </div>
+    
+        
+        
+        <div class="item">
+            <p><a href="http://gustavolsson.com/projects/sharp-shadows-toolkit/4.png"><img width="100%" src="http://gustavolsson.com/projects/sharp-shadows-toolkit/4_hud6ddf5fdd99f328a1ae10b1bd3094a0d_1833197_400x0_resize_box_2.png"></a></p>
+        </div>
+    
+
+
+</div>
+    </body>
+</html>

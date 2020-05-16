@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Rope Minikit - Gustav Olsson</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+        <div class="menu">
+            <p><b>gustav olsson</b></p>
+            <p><a href="/">blog</a></p>
+            <p><a href="/projects">projects</a></p>
+            <p><a href="/about">about</a></p>
+        </div>
+        <div class="content"><div class="header"></div>
+
+<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/7DjL-l2TSU4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+<h2 id="rope-minikit">Rope Minikit</h2>
+<p>The Rope Minikit is a code pacakge that brings stable rope physics to your Unity3d project. The rope component can be used to simulate simple hanging wires or more advanced setups with pulleys and weights that require active collision detection. The bundled example scene shows how to connect the rope for a physically simulated crane, a rope bridge and set of swings. The rope component is written with performance in mind and many compute intensive tasks are handled by <a href="https://unity.com/dots">Unity jobs on separate threads accelerated using the Burst compiler</a>.</p>
+<h4 id="features">Features</h4>
+<ul>
+<li>Stable rope physics</li>
+<li>Many tweakable user parameters</li>
+<li>Rigidbody connections allow interaction with the built-in physics engine</li>
+<li>Scene view handles for adjusting the spawn curve</li>
+<li>High performance is achieved using Unity jobs and the Burst compiler
+<ul>
+<li>Typical performance for the example scene with collisions enabled:
+<ul>
+<li>~0.2 ms spent in job threads</li>
+<li>~0.7 ms spent on the main thread</li>
+</ul>
+</li>
+<li>Typical performance for the example scene with collisions disabled:
+<ul>
+<li>~0.15 ms spent in job threads</li>
+<li>~0.35 ms spent on the main thread</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Full source code</li>
+<li>Example scene contains:
+<ul>
+<li>Physically simulated crane</li>
+<li>Rope bridge</li>
+<li>Swings</li>
+<li>Mouse interaction script</li>
+</ul>
+</li>
+</ul>
+<h4 id="current-limitations">Current Limitations</h4>
+<ul>
+<li>Collisions work with convex Mesh, Box, Sphere and Capsule colliders only</li>
+<li>It is difficult to get perfectly stiff ropes unless very small physics time steps are used</li>
+<li>Rope bridge currently only takes the resting mass of colliding rigidbodies into account,there is no impact effect</li>
+<li>Scripting knowledge required for creating stable rope suspended platforms other than rope bridges</li>
+</ul>
+<h4 id="requirements">Requirements</h4>
+<ul>
+<li>Burst 1.1.2 or above</li>
+</ul>
+<h4 id="about-the-minikits">About the Minikits</h4>
+<p>Minikits are small, tweakable and extendable packages with full source code that illustrate how to implement interesting behaviours for your project. They&rsquo;re designed to be easy-to-use and self-explanatory.</p>
+<div class="gallery">
+
+
+
+</div>
+<div class="footer">Copyright 2020 Gustav Olsson</div>
+</div>
+        <div class="sidebar">
+    <p><b>Links</b></p>
+    
+    <p><a href="https://gustavolsson.itch.io/rope-minikit">Buy now on itch.io</a></p>
+    
+    <p><a href="http://gustavolssonold.squarespace.com/storage/minikits/rope/webgl/index.html">WebGL demo (Burst disabled)</a></p>
+    
+
+
+
+
+
+
+</div>
+    </body>
+</html>
