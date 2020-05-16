@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Gustav Olsson</title>
-    <link>http://gustavolsson.com/blog/</link>
+    <link>https://gustavolsson.github.io/blog/</link>
     <description>Recent content in Blogs on Gustav Olsson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Apr 2020 21:45:06 +0200</lastBuildDate>
     
-	<atom:link href="http://gustavolsson.com/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gustavolsson.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Second Post</title>
-      <link>http://gustavolsson.com/blog/second-post/</link>
+      <link>https://gustavolsson.github.io/blog/second-post/</link>
       <pubDate>Wed, 22 Apr 2020 21:45:06 +0200</pubDate>
       
-      <guid>http://gustavolsson.com/blog/second-post/</guid>
+      <guid>https://gustavolsson.github.io/blog/second-post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>First Post</title>
-      <link>http://gustavolsson.com/blog/first-post/</link>
+      <link>https://gustavolsson.github.io/blog/first-post/</link>
       <pubDate>Wed, 22 Apr 2020 19:29:21 +0200</pubDate>
       
-      <guid>http://gustavolsson.com/blog/first-post/</guid>
+      <guid>https://gustavolsson.github.io/blog/first-post/</guid>
       <description>woooo first post</description>
     </item>
     
