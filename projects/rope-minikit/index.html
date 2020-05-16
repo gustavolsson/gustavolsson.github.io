@@ -12,7 +12,14 @@
         </div>
         <div class="content"><div class="header"></div>
 
-<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/7DjL-l2TSU4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="video">
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/7DjL-l2TSU4"
+        srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}</style><a href=https://www.youtube-nocookie.com/embed/7DjL-l2TSU4?autoplay=1><img src=https://img.youtube.com/vi/7DjL-l2TSU4/hqdefault.jpg><span>▶</span></a>"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</div>
 
 <h2 id="rope-minikit">Rope Minikit</h2>
 <p>The Rope Minikit is a code pacakge that brings stable rope physics to your Unity3d project. The rope component can be used to simulate simple hanging wires or more advanced setups with pulleys and weights that require active collision detection. The bundled example scene shows how to connect the rope for a physically simulated crane, a rope bridge and set of swings. The rope component is written with performance in mind and many compute intensive tasks are handled by <a href="https://unity.com/dots">Unity jobs on separate threads accelerated using the Burst compiler</a>.</p>
