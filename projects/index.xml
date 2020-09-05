@@ -60,6 +60,15 @@ I use this display/controller board from Adafruit</description>
     </item>
     
     <item>
+      <title>Master&#39;s Thesis</title>
+      <link>https://gustavolsson.github.io/projects/masters-thesis/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/masters-thesis/</guid>
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenMaster&amp;rsquo;s Thesis @ DICE Stockholm As my master&amp;rsquo;s thesis in Complex Adaptive Systems at Chalmers University of Technology, I developed a new system for real-time water animation and rendering that enables realistic interactions between water and terrain in virtual scenes. I implemented the system in Frostbite, DICE&amp;rsquo;s in-house game engine. The thesis was carried out as a master&amp;rsquo;s thesis worker/intern on the Battlefield 1 team.</description>
+    </item>
+    
+    <item>
       <title>Ocean Toolkit</title>
       <link>https://gustavolsson.github.io/projects/ocean-toolkit/</link>
       <pubDate>Tue, 16 Feb 2016 00:00:00 +0000</pubDate>
@@ -69,7 +78,7 @@ I use this display/controller board from Adafruit</description>
     </item>
     
     <item>
-      <title>Mail Monster (LD33)</title>
+      <title>Mail Monster (LD#33)</title>
       <link>https://gustavolsson.github.io/projects/mail-monster/</link>
       <pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
       
@@ -131,7 +140,7 @@ Features  Physics-based multiplayer kart racing! Up to 8 players on Xbox Live or
     </item>
     
     <item>
-      <title>Sailor (LD11)</title>
+      <title>Sailor (LD#11)</title>
       <link>https://gustavolsson.github.io/projects/sailor/</link>
       <pubDate>Sun, 20 Apr 2008 00:00:00 +0000</pubDate>
       
@@ -150,12 +159,12 @@ Collision Detection I implemented the Gilbert-Johnson-Keerthi distance algorithm
     </item>
     
     <item>
-      <title>Early Days (1999-2006)</title>
-      <link>https://gustavolsson.github.io/projects/early-days/</link>
+      <title>Early Projects (1999-2006)</title>
+      <link>https://gustavolsson.github.io/projects/early-projects/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
       
-      <guid>https://gustavolsson.github.io/projects/early-days/</guid>
-      <description>Early Days (1999 to 2007) This page is dedicated to my early travels into programming and computer graphics. The code for most of these experiments and small programs are long gone, but I&amp;rsquo;ve managed to find some remnants in the form of screenshots :)
+      <guid>https://gustavolsson.github.io/projects/early-projects/</guid>
+      <description>Early Projects (1999 to 2007) This page is dedicated to my early travels into programming and computer graphics. The code for most of these experiments and small programs are long gone, but I&amp;rsquo;ve managed to find some remnants in the form of screenshots :)
 Robo (2003) Robo was my first ever 3d game. I wrote it using Visual Basic 6 and DirectX8 when I was 13 years old, and I was very proud :)</description>
     </item>
     

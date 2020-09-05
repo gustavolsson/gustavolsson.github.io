@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Master&#39;s Thesis - Gustav Olsson</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+        <div class="menu">
+            <p><b>gustav olsson</b></p>
+            <p><a href="/">blog</a></p>
+            <p><a href="/projects">projects</a></p>
+            <p><a href="/about">about</a></p>
+        </div>
+        <div class="content"><div class="header"></div>
+
+<div class="video">
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/2PQxhMdhRSw"
+        srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}</style><a href=https://www.youtube-nocookie.com/embed/2PQxhMdhRSw?autoplay=1><img src=https://img.youtube.com/vi/2PQxhMdhRSw/hqdefault.jpg><span>▶</span></a>"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</div>
+
+<h2 id="masters-thesis--dice-stockholm">Master&rsquo;s Thesis @ DICE Stockholm</h2>
+<p>As my master&rsquo;s thesis in Complex Adaptive Systems at <a href="https://www.chalmers.se/">Chalmers University of Technology</a>, I developed a new system for real-time water animation and rendering that enables realistic interactions between water and terrain in virtual scenes. I implemented the system in Frostbite, DICE&rsquo;s in-house game engine. The thesis was carried out as a master&rsquo;s thesis worker/intern on the Battlefield 1 team.</p>
+<h4 id="abstract">Abstract</h4>
+<p>Realistic simulation and rendering of water is a challenge within the field of computer graphics because of its inherent multi-scale nature. When observing a large body of water such as the sea, there are small waves and perturbations visible close to the observer. As the distance increases, the small scale details form large scale wave patterns that may be several kilometers away. A common approach to rendering large bodies of water in real-time is to simulate deep water waves in a small area and repeat the wave motions across the water surface at different spatial scales in order to minimize repetition patterns. This method gives excellent results at open sea but cannot react to changes in water depth or the terrain of the virtual scene. In this thesis, an algorithm for rendering large expanses of water that interact with the terrain of the virtual scene in real-time is presented. The proposed algorithm first simulates water waves in a pre-computation step and saves wavefront parameters on a coarse triangle mesh as proposed by Jeschke and Wojtan [2015]. Then, the stored simulation is evaluated and the water surface is rendered in real-time using a novel staggered update scheme. The staggered update scheme effectively improves the rendering performance by a factor of 8 and makes it possible to render water surfaces of up to 16 square kilometers with excellent visual quality and wave patterns at multiple spatial scales.</p>
+<div class="gallery">
+
+
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/coast1.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/coast1_hu5de0c942ed42798668c44c94b6e4eb1c_1367282_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/coast2.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/coast2_hub8d767c43edeeedc280aee945cbfeab8_2248129_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/coast3.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/coast3_hu7eebb1ab497224f7ff113167ee0e607e_2807634_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/coast4.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/coast4_hud3f5910f1ebb48266f49178c27df8be3_2351167_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/coast5.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/coast5_hu8bbc0cc24de9e518e2fed5f29c4a6456_2359907_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/coast6.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/coast6_hu39eb0b000ef30f4f6781f6f54ef0aea3_2766930_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/coast7.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/coast7_huea7eb66637ba324c0b910a0ecf396951_2609617_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/coast8.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/coast8_hu9a287073f33a2e8b594f594fcf1fed00_2373111_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/coast9.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/coast9_hu30ce4dc0f271c5b28027aaaf28fdbed7_2324548_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/coast10.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/coast10_hu410db2282f0f9ed67cd2e909122a539b_2153577_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/reflection1.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/reflection1_huff0e184a9a1330b14487c9917e6cca51_1526040_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/reflection2.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/reflection2_huf7a356abcd53fbe4fb1ed90997446e63_2790873_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/reflection3.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/reflection3_hu964c702d6ae470cb2e049c5c995bffa1_1005430_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/refraction1.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/refraction1_hu1227da2bf6a9f65991d9f7f4585a8951_947759_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/refraction2.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/refraction2_hu31141f5aaf83b8c0db40596b3a77b73b_3023210_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/refraction3.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/refraction3_hubab06673e34ea5c34947886f3f461dfd_566507_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/refraction4.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/refraction4_hu3e5d2c3e1ea92d00031da3d3a7c66b7c_585590_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/1.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/1_hu81a5d674b44463021a4af8dd25e86196_1432371_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/2.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/2_hu01ec07d0900ef799b7e2d7f22cb96fab_1427269_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/3.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/3_hu4243092d3929204db0ceeaf455150a73_1036756_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/4.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/4_hua0224669d66453cbd73ab52e9009b21e_1825992_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/5.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/5_hua42cc73c1042bb8ee5b2ed6a3df623e1_1546354_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/6.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/6_hu81c65df506272a0434f85c481e85c46a_1244459_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/7.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/7_huca0ce7576c27f340ae31e80072b41a7b_1023895_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/8.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/8_hub4fa9885086404f1f3a3660b0dd73ad1_1112875_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/wireframe0.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/wireframe0_hu7e4f1198a363c3b57cb179db232e45b5_2475499_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/wireframe1.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/wireframe1_hu33f444cabe31cdd1f00311e1b170c835_4057801_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="https://gustavolsson.github.io/projects/masters-thesis/wireframe2.png"><img width="100%" src="https://gustavolsson.github.io/projects/masters-thesis/wireframe2_huaa54229ff742ecb45b5e4724a860a42f_4821231_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+    </div>
+
+</div>
+<div class="footer">Copyright 2020 Gustav Olsson</div>
+</div>
+        <div class="sidebar"><p><i>2016-03-01</i>
+
+
+
+
+
+    <p><b>Links</b></p>
+    
+        <p><a href="https://www.chalmers.se/">Chalmers University of Technology</a></p>
+    
+        <p><a href="https://www.dice.se/">DICE</a></p>
+    
+        <p><a href="https://odr.chalmers.se/handle/20.500.12380/249175">Master&rsquo;s Thesis Report</a></p>
+    
+
+
+
+
+
+
+
+
+</div>
+    </body>
+</html>
