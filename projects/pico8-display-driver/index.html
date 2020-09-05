@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html><head>
+    <title>PICO-8 Display Driver - Gustav Olsson</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+        <div class="menu">
+            <p><b>gustav olsson</b></p>
+            <p><a href="/">blog</a></p>
+            <p><a href="/projects">projects</a></p>
+            <p><a href="/about">about</a></p>
+        </div>
+        <div class="content"><div class="header"></div>
+
+<p><a href="dd_jelpi.jpg"><img width="100%" src="dd_jelpi.jpg"></a></p>
+
+<h2 id="pico-8-display-driver">PICO-8 Display Driver</h2>
+<p>I got an idea the other day to write a display driver in PICO-8 using the GPIO pins and here it is. The cart replaces the <code>flip()</code> function with a custom one that writes the PICO-8 frame buffer to a connected display (with a ssd1351 controller) over <a href="https://en.wikipedia.org/wiki/Serial_Peripheral_Interface">SPI</a> using the GPIO pins on a Raspberry Pi. Turns out that it actually works :)</p>
+<p>I use <a href="https://www.adafruit.com/product/1431">this display/controller board from Adafruit</a></p>
+<p>Emulating SPI over the GPIO pins seems to be quite slow however and it takes about 5 seconds to render a single frame. I believe that if zep <a href="http://wiringpi.com/reference/spi-library/">exposes the hardware SPI functionality of wiringPi</a> in addition to the GPIO pins it would run in real time. You can try commenting out the first line in <code>spi_write_n()</code> to &ldquo;emulate&rdquo; hardware SPI (with DD_ENABLE=TRUE).</p>
+<p>Instructions are included in the cart if you would like to try it at home. Remember to enable GPIO pins on the RPi first and running pico8 as super user (&ldquo;sudo ./pico8&rdquo;)</p>
+<p>Wishlist:</p>
+<pre><code>* hardware spi (example: spi8(byte), spi32(four_bytes), spi(0x6000,8192) -- from memory)
+* delay functionality (like Arduino's delayMicros())
+</code></pre><h4 id="update-2020-09-05">UPDATE! (2020-09-05)</h4>
+<p>After checking the <a href="https://www.lexaloffle.com/pico8_manual.txt">official PICO-8 manual</a>, it seems like zep added support for hardware SPI by means of the <code>serial()</code> function in version 0.1.12!</p>
+<div class="gallery">
+
+
+
+</div>
+<div class="footer">Copyright 2020 Gustav Olsson</div>
+</div>
+        <div class="sidebar">
+    <p><b>Links</b></p>
+    
+        <p><a href="https://www.lexaloffle.com/bbs/?tid=31768">PICO-8 BBS post</a></p>
+    
+
+
+
+
+
+
+
+
+</div>
+    </body>
+</html>

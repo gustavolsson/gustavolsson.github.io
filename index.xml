@@ -12,72 +12,6 @@
     
     
     <item>
-      <title>Buoyancy Toolkit</title>
-      <link>https://gustavolsson.github.io/projects/buoyancy-toolkit/</link>
-      <pubDate>Fri, 15 May 2020 23:47:07 +0200</pubDate>
-      
-      <guid>https://gustavolsson.github.io/projects/buoyancy-toolkit/</guid>
-      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen  Buoyancy Toolkit (v2.0) The Buoyancy Toolkit is a code package for the Unity3d game engine that brings realistic buoyancy simulation to your project. Rigidbodies will float when submerged in fluid volumes of different densities and wave functions such as water pools or oceans with large waves. The shape and volume of one or more connected colliders will be taken into account to let the geometry follow the waves realistically.</description>
-    </item>
-    
-    <item>
-      <title>Ocean Toolkit</title>
-      <link>https://gustavolsson.github.io/projects/ocean-toolkit/</link>
-      <pubDate>Fri, 15 May 2020 23:46:54 +0200</pubDate>
-      
-      <guid>https://gustavolsson.github.io/projects/ocean-toolkit/</guid>
-      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen  Ocean Toolkit (v1.11) The Ocean Toolkit is a code package that brings realistic infinite ocean rendering to your Unity3d project. The water surface is offset according to a custom wave function which can be used to control large scale waves. Small scale waves are realized using scrolling normal maps. The toolkit is easy-to-use and does not require any coding.</description>
-    </item>
-    
-    <item>
-      <title>Shatter Toolkit</title>
-      <link>https://gustavolsson.github.io/projects/shatter-toolkit/</link>
-      <pubDate>Fri, 15 May 2020 23:46:47 +0200</pubDate>
-      
-      <guid>https://gustavolsson.github.io/projects/shatter-toolkit/</guid>
-      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen  Shatter Toolkit (v1.61) The Shatter Toolkit enables you to easily shatter or split any game object dynamically in real-time, whether you want to smash walls or slice fruits. The toolkit creates the necessary geometry, fills the holes and instantiates the new game objects for you.
-One line of code shatters or splits a game object and no scripting is required if you use the bundled helper scripts.</description>
-    </item>
-    
-    <item>
-      <title>Sharp Shadows Toolkit</title>
-      <link>https://gustavolsson.github.io/projects/sharp-shadows-toolkit/</link>
-      <pubDate>Fri, 15 May 2020 23:46:37 +0200</pubDate>
-      
-      <guid>https://gustavolsson.github.io/projects/sharp-shadows-toolkit/</guid>
-      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen  Sharp Shadows Toolkit (v1.02) The Sharp Shadows Toolkit is a code package that brings sharp, pixel-perfect shadows to your Lightweight/Universal Render Pipeline project. Many games and experiences target a non-photo-realistic art style for which sharp shadows are better suited than the built-in shadows that tend to be either too soft or too jagged, especially on low quality settings.</description>
-    </item>
-    
-    <item>
-      <title>Rope Minikit</title>
-      <link>https://gustavolsson.github.io/projects/rope-minikit/</link>
-      <pubDate>Fri, 15 May 2020 23:45:16 +0200</pubDate>
-      
-      <guid>https://gustavolsson.github.io/projects/rope-minikit/</guid>
-      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen  Rope Minikit The Rope Minikit is a code pacakge that brings stable rope physics to your Unity3d project. The rope component can be used to simulate simple hanging wires or more advanced setups with pulleys and weights that require active collision detection. The bundled example scene shows how to connect the rope for a physically simulated crane, a rope bridge and set of swings.</description>
-    </item>
-    
-    <item>
-      <title>turn3d</title>
-      <link>https://gustavolsson.github.io/projects/turn3d/</link>
-      <pubDate>Fri, 15 May 2020 23:38:49 +0200</pubDate>
-      
-      <guid>https://gustavolsson.github.io/projects/turn3d/</guid>
-      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen  turn3d Use your phone to 3d scan the world around you!
-This iOS app creates a 3d model of what the back-facing camera sees in real-time. When finished, you can export the 3d model to either a sharable USDZ file (which is natively supported in iOS) or a high-resolution OBJ file (that can be imported into many different 3d software packages).</description>
-    </item>
-    
-    <item>
-      <title>Seaside Racing</title>
-      <link>https://gustavolsson.github.io/projects/seaside-racing/</link>
-      <pubDate>Sun, 26 Apr 2020 19:35:34 +0200</pubDate>
-      
-      <guid>https://gustavolsson.github.io/projects/seaside-racing/</guid>
-      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen  Seaside Racing Experience the thrill (or madness) of driving a soapbox car down a mountain, accidentally knocking your competitors into the sea or getting lost in green fields without as much as a road sign to help you find your way.
- Physics-based multiplayer kart racing! Up to 12 players over the Internet or LAN 1-4 local players split screen (online or offline) Share-a-gamepad option (up to 4 players using 2 game pads) 3 playable maps  About the original This is a remastered version of the original Seaside Racing that was released on Xbox Live Indie Games close to 10 year ago.</description>
-    </item>
-    
-    <item>
       <title>Second Post</title>
       <link>https://gustavolsson.github.io/blog/second-post/</link>
       <pubDate>Wed, 22 Apr 2020 21:45:06 +0200</pubDate>
@@ -102,6 +36,113 @@ This iOS app creates a 3d model of what the back-facing camera sees in real-time
       
       <guid>https://gustavolsson.github.io/about/</guid>
       <description>Hello! My name is Gustav. This site is a repository of projects I am working on and things I have created in the past. I have always been interested in making things and programming has been my main focus ever since I first found out about computers 21 years ago.</description>
+    </item>
+    
+    <item>
+      <title>turn3d</title>
+      <link>https://gustavolsson.github.io/projects/turn3d/</link>
+      <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/turn3d/</guid>
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenturn3d Use your phone to 3d scan the world around you!
+This iOS app creates a 3d model of what the back-facing camera sees in real-time. When finished, you can export the 3d model to either a sharable USDZ file (which is natively supported in iOS) or a high-resolution OBJ file (that can be imported into many different 3d software packages).</description>
+    </item>
+    
+    <item>
+      <title>Rope Minikit</title>
+      <link>https://gustavolsson.github.io/projects/rope-minikit/</link>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/rope-minikit/</guid>
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenRope Minikit The Rope Minikit is a code pacakge that brings stable rope physics to your Unity3d project. The rope component can be used to simulate simple hanging wires or more advanced setups with pulleys and weights that require active collision detection. The bundled example scene shows how to connect the rope for a physically simulated crane, a rope bridge and set of swings.</description>
+    </item>
+    
+    <item>
+      <title>Sharp Shadows Toolkit</title>
+      <link>https://gustavolsson.github.io/projects/sharp-shadows-toolkit/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/sharp-shadows-toolkit/</guid>
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenSharp Shadows Toolkit (v1.02) The Sharp Shadows Toolkit is a code package that brings sharp, pixel-perfect shadows to your Lightweight/Universal Render Pipeline project. Many games and experiences target a non-photo-realistic art style for which sharp shadows are better suited than the built-in shadows that tend to be either too soft or too jagged, especially on low quality settings.</description>
+    </item>
+    
+    <item>
+      <title>Seaside Racing</title>
+      <link>https://gustavolsson.github.io/projects/seaside-racing/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/seaside-racing/</guid>
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenSeaside Racing Experience the thrill (or madness) of driving a soapbox car down a mountain, accidentally knocking your competitors into the sea or getting lost in green fields without as much as a road sign to help you find your way.
+ Physics-based multiplayer kart racing! Up to 12 players over the Internet or LAN 1-4 local players split screen (online or offline) Share-a-gamepad option (up to 4 players using 2 game pads) 3 playable maps  About the original This is a remastered version of the original Seaside Racing that was released on Xbox Live Indie Games in 2010.</description>
+    </item>
+    
+    <item>
+      <title>PICO-8 Display Driver</title>
+      <link>https://gustavolsson.github.io/projects/pico8-display-driver/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/pico8-display-driver/</guid>
+      <description>PICO-8 Display Driver I got an idea the other day to write a display driver in PICO-8 using the GPIO pins and here it is. The cart replaces the flip() function with a custom one that writes the PICO-8 frame buffer to a connected display (with a ssd1351 controller) over SPI using the GPIO pins on a Raspberry Pi. Turns out that it actually works :)
+I use this display/controller board from Adafruit</description>
+    </item>
+    
+    <item>
+      <title>Ocean Toolkit</title>
+      <link>https://gustavolsson.github.io/projects/ocean-toolkit/</link>
+      <pubDate>Tue, 16 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/ocean-toolkit/</guid>
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenOcean Toolkit (v1.11) The Ocean Toolkit is a code package that brings realistic infinite ocean rendering to your Unity3d project. The water surface is offset according to a custom wave function which can be used to control large scale waves. Small scale waves are realized using scrolling normal maps. The toolkit is easy-to-use and does not require any coding.</description>
+    </item>
+    
+    <item>
+      <title>Mail Monster (LD33)</title>
+      <link>https://gustavolsson.github.io/projects/mail-monster/</link>
+      <pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/mail-monster/</guid>
+      <description>
+Mail Monster (Ludum Dare #33) </description>
+    </item>
+    
+    <item>
+      <title>Dōbutsu Ball (NMS2014)</title>
+      <link>https://gustavolsson.github.io/projects/dobutsu-ball/</link>
+      <pubDate>Sat, 23 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/dobutsu-ball/</guid>
+      <description>
+Dōbutsu Ball (No More Sweden 2014) Me and two friends, Ossian and Kjell, made a game called Dōbutsu Ball during the No More Sweden 2014 game jam. It&amp;rsquo;s a game about two animals trapped in an eternal dodgeball match.
+Presentation See our presentation at the 1 minute 40 second mark below:
+*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreen</description>
+    </item>
+    
+    <item>
+      <title>Shatter Toolkit</title>
+      <link>https://gustavolsson.github.io/projects/shatter-toolkit/</link>
+      <pubDate>Fri, 08 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/shatter-toolkit/</guid>
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenShatter Toolkit (v1.61) The Shatter Toolkit enables you to easily shatter or split any game object dynamically in real-time, whether you want to smash walls or slice fruits. The toolkit creates the necessary geometry, fills the holes and instantiates the new game objects for you.
+One line of code shatters or splits a game object and no scripting is required if you use the bundled helper scripts.</description>
+    </item>
+    
+    <item>
+      <title>Buoyancy Toolkit</title>
+      <link>https://gustavolsson.github.io/projects/buoyancy-toolkit/</link>
+      <pubDate>Sun, 09 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/buoyancy-toolkit/</guid>
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenBuoyancy Toolkit (v2.0) The Buoyancy Toolkit is a code package for the Unity3d game engine that brings realistic buoyancy simulation to your project. Rigidbodies will float when submerged in fluid volumes of different densities and wave functions such as water pools or oceans with large waves. The shape and volume of one or more connected colliders will be taken into account to let the geometry follow the waves realistically.</description>
+    </item>
+    
+    <item>
+      <title>Sailor (LD11)</title>
+      <link>https://gustavolsson.github.io/projects/sailor/</link>
+      <pubDate>Sun, 20 Apr 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/sailor/</guid>
+      <description>Sailor (Ludum Dare #11) </description>
     </item>
     
   </channel>

@@ -3,46 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gustavolsson.github.io/projects/buoyancy-toolkit/</loc>
-    <lastmod>2020-05-15T23:47:07+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gustavolsson.github.io/projects/</loc>
-    <lastmod>2020-05-15T23:47:07+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gustavolsson.github.io/projects/ocean-toolkit/</loc>
-    <lastmod>2020-05-15T23:46:54+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gustavolsson.github.io/projects/shatter-toolkit/</loc>
-    <lastmod>2020-05-15T23:46:47+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gustavolsson.github.io/projects/sharp-shadows-toolkit/</loc>
-    <lastmod>2020-05-15T23:46:37+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gustavolsson.github.io/projects/rope-minikit/</loc>
-    <lastmod>2020-05-15T23:45:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gustavolsson.github.io/projects/turn3d/</loc>
-    <lastmod>2020-05-15T23:38:49+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gustavolsson.github.io/projects/seaside-racing/</loc>
-    <lastmod>2020-04-26T19:35:34+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gustavolsson.github.io/blog/</loc>
     <lastmod>2020-04-22T21:45:06+02:00</lastmod>
   </url>
@@ -65,6 +25,66 @@
   <url>
     <loc>https://gustavolsson.github.io/about/</loc>
     <lastmod>2020-04-22T19:27:55+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/projects/</loc>
+    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/projects/turn3d/</loc>
+    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/projects/rope-minikit/</loc>
+    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/projects/sharp-shadows-toolkit/</loc>
+    <lastmod>2019-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/projects/seaside-racing/</loc>
+    <lastmod>2019-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/projects/pico8-display-driver/</loc>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/projects/ocean-toolkit/</loc>
+    <lastmod>2016-02-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/projects/mail-monster/</loc>
+    <lastmod>2015-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/projects/dobutsu-ball/</loc>
+    <lastmod>2014-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/projects/shatter-toolkit/</loc>
+    <lastmod>2011-07-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/projects/buoyancy-toolkit/</loc>
+    <lastmod>2011-01-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/projects/sailor/</loc>
+    <lastmod>2008-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
