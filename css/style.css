@@ -1,11 +1,12 @@
 body {
     font-family: Georgia, serif;
     font-size: 12pt;
+    width: 1000px;
     /* background-color: rgb(255, 246, 235); */
 }
 
 blockquote {
-    border: 2px dashed black;
+    border: 2px solid black;
     border-radius: 16px;
     margin: 0 0 0 0;
     padding: 8px 8px 8px 8px;
@@ -44,7 +45,7 @@ blockquote strong {
     position: fixed;
     top: 0;
     left: 700px;
-    width: 400px;
+    width: 300px;
     height: 100%;
     overflow-x: hidden;
     padding-top: 60px;

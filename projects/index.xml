@@ -36,16 +36,16 @@ This iOS app creates a 3d model of what the back-facing camera sees in real-time
       <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://gustavolsson.github.io/projects/sharp-shadows-toolkit/</guid>
-      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenSharp Shadows Toolkit (v1.02) The Sharp Shadows Toolkit is a code package that brings sharp, pixel-perfect shadows to your Lightweight/Universal Render Pipeline project. Many games and experiences target a non-photo-realistic art style for which sharp shadows are better suited than the built-in shadows that tend to be either too soft or too jagged, especially on low quality settings.</description>
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenSharp Shadows Toolkit The Sharp Shadows Toolkit is a code package that brings sharp, pixel-perfect shadows to your Lightweight/Universal Render Pipeline project. Many games and experiences target a non-photo-realistic art style for which sharp shadows are better suited than the built-in shadows that tend to be either too soft or too jagged, especially on low quality settings.</description>
     </item>
     
     <item>
-      <title>Seaside Racing</title>
+      <title>Seaside Racing (Remaster)</title>
       <link>https://gustavolsson.github.io/projects/seaside-racing/</link>
       <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://gustavolsson.github.io/projects/seaside-racing/</guid>
-      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenSeaside Racing Experience the thrill (or madness) of driving a soapbox car down a mountain, accidentally knocking your competitors into the sea or getting lost in green fields without as much as a road sign to help you find your way.
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenSeaside Racing (Remaster) Experience the thrill (or madness) of driving a soapbox car down a mountain, accidentally knocking your competitors into the sea or getting lost in green fields without as much as a road sign to help you find your way.
  Physics-based multiplayer kart racing! Up to 12 players over the Internet or LAN 1-4 local players split screen (online or offline) Share-a-gamepad option (up to 4 players using 2 game pads) 3 playable maps  About the original This is a remastered version of the original Seaside Racing that was released on Xbox Live Indie Games in 2010.</description>
     </item>
     
@@ -65,7 +65,7 @@ I use this display/controller board from Adafruit</description>
       <pubDate>Tue, 16 Feb 2016 00:00:00 +0000</pubDate>
       
       <guid>https://gustavolsson.github.io/projects/ocean-toolkit/</guid>
-      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenOcean Toolkit (v1.11) The Ocean Toolkit is a code package that brings realistic infinite ocean rendering to your Unity3d project. The water surface is offset according to a custom wave function which can be used to control large scale waves. Small scale waves are realized using scrolling normal maps. The toolkit is easy-to-use and does not require any coding.</description>
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenOcean Toolkit The Ocean Toolkit is a code package that brings realistic infinite ocean rendering to your Unity3d project. The water surface is offset according to a custom wave function which can be used to control large scale waves. Small scale waves are realized using scrolling normal maps. The toolkit is easy-to-use and does not require any coding.</description>
     </item>
     
     <item>
@@ -74,8 +74,8 @@ I use this display/controller board from Adafruit</description>
       <pubDate>Tue, 25 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://gustavolsson.github.io/projects/mail-monster/</guid>
-      <description>
-Mail Monster (Ludum Dare #33) </description>
+      <description>Mail Monster (Ludum Dare #33) You are the mail monster, pick up the mail without ruining the whole town! (You get a time penalty if you happen to destroy anything)
+ARROWS TO MOVE+C TO JUMP</description>
     </item>
     
     <item>
@@ -91,12 +91,22 @@ Presentation See our presentation at the 1 minute 40 second mark below:
     </item>
     
     <item>
+      <title>Shadow Volumes Toolkit</title>
+      <link>https://gustavolsson.github.io/projects/shadow-volumes-toolkit/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/shadow-volumes-toolkit/</guid>
+      <description>Shadow Volumes Toolkit  This package is DEPRECATED See the Sharp Shadows Toolkit for modern alternative!
+ The Shadow Volumes Toolkit adds dynamic, pixel-perfect shadows to your projects. Use the Quick Shadow Setup dialog to instantly add shadows to your game objects, specify light/shadow properties and see the results in real-time. The toolkit supports all three Unity light types and any mesh can act as a shadow caster.</description>
+    </item>
+    
+    <item>
       <title>Shatter Toolkit</title>
       <link>https://gustavolsson.github.io/projects/shatter-toolkit/</link>
       <pubDate>Fri, 08 Jul 2011 00:00:00 +0000</pubDate>
       
       <guid>https://gustavolsson.github.io/projects/shatter-toolkit/</guid>
-      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenShatter Toolkit (v1.61) The Shatter Toolkit enables you to easily shatter or split any game object dynamically in real-time, whether you want to smash walls or slice fruits. The toolkit creates the necessary geometry, fills the holes and instantiates the new game objects for you.
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenShatter Toolkit The Shatter Toolkit enables you to easily shatter or split any game object dynamically in real-time, whether you want to smash walls or slice fruits. The toolkit creates the necessary geometry, fills the holes and instantiates the new game objects for you.
 One line of code shatters or splits a game object and no scripting is required if you use the bundled helper scripts.</description>
     </item>
     
@@ -106,7 +116,18 @@ One line of code shatters or splits a game object and no scripting is required i
       <pubDate>Sun, 09 Jan 2011 00:00:00 +0000</pubDate>
       
       <guid>https://gustavolsson.github.io/projects/buoyancy-toolkit/</guid>
-      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenBuoyancy Toolkit (v2.0) The Buoyancy Toolkit is a code package for the Unity3d game engine that brings realistic buoyancy simulation to your project. Rigidbodies will float when submerged in fluid volumes of different densities and wave functions such as water pools or oceans with large waves. The shape and volume of one or more connected colliders will be taken into account to let the geometry follow the waves realistically.</description>
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenBuoyancy Toolkit The Buoyancy Toolkit is a code package for the Unity3d game engine that brings realistic buoyancy simulation to your project. Rigidbodies will float when submerged in fluid volumes of different densities and wave functions such as water pools or oceans with large waves. The shape and volume of one or more connected colliders will be taken into account to let the geometry follow the waves realistically.</description>
+    </item>
+    
+    <item>
+      <title>Seaside Racing (Original)</title>
+      <link>https://gustavolsson.github.io/projects/seaside-racing-xblig/</link>
+      <pubDate>Sun, 25 Jul 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/seaside-racing-xblig/</guid>
+      <description>
+Seaside Racing (Original) Compete with your friends in this multiplayer kart racer! Play 1-4 players splitscreen either locally, over system link or on Xbox Live for a total of 8 players. Use your own Xbox Avatar and race through 3 different seaside courses!
+Features  Physics-based multiplayer kart racing! Up to 8 players on Xbox Live or over System link 1-4 players splitscreen (online or offline) 3 playable maps  </description>
     </item>
     
     <item>
@@ -115,7 +136,27 @@ One line of code shatters or splits a game object and no scripting is required i
       <pubDate>Sun, 20 Apr 2008 00:00:00 +0000</pubDate>
       
       <guid>https://gustavolsson.github.io/projects/sailor/</guid>
-      <description>Sailor (Ludum Dare #11) </description>
+      <description>Sailor (Ludum Dare #11) The game let’s you build a boat and sail the sea. Try to stay afloat as long as possible, it’s not as easy as it sounds!</description>
+    </item>
+    
+    <item>
+      <title>Physics Engine</title>
+      <link>https://gustavolsson.github.io/projects/physics-engine-old/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/physics-engine-old/</guid>
+      <description>Physics Engine This is a 3d rigidbody physics engine I wrote in high-school. I later used it to create the original and the remastered version of Seaside Racing.
+Collision Detection I implemented the Gilbert-Johnson-Keerthi distance algorithm to handle collision detection. As it turns out, the Expanding Polytype Algorithm is not needed for finding good contact points when objects intersect (because of the shape of the Minkowski Sum/Difference at this point) and I implemented a much simpler algorithm that simply shot a ray &amp;ldquo;out&amp;rdquo; along the line going through the two objects&amp;rsquo; centers.</description>
+    </item>
+    
+    <item>
+      <title>Early Days (1999-2006)</title>
+      <link>https://gustavolsson.github.io/projects/early-days/</link>
+      <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/early-days/</guid>
+      <description>Early Days (1999 to 2007) This page is dedicated to my early travels into programming and computer graphics. The code for most of these experiments and small programs are long gone, but I&amp;rsquo;ve managed to find some remnants in the form of screenshots :)
+Robo (2003) Robo was my first ever 3d game. I wrote it using Visual Basic 6 and DirectX8 when I was 13 years old, and I was very proud :)</description>
     </item>
     
   </channel>
