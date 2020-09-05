@@ -100,6 +100,16 @@ Presentation See our presentation at the 1 minute 40 second mark below:
     </item>
     
     <item>
+      <title>Quadcopter Autopilot</title>
+      <link>https://gustavolsson.github.io/projects/autoquad/</link>
+      <pubDate>Thu, 30 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/autoquad/</guid>
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreenQuadcopter Autopilot This is an autopilot for a quadcopter drone I wrote from scratch back in 2012. I used the physics engine in Unity3d to validate my ideas and develop the control logic, then I used the same autopilot code in a physical set up.
+At the time, I was very new to electronics and I chose an embedded platform that required the code to run on a host computer.</description>
+    </item>
+    
+    <item>
       <title>Shadow Volumes Toolkit</title>
       <link>https://gustavolsson.github.io/projects/shadow-volumes-toolkit/</link>
       <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
