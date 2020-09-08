@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Second Post</title>
+      <link>https://gustavolsson.github.io/blog/second-post/</link>
+      <pubDate>Wed, 22 Apr 2020 21:45:06 +0200</pubDate>
+      
+      <guid>https://gustavolsson.github.io/blog/second-post/</guid>
+      <description>woooaaa second post</description>
+    </item>
+    
+    <item>
       <title>First Post</title>
       <link>https://gustavolsson.github.io/blog/first-post/</link>
       <pubDate>Wed, 22 Apr 2020 19:29:21 +0200</pubDate>

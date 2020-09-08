@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>Contact</title>
+      <link>https://gustavolsson.github.io/contact/</link>
+      <pubDate>Tue, 08 Sep 2020 22:42:53 +0200</pubDate>
+      
+      <guid>https://gustavolsson.github.io/contact/</guid>
+      <description>todo</description>
+    </item>
+    
+    <item>
+      <title>Second Post</title>
+      <link>https://gustavolsson.github.io/blog/second-post/</link>
+      <pubDate>Wed, 22 Apr 2020 21:45:06 +0200</pubDate>
+      
+      <guid>https://gustavolsson.github.io/blog/second-post/</guid>
+      <description>woooaaa second post</description>
+    </item>
+    
+    <item>
       <title>First Post</title>
       <link>https://gustavolsson.github.io/blog/first-post/</link>
       <pubDate>Wed, 22 Apr 2020 19:29:21 +0200</pubDate>
@@ -183,7 +201,7 @@ Features  Physics-based multiplayer kart racing! Up to 8 players on Xbox Live or
       
       <guid>https://gustavolsson.github.io/projects/physics-engine-old/</guid>
       <description>Physics Engine This is a 3d rigidbody physics engine I wrote in high-school. I later used it to create the original and the remastered version of Seaside Racing.
-Collision Detection I implemented the Gilbert-Johnson-Keerthi distance algorithm to handle collision detection. As it turns out, the Expanding Polytype Algorithm is not needed for finding good contact points when objects intersect (because of the shape of the Minkowski Sum/Difference at this point) and I implemented a much simpler algorithm that simply shot a ray &amp;ldquo;out&amp;rdquo; along the line going through the two objects&amp;rsquo; centers.</description>
+Collision Detection I implemented the Gilbert-Johnson-Keerthi distance algorithm to handle collision detection. As it turns out, the Expanding Polytype Algorithm is not needed to find good contact points when objects intersect (because of the shape of the Minkowski Sum/Difference on intersection) and I used a much simpler algorithm that simply shot a ray &amp;ldquo;out&amp;rdquo; along the line going through the two objects&amp;rsquo; centers.</description>
     </item>
     
     <item>
