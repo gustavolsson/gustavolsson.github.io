@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Gustav Olsson</title>
+    <title>Blog on Gustav Olsson</title>
     <link>https://gustavolsson.github.io/blog/</link>
-    <description>Recent content in Blogs on Gustav Olsson</description>
+    <description>Recent content in Blog on Gustav Olsson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2020 21:45:06 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2020 21:55:57 +0200</lastBuildDate>
     
 	<atom:link href="https://gustavolsson.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Second Post</title>
-      <link>https://gustavolsson.github.io/blog/second-post/</link>
-      <pubDate>Wed, 22 Apr 2020 21:45:06 +0200</pubDate>
-      
-      <guid>https://gustavolsson.github.io/blog/second-post/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>First Post</title>
