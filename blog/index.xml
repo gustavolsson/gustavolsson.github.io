@@ -12,21 +12,12 @@
     
     
     <item>
-      <title>Second Post</title>
-      <link>https://gustavolsson.github.io/blog/second-post/</link>
-      <pubDate>Wed, 22 Apr 2020 21:45:06 +0200</pubDate>
+      <title>Stay Tuned</title>
+      <link>https://gustavolsson.github.io/blog/stay-tuned/</link>
+      <pubDate>Sat, 12 Sep 2020 13:20:24 +0200</pubDate>
       
-      <guid>https://gustavolsson.github.io/blog/second-post/</guid>
-      <description>woooaaa second post</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://gustavolsson.github.io/blog/first-post/</link>
-      <pubDate>Wed, 22 Apr 2020 19:29:21 +0200</pubDate>
-      
-      <guid>https://gustavolsson.github.io/blog/first-post/</guid>
-      <description>woooo first post</description>
+      <guid>https://gustavolsson.github.io/blog/stay-tuned/</guid>
+      <description>I plan to put my old blog posts here and also write things more regularly, stay tuned&amp;hellip;</description>
     </item>
     
   </channel>

@@ -12,30 +12,23 @@
     
     
     <item>
+      <title>Stay Tuned</title>
+      <link>https://gustavolsson.github.io/blog/stay-tuned/</link>
+      <pubDate>Sat, 12 Sep 2020 13:20:24 +0200</pubDate>
+      
+      <guid>https://gustavolsson.github.io/blog/stay-tuned/</guid>
+      <description>I plan to put my old blog posts here and also write things more regularly, stay tuned&amp;hellip;</description>
+    </item>
+    
+    <item>
       <title>Contact</title>
       <link>https://gustavolsson.github.io/contact/</link>
       <pubDate>Tue, 08 Sep 2020 22:42:53 +0200</pubDate>
       
       <guid>https://gustavolsson.github.io/contact/</guid>
-      <description>todo</description>
-    </item>
-    
-    <item>
-      <title>Second Post</title>
-      <link>https://gustavolsson.github.io/blog/second-post/</link>
-      <pubDate>Wed, 22 Apr 2020 21:45:06 +0200</pubDate>
-      
-      <guid>https://gustavolsson.github.io/blog/second-post/</guid>
-      <description>woooaaa second post</description>
-    </item>
-    
-    <item>
-      <title>First Post</title>
-      <link>https://gustavolsson.github.io/blog/first-post/</link>
-      <pubDate>Wed, 22 Apr 2020 19:29:21 +0200</pubDate>
-      
-      <guid>https://gustavolsson.github.io/blog/first-post/</guid>
-      <description>woooo first post</description>
+      <description>To get in touch with me, send an email to contact@&amp;lt;my full name without spaces&amp;gt;.com.
+If you’re having a technical issue with any of my Unity3d toolkits, please prepare a .unitypackage file that illustrates the problem so that I can quickly reproduce it on my end. Note that it can take some time for me to get back to you if the inquiry requires testing on my end.
+I make sure to answer every email I get but please note that I have a full-time job and that I only do these projects on the side in my free time, so it might sometimes take some time.</description>
     </item>
     
     <item>
@@ -44,7 +37,8 @@
       <pubDate>Wed, 22 Apr 2020 19:27:55 +0200</pubDate>
       
       <guid>https://gustavolsson.github.io/about/</guid>
-      <description>Hello! My name is Gustav. This site is a repository of projects I am working on and things I have created in the past. I have always been interested in making things and programming has been my main focus ever since I first found out about computers 21 years ago.</description>
+      <description>Hello! My name is Gustav. This site is a repository of projects I am working on and things I have created in the past. I have always been interested in making things and programming has been my main focus ever since I first found out about computers 21 years ago.
+I&amp;rsquo;m currently located in Kristianstad, Sweden, Earth.</description>
     </item>
     
     <item>
@@ -83,6 +77,16 @@ This iOS app creates a 3d model of what the back-facing camera sees in real-time
       <guid>https://gustavolsson.github.io/projects/seaside-racing/</guid>
       <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen  Seaside Racing (Remaster) Experience the thrill (or madness) of driving a soapbox car down a mountain, accidentally knocking your competitors into the sea or getting lost in green fields without as much as a road sign to help you find your way.
  Physics-based multiplayer kart racing! Up to 12 players over the Internet or LAN 1-4 local players split screen (online or offline) Share-a-gamepad option (up to 4 players using 2 game pads) 3 playable maps  About the original This is a remastered version of the original Seaside Racing that was released on Xbox Live Indie Games in 2010.</description>
+    </item>
+    
+    <item>
+      <title>Sokol for Android</title>
+      <link>https://gustavolsson.github.io/projects/sokol-android/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/projects/sokol-android/</guid>
+      <description>The Sokol libraries by @Andre Weissflog are simple STB-style cross-platform libraries for C and C++ (written in C) that make it easy to create 2d and 3d graphics projects that work on multiple platforms.
+As I had an Android phone at the time, I spent some time implementing Android support in the Sokol library that takes care of context creation, sokol_app.h. My changes were merged in January 2019.</description>
     </item>
     
     <item>
@@ -181,7 +185,8 @@ One line of code shatters or splits a game object and no scripting is required i
       
       <guid>https://gustavolsson.github.io/projects/seaside-racing-xblig/</guid>
       <description> 
-Seaside Racing (Original) Compete with your friends in this multiplayer kart racer! Play 1-4 players splitscreen either locally, over system link or on Xbox Live for a total of 8 players. Use your own Xbox Avatar and race through 3 different seaside courses!
+Seaside Racing (Original) Check out the remastered version here!
+Compete with your friends in this multiplayer kart racer! Play 1-4 players splitscreen either locally, over system link or on Xbox Live for a total of 8 players. Use your own Xbox Avatar and race through 3 different seaside courses!
 Features  Physics-based multiplayer kart racing! Up to 8 players on Xbox Live or over System link 1-4 players splitscreen (online or offline) 3 playable maps  </description>
     </item>
     
