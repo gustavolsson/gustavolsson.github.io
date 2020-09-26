@@ -61,7 +61,7 @@ blockquote strong {
     margin-left: 32px;
 }
 
-.sidebar p.dim {
+.dim {
     color: rgba(0, 0, 0, 0.25);
 }
 
@@ -76,6 +76,7 @@ blockquote strong {
 
 .post {
     /* border: 1px solid blue; */
+    padding-bottom: 16px;
 }
 
 .gallery {

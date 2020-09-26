@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Laser Scanner Prototype - Gustav Olsson</title>
+    
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+        <div class="menu">
+            <p><b>gustav olsson</b></p>
+            
+                <p class="link"><a href="/blog/">blog</a></p>
+            
+                <p class="link"><a href="/projects/">projects</a></p>
+            
+                <p class="link"><a href="/contact/">contact</a></p>
+            
+                <p class="link"><a href="/about/">about</a></p>
+            
+        </div>
+        <div class="content"><div class="header"></div>
+
+<p>For the last couple of weeks, I&rsquo;ve been working on a custom laser scanner design. Basically, a laser scanner is a device that uses 2 mirrors to direct a laser beam to a specific point in space and it can, when moving fast enough, be used to draw geometric patterns onto some planar surface. The reason I&rsquo;m interested in building a laser scanner is that they&rsquo;re a fundamental component of many CNC machines such as high-end 3d printers (based on the Selective Laser Sintering (SLS) or Stereolithography (SLA) techniques) or etching machines.</p>
+<p>The plan is to first create a XY-scanner module that is capable of reasonable resolution (~50 micrometers = 0.05mm) within a small rectangular area (100x100mm) on a planar surface. The next step is to design an open-source laser etching module that can be used as an experimentation platform for different manufacturing techniques. The first steps could be laser etching or even cutting of very thin sheets of different materials. When this works, I imagine add-ons to this platform that enables SLS or SLA 3d printing with minimal external components.</p>
+<p>I&rsquo;ve completed a first prototype using stepper motors to drive the 2 mirrors. The stepper motors have a resolution of 0.9 degrees per step, resulting in 400 steps per revolution. This is nowhere near the resolution required but I wanted to experiment with how well microstepping can increase this resolution in practice. In theory, microstepping should increase the resolution by 32-128x depending on what motor driver is used. In practice however, the microsteps are not even enough to be usable. The motor can step 4-8 microsteps with reasonable linearity but every now and then a &ldquo;microstep&rdquo; occurs that is 2-4 times the angle of the others. Increasing the current limit makes it better, but the current required to make the movement reasonably smooth at low speeds is so great that the motor becomes extremely hot and starts to stall. I&rsquo;ve tried with one Nema 14 motor with a rated current of 0.5A and one Nema 17 motor rated for 1.2A.</p>
+<div class="video">
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/xjAPKuPjYdk"
+        srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}</style><a href=https://www.youtube-nocookie.com/embed/xjAPKuPjYdk?autoplay=1><img src=https://img.youtube.com/vi/xjAPKuPjYdk/hqdefault.jpg><span>▶</span></a>"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</div>
+
+<p>Bottom line: microstepping should really only be used to make the movement of a stepper motor smoother, not to increase its resolution.</p>
+<p>So this leaves me with 3 options: use some kind of gearing to improve the resolution of the stepper motors, use off-the-shelf galvanometers or design custom galvanometers from scratch. I don&rsquo;t like option one because it seems overly complicated for the problem at hand (rotate a mirror over a [-15,15] degree range), there will be mechanical backlash in such a system, and geared stepper motors are both expensive and difficult to source. I&rsquo;m not even going to consider option two because retail galvanometers are even more expensive and difficult to source.</p>
+<p>This leaves me with option three, designing my own laser galvanometer. Since this is quite a big undertaking I will go slow and put this project on the back-burner for the time being. Time to focus on other stuff!</p>
+<p>PS. I&rsquo;m a newbie when it comes to electronics so please don&rsquo;t take my word for anything I say in this area.</p>
+<div class="gallery">
+
+
+
+</div>
+<div class="footer">Copyright 2020 Gustav Olsson</div>
+</div>
+        <div class="sidebar"><p class="dim"><i>2015-11-15</i></p>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+    </body>
+</html>

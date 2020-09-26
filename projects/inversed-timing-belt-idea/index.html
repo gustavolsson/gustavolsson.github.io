@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Inversed Timing Belt - Gustav Olsson</title>
+    
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+        <div class="menu">
+            <p><b>gustav olsson</b></p>
+            
+                <p class="link"><a href="/blog/">blog</a></p>
+            
+                <p class="link"><a href="/projects/">projects</a></p>
+            
+                <p class="link"><a href="/contact/">contact</a></p>
+            
+                <p class="link"><a href="/about/">about</a></p>
+            
+        </div>
+        <div class="content"><div class="header"></div>
+
+<div class="video">
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/2YC-0C8oPUo"
+        srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}</style><a href=https://www.youtube-nocookie.com/embed/2YC-0C8oPUo?autoplay=1><img src=https://img.youtube.com/vi/2YC-0C8oPUo/hqdefault.jpg><span>▶</span></a>"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</div>
+
+<h2 id="inversed-timing-belt-transmission">Inversed Timing Belt Transmission</h2>
+<p>One day, I had an idea for a compact gearing mechanism. It is light, compact and has no backlash (that I&rsquo;ve noticed). The inner pulley is 20 teeth, the outer ring is 120 teeth and the belt is 150 teeth.</p>
+<p>It was a nightmare to compute the dimensions analytically so I finally gave up and made a small python program that solved the problem numerically. This worked out great and I was able to 3d print the prototype shown in the video above.</p>
+<h4 id="behavior-under-load">Behavior under load</h4>
+<p>I was initially hopeful that the setup would perform well under load, but that turned out to be false. Unfortunately, when a load is applied there is a small inwards force on the belt making it prone to detaching from the outer ring.</p>
+<p>Increasing the number of bearings or replacing them with a continous loop of pins/cylinders that rotate as the belt rotates might minimize the issue, but I&rsquo;ve not gotten around to try it yet.</p>
+<h4 id="prior-work">Prior work</h4>
+<p>After coming up with the idea, I found a similar mechanism mentioned in the conference paper <code>ePaddle mechanism: Towards the development of a versatile amphibious locomotion mechanism</code>. After publishing the video above I got a comment that directed me to a US patent (<code>US5954611</code>) that seems to describe the same mechanism in detail.</p>
+<div class="gallery">
+
+
+
+</div>
+<div class="footer">Copyright 2020 Gustav Olsson</div>
+</div>
+        <div class="sidebar"><p class="dim"><i>2019-03-12</i></p>
+
+
+
+
+
+    <p><b>Links</b></p>
+    
+        <p><a href="https://patents.google.com/patent/US5954611">US5954611 patent (not mine)</a></p>
+    
+
+
+
+
+
+
+
+
+</div>
+    </body>
+</html>

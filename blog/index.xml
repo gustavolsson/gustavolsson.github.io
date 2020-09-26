@@ -12,12 +12,51 @@
     
     
     <item>
-      <title>Stay Tuned</title>
-      <link>https://gustavolsson.github.io/blog/stay-tuned/</link>
-      <pubDate>Sat, 12 Sep 2020 13:20:24 +0200</pubDate>
+      <title>Hello! (New website in 2020)</title>
+      <link>https://gustavolsson.github.io/blog/hello-2020/</link>
+      <pubDate>Sat, 26 Sep 2020 21:38:11 +0200</pubDate>
       
-      <guid>https://gustavolsson.github.io/blog/stay-tuned/</guid>
-      <description>I plan to put my old blog posts here and also write things more regularly, stay tuned&amp;hellip;</description>
+      <guid>https://gustavolsson.github.io/blog/hello-2020/</guid>
+      <description>Welcome to yet another website&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Scan the world around you using turn3d!</title>
+      <link>https://gustavolsson.github.io/blog/turn3d-release/</link>
+      <pubDate>Sat, 26 Sep 2020 21:26:04 +0200</pubDate>
+      
+      <guid>https://gustavolsson.github.io/blog/turn3d-release/</guid>
+      <description>I just released my latest app, turn3d. turn3d enables you to 3d scan the world around you using only a semi-modern iOS device. Check it out here!
+*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreen</description>
+    </item>
+    
+    <item>
+      <title>Seaside Racing Remastered (Windows/macOS/Linux)</title>
+      <link>https://gustavolsson.github.io/blog/seaside-racing-remastered/</link>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/blog/seaside-racing-remastered/</guid>
+      <description>After getting an email from yet another person who enjoyed the original Seaside Racing back when it was released on the Xbox 360 in 2010, I decided to start working on a PC port last summer. After a few months of part-time work, it is finally done!
+Check it out on itch.io here: seasideracing.se
+The gameplay should be exactly the same as the original and the graphics a bit better. The Xbox avatars have been replaced by my own set of randomly generated characters that look just mad enough.</description>
+    </item>
+    
+    <item>
+      <title>Laser Scanner Prototype</title>
+      <link>https://gustavolsson.github.io/blog/laser-scanner-prototype/</link>
+      <pubDate>Sun, 15 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/blog/laser-scanner-prototype/</guid>
+      <description>For the last couple of weeks, I&amp;rsquo;ve been working on a custom laser scanner design. Basically, a laser scanner is a device that uses 2 mirrors to direct a laser beam to a specific point in space and it can, when moving fast enough, be used to draw geometric patterns onto some planar surface. The reason I&amp;rsquo;m interested in building a laser scanner is that they&amp;rsquo;re a fundamental component of many CNC machines such as high-end 3d printers (based on the Selective Laser Sintering (SLS) or Stereolithography (SLA) techniques) or etching machines.</description>
+    </item>
+    
+    <item>
+      <title>Hello! (New website in 2015)</title>
+      <link>https://gustavolsson.github.io/blog/hello-2015/</link>
+      <pubDate>Thu, 22 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://gustavolsson.github.io/blog/hello-2015/</guid>
+      <description>When I moved to the new site, I decided not to have a blog because I wanted to focus on making things instead writing updates. What I&amp;rsquo;ve realized is that there is a point to summarizing and publishing a log entry of what I work on from time to time. It helps me see the progress that I&amp;rsquo;m making more clearly and it also gives me time to think through the decisions I make along the way.</description>
     </item>
     
   </channel>

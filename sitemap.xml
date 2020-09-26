@@ -3,8 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gustavolsson.github.io/blog/stay-tuned/</loc>
-    <lastmod>2020-09-12T13:20:24+02:00</lastmod>
+    <loc>https://gustavolsson.github.io/blog/hello-2020/</loc>
+    <lastmod>2020-09-26T21:38:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/blog/turn3d-release/</loc>
+    <lastmod>2020-09-26T21:26:04+02:00</lastmod>
   </url>
   
   <url>
@@ -48,6 +53,16 @@
   </url>
   
   <url>
+    <loc>https://gustavolsson.github.io/projects/inversed-timing-belt-idea/</loc>
+    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/blog/seaside-racing-remastered/</loc>
+    <lastmod>2019-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gustavolsson.github.io/projects/seaside-racing/</loc>
     <lastmod>2019-02-22T00:00:00+00:00</lastmod>
   </url>
@@ -70,6 +85,21 @@
   <url>
     <loc>https://gustavolsson.github.io/projects/ocean-toolkit/</loc>
     <lastmod>2016-02-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/blog/laser-scanner-prototype/</loc>
+    <lastmod>2015-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/blog/hello-2015/</loc>
+    <lastmod>2015-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gustavolsson.github.io/projects/resin-printer-idea/</loc>
+    <lastmod>2015-09-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
