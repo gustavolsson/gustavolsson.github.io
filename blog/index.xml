@@ -6,11 +6,7 @@
     <description>Recent content in Blog on Gustav Olsson</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Sep 2020 21:55:57 +0200</lastBuildDate>
-    
-	<atom:link href="https://gustavolsson.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 08 Sep 2020 21:55:57 +0200</lastBuildDate><atom:link href="https://gustavolsson.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello! (New website in 2020)</title>
       <link>https://gustavolsson.github.io/blog/hello-2020/</link>
@@ -27,7 +23,7 @@
       
       <guid>https://gustavolsson.github.io/blog/turn3d-release/</guid>
       <description>I just released my latest app, turn3d. turn3d enables you to 3d scan the world around you using only a semi-modern iOS device. Check it out here!
-*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34;frameborder=&#34;0&#34;allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;allowfullscreen</description>
+*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen  </description>
     </item>
     
     <item>
