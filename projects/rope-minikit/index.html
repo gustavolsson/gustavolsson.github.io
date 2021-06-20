@@ -21,27 +21,29 @@
 
 <div class="video">
     <iframe
-        src="https://www.youtube-nocookie.com/embed/xuQi5IEHTSk"
-        srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}</style><a href=https://www.youtube-nocookie.com/embed/xuQi5IEHTSk?autoplay=1><img src=https://img.youtube.com/vi/xuQi5IEHTSk/hqdefault.jpg><span>▶</span></a>"
+        src="https://www.youtube-nocookie.com/embed/ogJTIjGgG9U"
+        srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}</style><a href=https://www.youtube-nocookie.com/embed/ogJTIjGgG9U?autoplay=1><img src=https://img.youtube.com/vi/ogJTIjGgG9U/hqdefault.jpg><span>▶</span></a>"
         frameborder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
 </div>
 
 <h2 id="rope-minikit">Rope Minikit</h2>
-<p>The Rope Minikit is a code pacakge that brings stable rope physics to your Unity3d project. The rope component can be used to simulate simple hanging wires or more advanced setups with pulleys and weights that require active collision detection. The bundled example scene shows how to connect the rope for a physically simulated crane, a rope bridge and set of swings. The rope component is written with performance in mind and many compute intensive tasks are handled by <a href="https://unity.com/dots">Unity jobs on separate threads accelerated using the Burst compiler</a>.</p>
-<h4 id="unity-202014">Unity 2020.1.4</h4>
-<p>In the latest Unity version, the package manager imports the wrong packages if you click <code>Install/Upgrade</code>. Please choose the <code>Skip</code> option and install <code>Burst</code> manually. I&rsquo;ll update the asset to work around the issue in the future. 
-
-<p><a href="https://gustavolsson.github.io/projects/rope-minikit/skip.png"><img width="100%" src="https://gustavolsson.github.io/projects/rope-minikit/skip_hu94e59b7f53e99a688ca7f45e49dfb3d2_349145_500x0_resize_q90_bgffffff_box_2.jpg"></a></p></p>
+<p>The Rope Minikit brings stable rope physics to your project. The rope component can be used to simulate simple wires or more advanced setups with pulleys and weights that require active collision detection. The bundled example scene shows how to connect the rope for a physically simulated crane, a rope bridge and set of swings. The rope component is written with performance in mind and many compute intensive tasks are handled by <a href="https://unity.com/dots">Unity jobs on separate threads accelerated using the Burst compiler</a>.</p>
 <h4 id="features">Features</h4>
 <ul>
 <li>Stable rope physics</li>
 <li>Many tweakable user parameters</li>
-<li>Rigidbody connections allow interaction with the built-in physics engine</li>
-<li>Supports dynamic splitting</li>
-<li>Supports custom meshes (a chain with links, for example)</li>
-<li>Scene view handles for adjusting the spawn curve</li>
+<li>Ability to dynamically split ropes using the SplitAt() method</li>
+<li>4 different rope connection types allow interaction with the rest of the scene
+<ul>
+<li>Pin Rope To Transform</li>
+<li>Pin Transform To Rope</li>
+<li>Pull Rigidbody To Rope</li>
+<li>Two Way Coupling Between Rigidbody And Rope</li>
+</ul>
+</li>
+<li>Scene view handles for adjusting rope spawn curve</li>
 <li>High performance is achieved using Unity jobs and the Burst compiler
 <ul>
 <li>Typical performance for the example scene with collisions enabled:
@@ -70,9 +72,9 @@
 </ul>
 <h4 id="current-limitations">Current Limitations</h4>
 <ul>
-<li>Collisions work with convex Mesh, Box, Sphere and Capsule colliders only</li>
+<li>Collision support for convex Mesh, Box, Sphere and Capsule colliders only</li>
 <li>It is difficult to get perfectly stiff ropes unless very small physics time steps are used</li>
-<li>Rope bridge currently only takes the resting mass of colliding rigidbodies into account,there is no impact effect</li>
+<li>Rope bridge currently only takes the resting mass of colliding rigidbodies into account, there is no impact effect</li>
 <li>Scripting knowledge required for creating stable rope suspended platforms other than rope bridges</li>
 </ul>
 <h4 id="requirements">Requirements</h4>
@@ -90,7 +92,7 @@
 </div>
         <div class="sidebar"><p class="dim"><i>2019-12-11</i></p>
 
-    <p class="dim"><i>Latest version is 1.11</i></p>
+    <p class="dim"><i>Latest version is 2.0.0</i></p>
 
 
 
@@ -121,6 +123,39 @@
 
 
 
+
+    <p><b>Gallery</b></p>
+    
+        
+        
+        <div class="item">
+            <p><a href="https://gustavolsson.github.io/projects/rope-minikit/1.png"><img width="100%" src="https://gustavolsson.github.io/projects/rope-minikit/1_hu590950d271f5e50e57e66575c51c1cd7_949550_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+        </div>
+    
+        
+        
+        <div class="item">
+            <p><a href="https://gustavolsson.github.io/projects/rope-minikit/2.png"><img width="100%" src="https://gustavolsson.github.io/projects/rope-minikit/2_hu8313af6409556c761203863c3fd0b669_1057638_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+        </div>
+    
+        
+        
+        <div class="item">
+            <p><a href="https://gustavolsson.github.io/projects/rope-minikit/3.png"><img width="100%" src="https://gustavolsson.github.io/projects/rope-minikit/3_hua61be33144df9376455d7b2e0691ffb5_881387_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+        </div>
+    
+        
+        
+        <div class="item">
+            <p><a href="https://gustavolsson.github.io/projects/rope-minikit/4.png"><img width="100%" src="https://gustavolsson.github.io/projects/rope-minikit/4_hu9e012b9caa4aaec7eb6dfa08eabe1ff9_861900_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+        </div>
+    
+        
+        
+        <div class="item">
+            <p><a href="https://gustavolsson.github.io/projects/rope-minikit/5.png"><img width="100%" src="https://gustavolsson.github.io/projects/rope-minikit/5_hu6442a1726171683c8bb0f1861f59c1f0_749381_400x0_resize_q90_bgffffff_box_2.jpg"></a></p>
+        </div>
+    
 
 
 </div>
