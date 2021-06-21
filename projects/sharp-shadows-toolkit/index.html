@@ -31,6 +31,11 @@
 <h2 id="sharp-shadows-toolkit">Sharp Shadows Toolkit</h2>
 <p>The Sharp Shadows Toolkit is a code package that brings sharp, pixel-perfect shadows to your Lightweight/Universal Render Pipeline project. Many games and experiences target a non-photo-realistic art style for which sharp shadows are better suited than the built-in shadows that tend to be either too soft or too jagged, especially on low quality settings.</p>
 <p>The toolkit can be useful in a wide variety of scenarios, from a single accurate drop-shadow for the main character in a mobile game to ubiquitous high quality shadows for an architecture visualization project.</p>
+<blockquote>
+<p><strong>Bug in v1.1, fix as v1.1.1 waiting Asset Store approval</strong> Unfortunately, a last minute bug creeped into the v1.1 release and there is a compile error in SharpShadowManager if SHARP_SHADOWS_DEBUG is not defined (which is the case for all setups except mine). To work around the issue, open up <code>SharpShadowManager.cs</code> and move <code>namespace SharpShadowsToolkit {</code> to above the <code>#if</code> line, like this: 
+
+<p><a href="https://gustavolsson.github.io/projects/sharp-shadows-toolkit/v1_1_fix.png"><img width="100%" src="https://gustavolsson.github.io/projects/sharp-shadows-toolkit/v1_1_fix_hu93a216d2b8c1cf22d45274f0d6110dbc_129087_500x0_resize_q90_bgffffff_box_2.jpg"></a></p></p>
+</blockquote>
 <h4 id="features">Features</h4>
 <ul>
 <li>Dynamic pixel-perfect shadows for the Lightweight/Universal Render Pipeline</li>
@@ -48,9 +53,6 @@
 <li>Fog support</li>
 </ul>
 <h4 id="current-limitations">Current Limitations</h4>
-<blockquote>
-<p><strong>Important note on URP 7.2 and up</strong> Unity changed the way shadows are handled in Universal Render Pipeline (URP) version 7.2 and up and as a result, the <code>Inject Into Screen Space Shadow Resolve Texture</code> render mode no longer works in these versions. The <code>Multiply Scene After Opaque</code> is unaffected by the changes and works properly. I&rsquo;m currently thinking of ways to fix this.</p>
-</blockquote>
 <ul>
 <li>For the Lightweight/Universal Render Pipeline only</li>
 <li>Only supports the main directional light of the scene</li>
@@ -59,12 +61,41 @@
 <li>Skinned mesh shadows may appear cracked if they are subject to large deformations</li>
 <li>Shadows are not anti-aliased when injected into screen space shadow texture</li>
 </ul>
-<h4 id="requirements">Requirements</h4>
-<ul>
-<li>Unity 2019.1 or above (tested with 2019.1.10f1, 2019.2.3f1, 2019.3.0b2)</li>
-<li>Lightweight/Universal Render Pipeline 5.7.2 or above (tested with 5.7.2, 6.9.1, 7.0.1)</li>
-<li>A target platform with stencil buffer support</li>
-</ul>
+<h4 id="supported-unity-builds">Supported Unity builds</h4>
+<table>
+<thead>
+<tr>
+<th>Unity version</th>
+<th>Build tested</th>
+<th>LWRP/URP version</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unity 2019.1</td>
+<td>2019.1.10f1</td>
+<td>5.7.2</td>
+</tr>
+<tr>
+<td>Unity 2019.2</td>
+<td>2019.2.3f1</td>
+<td>6.9.1</td>
+</tr>
+<tr>
+<td>Unity 2019.3</td>
+<td>2019.3.0b2, 2019.3.5f1</td>
+<td>7.0.1, 7.1.8</td>
+</tr>
+<tr>
+<td>Unity 2021.1</td>
+<td>2021.1.11f1</td>
+<td>11.0.0</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Important note on URP 7.2-10.5</strong>: Unity changed the way shadows are handled between URP 7.2 and 10.5 and as a result, the most natural shadow mode (&ldquo;Inject Into Screen Space Shadow Resolve Texture&rdquo;) is not available in these versions. Supported versions are stated above. Starting with Unity 2021 and URP 11, the toolkit is again feature complete!</p>
+</blockquote>
 <div class="gallery">
 
 
