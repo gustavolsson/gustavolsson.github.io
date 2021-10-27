@@ -28,7 +28,7 @@
 <p>Emulating SPI over the GPIO pins seems to be quite slow however and it takes about 5 seconds to render a single frame. I believe that if zep <a href="http://wiringpi.com/reference/spi-library/">exposes the hardware SPI functionality of wiringPi</a> in addition to the GPIO pins it would run in real time. You can try commenting out the first line in <code>spi_write_n()</code> to &ldquo;emulate&rdquo; hardware SPI (with DD_ENABLE=TRUE).</p>
 <p>Instructions are included in the cart if you would like to try it at home. Remember to enable GPIO pins on the RPi first and running pico8 as super user (&ldquo;sudo ./pico8&rdquo;)</p>
 <p>Wishlist:</p>
-<pre><code>* hardware spi (example: spi8(byte), spi32(four_bytes), spi(0x6000,8192) -- from memory)
+<pre tabindex="0"><code>* hardware spi (example: spi8(byte), spi32(four_bytes), spi(0x6000,8192) -- from memory)
 * delay functionality (like Arduino's delayMicros())
 </code></pre><h4 id="update-2020-09-05">UPDATE! (2020-09-05)</h4>
 <p>After checking the <a href="https://www.lexaloffle.com/pico8_manual.txt">official PICO-8 manual</a>, it seems like zep added support for hardware SPI by means of the <code>serial()</code> function in version 0.1.12!</p>
