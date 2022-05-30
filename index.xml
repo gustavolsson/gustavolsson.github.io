@@ -261,7 +261,7 @@ Features  Physics-based multiplayer kart racing! Up to 8 players on Xbox Live or
       
       <guid>https://gustavolsson.github.io/projects/physics-engine-old/</guid>
       <description>Physics Engine This is a 3d rigidbody physics engine I wrote in high-school. I later used it to create the original and the remastered version of Seaside Racing.
-Collision Detection I implemented the Gilbert-Johnson-Keerthi distance algorithm to handle collision detection. As it turns out, the Expanding Polytype Algorithm is not needed to find good contact points when objects intersect (because of the shape of the Minkowski Sum/Difference on intersection) and I used a much simpler algorithm that simply shot a ray &amp;ldquo;out&amp;rdquo; along the line going through the two objects&#39; centers.</description>
+Collision Detection I implemented the Gilbert-Johnson-Keerthi distance algorithm to handle collision detection. As it turns out, the Expanding Polytype Algorithm is not needed to find good contact points when objects intersect (because of the shape of the Minkowski Sum/Difference on intersection) and I used a much simpler algorithm that simply shot a ray &amp;ldquo;out&amp;rdquo; along the line going through the two objects&amp;rsquo; centers.</description>
     </item>
     
     <item>

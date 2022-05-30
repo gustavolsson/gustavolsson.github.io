@@ -8,17 +8,17 @@ body {
 blockquote {
     border: 2px solid black;
     border-radius: 16px;
-    margin: 0 0 0 0;
-    padding: 8px 8px 8px 8px;
+    margin: 16px 0 16px 0;
+    padding: 8px;
 }
 
 blockquote p {
-    margin: 0 0 0 0;
+    margin: 0;
 }
 
 blockquote strong {
     padding: 2px 2px 2px 2px;
-    border-radius: 3px;
+    border-radius: 8px;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
