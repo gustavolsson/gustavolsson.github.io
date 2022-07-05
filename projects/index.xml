@@ -13,8 +13,8 @@
       <pubDate>Wed, 22 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://gustavolsson.github.io/projects/turn3d/</guid>
-      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen  turn3d Use your phone to 3d scan the world around you!
-This iOS app creates a 3d model of what the back-facing camera sees in real-time. When finished, you can export the 3d model to either a sharable USDZ file (which is natively supported in iOS) or a high-resolution OBJ file (that can be imported into many different 3d software packages).</description>
+      <description>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}▶&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen  turn3d 3d scan the world around you using any iOS device!
+This app lets you scan the real-world by creating a 3d model of what the back-facing camera sees in real-time. Place a virtual capture box around a subject, start scanning and simply walk around the subject to progressively fill in the gaps. When you&amp;rsquo;re happy with the result, you can export the 3d model to a file that you can share with your friends or upload to an online repository.</description>
     </item>
     
     <item>
