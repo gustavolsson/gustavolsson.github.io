@@ -702,6 +702,19 @@
     </item>
     
     <item>
+      <title>Real-Time Raytracer (CPU)</title>
+      <link>http://gustavolsson.com/projects/real-time-raytracer-old/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/real-time-raytracer-old/</guid>
+      <description>&lt;p&gt;A short-lived experiment with real-time raytring on the CPU, written in C++.&lt;/p&gt;
+&lt;p&gt;The idea was that one could use an adaptively tesselated screen space grid to only raytrace pixels that influenced the end result greatly, for example pixels along the edge of an object or edge of a region in shadow.&lt;/p&gt;
+&lt;p&gt;If the 4 corner pixels of a grid cell where different enough, the grid cell would be subdivided into 4 sub-cells that were evaluated further. Once a grid cell was deemed &amp;ldquo;good enough&amp;rdquo;, pixels still left inside the cell were colored using linear interpolation.&lt;/p&gt;
+&lt;p&gt;The inner workings of the algorithm is most visible in the first set of images in the gallery below:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Early Projects (1999-2006)</title>
       <link>http://gustavolsson.com/projects/early-projects/</link>
       <pubDate>Fri, 01 Jan 1999 00:00:00 +0000</pubDate>

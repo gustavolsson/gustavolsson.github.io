@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html><head>
+    <title>Real-Time Raytracer (CPU) - Gustav Olsson</title>
+    
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="alternate" type="application/rss+xml" href="http://gustavolsson.com/index.xml" title="Gustav Olsson">
+</head>
+<body>
+        <div class="menu">
+            <p><b>gustav olsson</b></p>
+            
+                <p class="link"><a href="/blog/">blog</a></p>
+            
+                <p class="link"><a href="/projects/">projects</a></p>
+            
+                <p class="link"><a href="/contact/">contact</a></p>
+            
+                <p class="link"><a href="/about/">about</a></p>
+            
+                <p class="link"><a href="/index.xml">rss feed</a></p>
+            
+        </div>
+        <div class="content"><div class="header"></div>
+
+<p>A short-lived experiment with real-time raytring on the CPU, written in C++.</p>
+<p>The idea was that one could use an adaptively tesselated screen space grid to only raytrace pixels that influenced the end result greatly, for example pixels along the edge of an object or edge of a region in shadow.</p>
+<p>If the 4 corner pixels of a grid cell where different enough, the grid cell would be subdivided into 4 sub-cells that were evaluated further. Once a grid cell was deemed &ldquo;good enough&rdquo;, pixels still left inside the cell were colored using linear interpolation.</p>
+<p>The inner workings of the algorithm is most visible in the first set of images in the gallery below:</p>
+<div class="gallery">
+
+
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/real-time-raytracer-old/01.png"><img width="100%" src="http://gustavolsson.com/projects/real-time-raytracer-old/01_hu62190efdc5aa1fe7d10951bb8cedd488_32730_400x0_resize_q90_bgffffff_box_3.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/real-time-raytracer-old/02.png"><img width="100%" src="http://gustavolsson.com/projects/real-time-raytracer-old/02_hub7c9ddee597441e8e7ed7eec4dbb1657_44660_400x0_resize_q90_bgffffff_box_3.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/real-time-raytracer-old/03.png"><img width="100%" src="http://gustavolsson.com/projects/real-time-raytracer-old/03_hu9c9e5909db76f39db13fe8d5d9b45712_37742_400x0_resize_q90_bgffffff_box_3.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/real-time-raytracer-old/04.png"><img width="100%" src="http://gustavolsson.com/projects/real-time-raytracer-old/04_huccf259248c1f63ab7651b3c560911122_54915_400x0_resize_q90_bgffffff_box_3.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/real-time-raytracer-old/05.png"><img width="100%" src="http://gustavolsson.com/projects/real-time-raytracer-old/05_hu940c38defc3763db4990a2e679a1cfcd_55188_400x0_resize_q90_bgffffff_box_3.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/real-time-raytracer-old/06.png"><img width="100%" src="http://gustavolsson.com/projects/real-time-raytracer-old/06_hue8dbef3319ddfe1abae7f3592469ae0e_109444_400x0_resize_q90_bgffffff_box_3.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/real-time-raytracer-old/07.png"><img width="100%" src="http://gustavolsson.com/projects/real-time-raytracer-old/07_huf2cef702d72b503ee57fa485f7c4cf2b_101121_400x0_resize_q90_bgffffff_box_3.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/real-time-raytracer-old/08.png"><img width="100%" src="http://gustavolsson.com/projects/real-time-raytracer-old/08_hu65527dab8ca781e1b62df3efc14dfa45_47045_400x0_resize_q90_bgffffff_box_3.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/real-time-raytracer-old/09.png"><img width="100%" src="http://gustavolsson.com/projects/real-time-raytracer-old/09_hu7b89125fc9203e5234226850e048a577_64032_400x0_resize_q90_bgffffff_box_3.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/real-time-raytracer-old/10.png"><img width="100%" src="http://gustavolsson.com/projects/real-time-raytracer-old/10_hu62f8ee24bf38114a32e8d6ede95dcbdc_106832_400x0_resize_q90_bgffffff_box_3.jpg"></a></p>
+    </div>
+
+    
+    
+    <div class="item">
+        <p><a href="http://gustavolsson.com/projects/real-time-raytracer-old/11.png"><img width="100%" src="http://gustavolsson.com/projects/real-time-raytracer-old/11_hu552fc2ea7e32dcc2499b0b42393b80c6_58170_400x0_resize_q90_bgffffff_box_3.jpg"></a></p>
+    </div>
+
+</div>
+<div class="footer">Copyright 2022 Gustav Olsson</div>
+</div>
+        <div class="sidebar"><p class="dim"><i>2006-01-01</i></p>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+    </body>
+</html>
