@@ -8,6 +8,23 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Sep 2020 21:55:57 +0200</lastBuildDate><atom:link href="http://gustavolsson.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>turn3d v1.1.2</title>
+      <link>http://gustavolsson.com/blog/turn3d-v1.1/</link>
+      <pubDate>Wed, 06 Jul 2022 19:46:18 +0200</pubDate>
+      
+      <guid>http://gustavolsson.com/blog/turn3d-v1.1/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve recently spent some time improving and re-releasing my 3d scanning app for iOS, &lt;a href=&#34;http://gustavolsson.com/projects/turn3d/&#34;&gt;turn3d&lt;/a&gt;. The following are the most notable changes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Significantly more stable tracking&lt;/li&gt;
+&lt;li&gt;Occluded parts of a scan no longer degrade as the focus moves to something else&lt;/li&gt;
+&lt;li&gt;Improved voxel field accumulation that results in less noise&lt;/li&gt;
+&lt;li&gt;Interactive orbit camera in preview screen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please &lt;a href=&#34;http://gustavolsson.com/contact/&#34;&gt;let me know&lt;/a&gt; if you find the app useful!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Hello! (New website in 2020)</title>
       <link>http://gustavolsson.com/blog/hello-2020/</link>
       <pubDate>Sat, 26 Sep 2020 21:38:11 +0200</pubDate>
