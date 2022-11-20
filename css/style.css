@@ -105,7 +105,6 @@ blockquote strong {
 .projects .project img {
     width: 100%;
     height: 100%;
-    border-radius: 40%;
 }
 
 .projects .project .text {
@@ -117,7 +116,6 @@ blockquote strong {
     font-size: 10pt;
     padding: 6px 6px 6px 6px;
     background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 8px;
 }
 
 .header {
