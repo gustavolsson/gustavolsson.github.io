@@ -48,11 +48,11 @@
     </item>
     
     <item>
-      <title>Rope Minikit</title>
-      <link>http://gustavolsson.com/projects/rope-minikit/</link>
+      <title>Rope Toolkit</title>
+      <link>http://gustavolsson.com/projects/rope-toolkit/</link>
       <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://gustavolsson.com/projects/rope-minikit/</guid>
+      <guid>http://gustavolsson.com/projects/rope-toolkit/</guid>
       <description>&lt;div class=&#34;video&#34;&gt;
     &lt;iframe
         src=&#34;https://www.youtube-nocookie.com/embed/ogJTIjGgG9U&#34;
@@ -62,11 +62,13 @@
         allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;rope-minikit&#34;&gt;Rope Minikit&lt;/h2&gt;
-&lt;p&gt;The Rope Minikit brings stable rope physics to your project. The rope component can be used to simulate simple wires or more advanced setups with pulleys and weights that require active collision detection. The bundled example scene shows how to connect the rope for a physically simulated crane, a rope bridge and set of swings. The rope component is written with performance in mind and many compute intensive tasks are handled by &lt;a href=&#34;https://unity.com/dots&#34;&gt;Unity jobs on separate threads accelerated using the Burst compiler&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;rope-toolkit&#34;&gt;Rope Toolkit&lt;/h2&gt;
+&lt;p&gt;The Rope Toolkit brings &lt;em&gt;stable&lt;/em&gt; and &lt;em&gt;fast&lt;/em&gt; rope physics to your project. The rope component can be used to simulate simple wires or more advanced setups with pulleys and weights that require active collision detection. The bundled example scenes show how to connect the rope up to simulate cranes, rope bridges, swings and a boxing ring.&lt;/p&gt;
+&lt;p&gt;The rope component is written with performance in mind and many compute intensive tasks are handled by &lt;a href=&#34;https://unity.com/dots&#34;&gt;Unity jobs on separate threads accelerated using the Burst compiler&lt;/a&gt;. As a result, the toolkit has excellent performance on mobile devices.&lt;/p&gt;
 &lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;Stable rope physics&lt;/li&gt;
+&lt;li&gt;Stable &amp;amp; fast rope physics&lt;/li&gt;
+&lt;li&gt;Mobile friendly!&lt;/li&gt;
 &lt;li&gt;Many tweakable user parameters&lt;/li&gt;
 &lt;li&gt;Ability to dynamically split ropes using the SplitAt() method&lt;/li&gt;
 &lt;li&gt;4 different rope connection types allow interaction with the rest of the scene
@@ -95,28 +97,36 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;Full source code&lt;/li&gt;
-&lt;li&gt;Example scene contains:
+&lt;li&gt;Example scenes
 &lt;ul&gt;
-&lt;li&gt;Physically simulated crane&lt;/li&gt;
-&lt;li&gt;Rope bridge&lt;/li&gt;
-&lt;li&gt;Swings&lt;/li&gt;
-&lt;li&gt;Mouse interaction script&lt;/li&gt;
+&lt;li&gt;Main
+&lt;ul&gt;
+&lt;li&gt;Shows how ropes and rigidbodies can be connected together in a typical scene&lt;/li&gt;
+&lt;li&gt;Use the mouse to interact with the rope and the Space key to split ropes being interacted with&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;DynamicAttach
+&lt;ul&gt;
+&lt;li&gt;Shows how to attach and detach ropes using the scripts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;BoxingRing
+&lt;ul&gt;
+&lt;li&gt;Shows how rope and rigidbodies can influence each other through collisions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;current-limitations&#34;&gt;Current Limitations&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Collision support for convex Mesh, Box, Sphere and Capsule colliders only&lt;/li&gt;
-&lt;li&gt;It is difficult to get perfectly stiff ropes unless very small physics time steps are used&lt;/li&gt;
-&lt;li&gt;Rope bridge currently only takes the resting mass of colliding rigidbodies into account, there is no impact effect&lt;/li&gt;
 &lt;li&gt;Scripting knowledge required for creating stable rope suspended platforms other than rope bridges&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;requirements&#34;&gt;Requirements&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Burst 1.1.2 or above&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;about-the-minikits&#34;&gt;About the Minikits&lt;/h4&gt;
-&lt;p&gt;Minikits are small, tweakable and extendable packages with full source code that illustrate how to implement interesting behaviours for your project. They&amp;rsquo;re designed to be easy-to-use and self-explanatory.&lt;/p&gt;
 </description>
     </item>
     
