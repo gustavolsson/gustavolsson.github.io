@@ -22,9 +22,11 @@
                 <a href="/index.xml"><img src="/img/rss.svg" width="20px" height="20px"></a>
             </p>
         </div>
-        <div class="content"><div class="header"></div>
+        <div class="container">
+            <div class="content"><div class="header"></div>
 
-<p>For the last couple of weeks, I&rsquo;ve been working on a custom laser scanner design. Basically, a laser scanner is a device that uses 2 mirrors to direct a laser beam to a specific point in space and it can, when moving fast enough, be used to draw geometric patterns onto some planar surface. The reason I&rsquo;m interested in building a laser scanner is that they&rsquo;re a fundamental component of many CNC machines such as high-end 3d printers (based on the Selective Laser Sintering (SLS) or Stereolithography (SLA) techniques) or etching machines.</p>
+<div class="clampwidth">
+    <p>For the last couple of weeks, I&rsquo;ve been working on a custom laser scanner design. Basically, a laser scanner is a device that uses 2 mirrors to direct a laser beam to a specific point in space and it can, when moving fast enough, be used to draw geometric patterns onto some planar surface. The reason I&rsquo;m interested in building a laser scanner is that they&rsquo;re a fundamental component of many CNC machines such as high-end 3d printers (based on the Selective Laser Sintering (SLS) or Stereolithography (SLA) techniques) or etching machines.</p>
 <p>The plan is to first create a XY-scanner module that is capable of reasonable resolution (~50 micrometers = 0.05mm) within a small rectangular area (100x100mm) on a planar surface. The next step is to design an open-source laser etching module that can be used as an experimentation platform for different manufacturing techniques. The first steps could be laser etching or even cutting of very thin sheets of different materials. When this works, I imagine add-ons to this platform that enables SLS or SLA 3d printing with minimal external components.</p>
 <p>I&rsquo;ve completed a first prototype using stepper motors to drive the 2 mirrors. The stepper motors have a resolution of 0.9 degrees per step, resulting in 400 steps per revolution. This is nowhere near the resolution required but I wanted to experiment with how well microstepping can increase this resolution in practice. In theory, microstepping should increase the resolution by 32-128x depending on what motor driver is used. In practice however, the microsteps are not even enough to be usable. The motor can step 4-8 microsteps with reasonable linearity but every now and then a &ldquo;microstep&rdquo; occurs that is 2-4 times the angle of the others. Increasing the current limit makes it better, but the current required to make the movement reasonably smooth at low speeds is so great that the motor becomes extremely hot and starts to stall. I&rsquo;ve tried with one Nema 14 motor with a rated current of 0.5A and one Nema 17 motor rated for 1.2A.</p>
 <div class="video">
@@ -45,9 +47,11 @@
 
 
 </div>
-<div class="footer">Copyright 2022 Gustav Olsson</div>
 </div>
-        <div class="sidebar"><p class="dim"><i>2015-11-15</i></p>
+<div class="footer">Copyright 2022 Gustav Olsson</div>
+</div><div class="sidebar">
+
+<p class="dim"><i>2015-11-15</i></p>
 
 
 
@@ -60,6 +64,7 @@
 
 
 
+</div>
 </div>
     </body>
 </html>

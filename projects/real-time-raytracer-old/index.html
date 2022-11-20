@@ -22,9 +22,11 @@
                 <a href="/index.xml"><img src="/img/rss.svg" width="20px" height="20px"></a>
             </p>
         </div>
-        <div class="content"><div class="header"></div>
+        <div class="container">
+            <div class="content"><div class="header"></div>
 
-<p>A short-lived experiment with real-time raytring on the CPU, written in C++.</p>
+<div class="clampwidth">
+    <p>A short-lived experiment with real-time raytring on the CPU, written in C++.</p>
 <p>The idea was that one could use an adaptively tesselated screen space grid to only raytrace pixels that influenced the end result greatly, for example pixels along the edge of an object or edge of a region in shadow.</p>
 <p>If the 4 corner pixels of a grid cell where different enough, the grid cell would be subdivided into 4 sub-cells that were evaluated further. Once a grid cell was deemed &ldquo;good enough&rdquo;, pixels still left inside the cell were colored using linear interpolation.</p>
 <p>The inner workings of the algorithm is most visible in the first set of images in the gallery below:</p>
@@ -99,9 +101,11 @@
     </div>
 
 </div>
-<div class="footer">Copyright 2022 Gustav Olsson</div>
 </div>
-        <div class="sidebar"><p class="dim"><i>2006-01-01</i></p>
+<div class="footer">Copyright 2022 Gustav Olsson</div>
+</div><div class="sidebar">
+
+<p class="dim"><i>2006-01-01</i></p>
 
 
 
@@ -114,6 +118,7 @@
 
 
 
+</div>
 </div>
     </body>
 </html>
