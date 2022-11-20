@@ -5,11 +5,10 @@ body {
 }
 
 blockquote {
-    border: 2px solid black;
-    border-radius: 16px;
-    margin: 16px 0 16px 0;
-    padding: 8px;
-    overflow-x: hidden;
+    border: 0.1em solid black;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
 }
 
 blockquote p {
@@ -17,31 +16,9 @@ blockquote p {
 }
 
 blockquote strong {
-    padding: 2px 2px 2px 2px;
-    border-radius: 8px;
+    padding: 0.1em;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-}
-
-.menu {
-    /* border: 6px solid green; */
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200px;
-    padding-top: 60px;
-}
-
-.menu p {
-    display: block;
-    margin-left: 32px;
-    /* color: rgb(255, 82, 86); */
-}
-
-.menu p.link {
-    margin-left: 40px;
-    margin-top: 16px;
-    margin-bottom: 16px;
 }
 
 .container {
@@ -50,19 +27,38 @@ blockquote strong {
     display: flex;
     flex-direction: row;
     top: 0;
-    left: 200px;
-    right: 10%;
+    left: 0;
+    right: 0;
+}
+
+.menu {
+    /* border: 4px solid green; */
+    flex: 0 0 auto;
+    width: 20%;
+    padding-top: 4em;
+}
+
+.menu p {
+    display: block;
+    margin-left: 30%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /* color: rgb(255, 82, 86); */
+}
+
+.menu p.link {
+    margin-left: 35%;
 }
 
 .sidebar {
     /* border: 4px solid red; */
-    flex: 1 0 auto;
-    width: 280px;
-    padding-top: 60px;
+    flex: 80 1 auto;
+    padding-top: 6em;
 }
 
 .sidebar p {
-    margin-left: 32px;
+    margin-left: 2em;
+    max-width: 20em;
 }
 
 .dim {
@@ -72,16 +68,30 @@ blockquote strong {
 .content {
     /* border: 4px solid yellow; */
     flex: 1 1 auto;
-    padding-top: 70px;
+    padding-top: 6em;
 }
 
 .content .clampwidth {
-    max-width: 600px;
+    /* border: 2px solid green; */
+    max-width: 36em;
 }
 
 .post {
     /* border: 1px solid blue; */
-    padding-bottom: 16px;
+    padding-bottom: 1em;
+}
+
+.post h3 {
+    margin-bottom: 0.5em;
+}
+
+.post div {
+    margin-top: 1em;
+}
+
+.post p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .gallery {
@@ -98,8 +108,8 @@ blockquote strong {
 .projects {
     display: grid;
     grid-template-columns: repeat(auto-fill, 180px);
-    grid-column-gap: 8px;
-    grid-row-gap: 8px;
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
 }
 
 .projects .project {
