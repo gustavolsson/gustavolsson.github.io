@@ -208,10 +208,15 @@
 &lt;td&gt;2021.2.6f1, 2021.2.19f1&lt;/td&gt;
 &lt;td&gt;12.1.2, 12.1.6&lt;/td&gt;
 &lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Unity 2021.3&lt;/td&gt;
+&lt;td&gt;2021.3.22f1&lt;/td&gt;
+&lt;td&gt;12.1.10&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Important note on URP 7.2-10.5&lt;/strong&gt;: Unity changed the way shadows are handled between URP 7.2 and 10.5 and as a result, the most natural shadow mode (&amp;ldquo;Inject Into Screen Space Shadow Resolve Texture&amp;rdquo;) is not available in these versions. Supported versions are stated above. Starting with Unity 2021 and URP 11, the toolkit is again feature complete!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt; Due to the large number of possible Unity/URP version combinations, only the above combinations are officially supported.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
     </item>
