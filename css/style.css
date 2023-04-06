@@ -4,11 +4,15 @@ body {
     background-color: rgb(255, 253, 250);
 }
 
+a {
+    color: royalblue;
+}
+
 blockquote {
     border: 0.1em solid black;
-    border-radius: 1em;
-    margin: 1em;
-    padding: 1em;
+    border-radius: 0.5em;
+    margin: 1em 0.5em 1em 0.5em;
+    padding: 0.5em;
 }
 
 blockquote p {
@@ -94,8 +98,8 @@ blockquote strong {
 }
 
 .post p {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    /*margin-top: 0.5em;
+    margin-bottom: 0.5em;*/
 }
 
 .gallery {

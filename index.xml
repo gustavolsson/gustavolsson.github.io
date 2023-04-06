@@ -370,7 +370,7 @@
       <guid>http://gustavolsson.com/projects/sokol-android/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/sokol-android/phone.jpg&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/sokol-android/phone_hu535661bce2c742bf7a0f6a055ac0b6d1_1581504_500x0_resize_q70_box.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/sokol-android/phone.jpg&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/sokol-android/phone_hu535661bce2c742bf7a0f6a055ac0b6d1_1581504_1200x0_resize_q70_box.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;The Sokol libraries by &lt;a href=&#34;https://twitter.com/FlohOfWoe&#34;&gt;@Andre Weissflog&lt;/a&gt; are simple &lt;a href=&#34;https://github.com/nothings/stb/blob/master/docs/stb_howto.txt&#34;&gt;STB-style&lt;/a&gt; cross-platform libraries for C and C++ (written in C) that make it easy to create 2d and 3d graphics projects that work on multiple platforms.&lt;/p&gt;
 &lt;p&gt;As I had an Android phone at the time, I spent some time implementing Android support in the Sokol library that takes care of context creation, &lt;code&gt;sokol_app.h&lt;/code&gt;. My changes were merged in January 2019.&lt;/p&gt;
@@ -385,7 +385,7 @@
       <guid>http://gustavolsson.com/projects/pico8-display-driver/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/pico8-display-driver/dd_jelpi.jpg&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/pico8-display-driver/dd_jelpi_hu0e59e5cbb7aafc4c6c796ed314c54d2b_1171914_500x0_resize_q70_box.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/pico8-display-driver/dd_jelpi.jpg&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/pico8-display-driver/dd_jelpi_hu0e59e5cbb7aafc4c6c796ed314c54d2b_1171914_1200x0_resize_q70_box.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;pico-8-display-driver&#34;&gt;PICO-8 Display Driver&lt;/h2&gt;
 &lt;p&gt;I got an idea the other day to write a display driver in PICO-8 using the GPIO pins and here it is. The cart replaces the &lt;code&gt;flip()&lt;/code&gt; function with a custom one that writes the PICO-8 frame buffer to a connected display (with a ssd1351 controller) over &lt;a href=&#34;https://en.wikipedia.org/wiki/Serial_Peripheral_Interface&#34;&gt;SPI&lt;/a&gt; using the GPIO pins on a Raspberry Pi. Turns out that it actually works :)&lt;/p&gt;
@@ -504,7 +504,7 @@
       <guid>http://gustavolsson.com/projects/resin-printer-idea/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/resin-printer-idea/sketch.jpg&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/resin-printer-idea/sketch_hu96917e10bf73bb983323b5b353061619_664476_500x0_resize_q70_box.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/resin-printer-idea/sketch.jpg&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/resin-printer-idea/sketch_hu96917e10bf73bb983323b5b353061619_664476_1200x0_resize_q70_box.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;top-down-resin-3d-printer-idea&#34;&gt;Top-Down Resin 3d Printer Idea&lt;/h2&gt;
 &lt;p&gt;The idea is to use a pocket of air to keep the surface level of the resin constant throughout the build, guaranteeing consistent layer heights. In addition, the higher pressure might ease reflow of resin after dipping?&lt;/p&gt;
@@ -520,7 +520,7 @@
       <guid>http://gustavolsson.com/projects/mail-monster/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/mail-monster/1.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/mail-monster/1_hu6445cea4e11c16c369e927816de56f3c_60351_500x0_resize_q70_bgffffff_box_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/mail-monster/1.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/mail-monster/1_hu6445cea4e11c16c369e927816de56f3c_60351_1200x0_resize_q70_bgffffff_box_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;mail-monster-ludum-dare-33&#34;&gt;Mail Monster (Ludum Dare #33)&lt;/h2&gt;
 &lt;p&gt;You are the mail monster, pick up the mail without ruining the whole town! (You get a time penalty if you happen to destroy anything)&lt;/p&gt;
@@ -536,7 +536,7 @@
       <guid>http://gustavolsson.com/projects/dobutsu-ball/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/dobutsu-ball/Title.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/dobutsu-ball/Title_hu4e20d11e5d28acb5c233ba5b6dc6a042_4684345_500x0_resize_q70_bgffffff_box_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/dobutsu-ball/Title.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/dobutsu-ball/Title_hu4e20d11e5d28acb5c233ba5b6dc6a042_4684345_1200x0_resize_q70_bgffffff_box_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;dōbutsu-ball-no-more-sweden-2014&#34;&gt;Dōbutsu Ball (No More Sweden 2014)&lt;/h2&gt;
 &lt;p&gt;Me and two friends, &lt;a href=&#34;https://twitter.com/ossianboren&#34;&gt;Ossian&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/kjellhaften&#34;&gt;Kjell&lt;/a&gt;, made a game called Dōbutsu Ball during the No More Sweden 2014 game jam. It&amp;rsquo;s a game about two animals trapped in an eternal dodgeball match.&lt;/p&gt;
@@ -583,7 +583,7 @@
       <guid>http://gustavolsson.com/projects/shadow-volumes-toolkit/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/shadow-volumes-toolkit/1.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/shadow-volumes-toolkit/1_hu4d55def35ea0a7d7f457348786022a5a_231336_500x0_resize_q70_bgffffff_box_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/shadow-volumes-toolkit/1.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/shadow-volumes-toolkit/1_hu4d55def35ea0a7d7f457348786022a5a_231336_1200x0_resize_q70_bgffffff_box_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;shadow-volumes-toolkit&#34;&gt;Shadow Volumes Toolkit&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -695,7 +695,7 @@
       <guid>http://gustavolsson.com/projects/seaside-racing-xblig/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/seaside-racing-xblig/logo.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/seaside-racing-xblig/logo_hueb100b72a2ac6c06d21dc19eb9d6ece7_103663_500x0_resize_q70_bgffffff_box_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/seaside-racing-xblig/logo.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/seaside-racing-xblig/logo_hueb100b72a2ac6c06d21dc19eb9d6ece7_103663_1200x0_resize_q70_bgffffff_box_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;seaside-racing-original&#34;&gt;Seaside Racing (Original)&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/seaside-racing/&#34;&gt;Check out the remastered version here!&lt;/a&gt;&lt;/p&gt;
@@ -718,7 +718,7 @@
       <guid>http://gustavolsson.com/projects/sailor/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/sailor/1.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/sailor/1_hub03ba823582ca3490a568a8be7a7a784_40232_500x0_resize_q70_bgffffff_box_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/sailor/1.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/sailor/1_hub03ba823582ca3490a568a8be7a7a784_40232_1200x0_resize_q70_bgffffff_box_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;sailor-ludum-dare-11&#34;&gt;Sailor (Ludum Dare #11)&lt;/h2&gt;
 &lt;p&gt;The game let’s you build a boat and sail the sea. Try to stay afloat as long as possible, it’s not as easy as it sounds!&lt;/p&gt;
@@ -733,7 +733,7 @@
       <guid>http://gustavolsson.com/projects/physics-engine-old/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/physics-engine-old/6.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/physics-engine-old/6_hu9d9c4f4d0fa852c912334d7d9c496874_68176_500x0_resize_q70_bgffffff_box_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/physics-engine-old/6.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/physics-engine-old/6_hu9d9c4f4d0fa852c912334d7d9c496874_68176_1200x0_resize_q70_bgffffff_box_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;physics-engine&#34;&gt;Physics Engine&lt;/h2&gt;
 &lt;p&gt;This is a 3d rigidbody physics engine I wrote in high-school. I later used it to create the &lt;a href=&#34;http://gustavolsson.com/projects/seaside-racing-xblig/&#34;&gt;original&lt;/a&gt; and the &lt;a href=&#34;http://gustavolsson.com/projects/seaside-racing/&#34;&gt;remastered&lt;/a&gt; version of Seaside Racing.&lt;/p&gt;
@@ -763,7 +763,7 @@
       <guid>http://gustavolsson.com/projects/early-projects/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/early-projects/robo2.jpg&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/early-projects/robo2_hua3111abb8b3e8862f83204d59f567fdc_14484_500x0_resize_q70_box.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/early-projects/robo2.jpg&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/early-projects/robo2_hua3111abb8b3e8862f83204d59f567fdc_14484_1200x0_resize_q70_box.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;early-projects-1999-to-2007&#34;&gt;Early Projects (1999 to 2007)&lt;/h2&gt;
 &lt;p&gt;This page is dedicated to my early travels into programming and computer graphics. The code for most of these experiments and small programs are long gone, but I&amp;rsquo;ve managed to find some remnants in the form of screenshots :)&lt;/p&gt;
