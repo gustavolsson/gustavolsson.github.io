@@ -146,13 +146,14 @@
 &lt;/div&gt;
 
 &lt;h2 id=&#34;sharp-shadows-toolkit&#34;&gt;Sharp Shadows Toolkit&lt;/h2&gt;
-&lt;p&gt;The Sharp Shadows Toolkit is a code package that brings sharp, pixel-perfect shadows to your Lightweight/Universal Render Pipeline project. Many games and experiences target a non-photo-realistic art style for which sharp shadows are better suited than the built-in shadows that tend to be either too soft or too jagged, especially on low quality settings.&lt;/p&gt;
-&lt;p&gt;The toolkit can be useful in a wide variety of scenarios, from a single accurate drop-shadow for the main character in a mobile game to ubiquitous high quality shadows for an architecture visualization project.&lt;/p&gt;
+&lt;p&gt;The Sharp Shadows Toolkit is a code package that brings sharp, pixel-perfect shadows to your Universal Render Pipeline (URP) project. Many games and experiences target a non-photo-realistic art style for which sharp shadows are better suited than the built-in shadows that tend to be either too soft or too jagged, especially on low quality settings.&lt;/p&gt;
+&lt;p&gt;The toolkit can be useful in a wide variety of scenarios, from old-school drop shadows for characters in a mobile game to ubiquitous high quality shadows for an architecture visualization project.&lt;/p&gt;
 &lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Dynamic pixel-perfect shadows for the Lightweight/Universal Render Pipeline&lt;/li&gt;
 &lt;li&gt;No jagged shadow edges or visible pixels&lt;/li&gt;
 &lt;li&gt;Seamless editor integration using automatic asset post processing&lt;/li&gt;
+&lt;li&gt;Custom shadow direction for e.g. drop shadows&lt;/li&gt;
 &lt;li&gt;Two rendering modes
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Inject Into Screen Space Shadow Resolve Texture&lt;/code&gt;: Inject into screen space shadow texture for optimal image quality&lt;/li&gt;
