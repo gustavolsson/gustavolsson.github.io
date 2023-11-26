@@ -8,6 +8,23 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Apr 2020 19:29:21 +0200</lastBuildDate><atom:link href="http://gustavolsson.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>uxnfloppy</title>
+      <link>http://gustavolsson.com/projects/uxnfloppy/</link>
+      <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/uxnfloppy/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/uxnfloppy/uxnfloppy_noodle.jpg&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/uxnfloppy/uxnfloppy_noodle_hua560b467d8c45c5fbedeec51ba992883_2319862_1200x0_resize_q70_box.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;uxnfloppy&#34;&gt;uxnfloppy&lt;/h2&gt;
+&lt;p&gt;uxnfloppy is a bootable &lt;a href=&#34;https://100r.co/site/uxn.html&#34;&gt;Uxn/Varvara emulator&lt;/a&gt;/operating system that aims to be able to run graphical Uxn roms on any x86 computer built since the early 90s using only a floppy disk or thumb drive, no pre-installed operating system necessary.&lt;/p&gt;
+&lt;p&gt;The project is written in 16bit x86 assembly targetting BIOS and uses VGA for graphics and PS/2 for mouse and keyboard input. It&amp;rsquo;s not portable to other architectures (such as ARM) or the newest PCs (that lack legacy BIOS support), but it has been a great learning experience and I actually like the fact that it only works on what&amp;rsquo;s usually called &amp;ldquo;obsolete tech&amp;rdquo;, especially in the light of the massive e-waste problem.&lt;/p&gt;
+&lt;p&gt;The project is currently very work-in-progress, but I will create a public open-source repository once it&amp;rsquo;s a bit more feature complete and cleaned up.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>turn3d v1.1.2</title>
       <link>http://gustavolsson.com/blog/turn3d-v1.1/</link>
       <pubDate>Wed, 06 Jul 2022 19:46:18 +0200</pubDate>

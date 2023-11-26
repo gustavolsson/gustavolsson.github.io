@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://gustavolsson.com/projects/</loc>
+    <lastmod>2023-07-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://gustavolsson.com/projects/uxnfloppy/</loc>
+    <lastmod>2023-07-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://gustavolsson.com/blog/turn3d-v1.1/</loc>
     <lastmod>2022-07-06T19:46:18+02:00</lastmod>
   </url><url>
@@ -22,9 +28,6 @@
   </url><url>
     <loc>http://gustavolsson.com/about/</loc>
     <lastmod>2020-04-22T19:27:55+02:00</lastmod>
-  </url><url>
-    <loc>http://gustavolsson.com/projects/</loc>
-    <lastmod>2020-01-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://gustavolsson.com/projects/turn3d/</loc>
     <lastmod>2020-01-22T00:00:00+00:00</lastmod>
