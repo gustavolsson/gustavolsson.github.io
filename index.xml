@@ -8,6 +8,38 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 22 Apr 2020 19:29:21 +0200</lastBuildDate><atom:link href="http://gustavolsson.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>December Adventure 2023</title>
+      <link>http://gustavolsson.com/projects/december-adventure-2023/</link>
+      <pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/december-adventure-2023/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://eli.li/december-adventure&#34;&gt;Eli&amp;rsquo;s December Adventure&lt;/a&gt; is a low-key alternative to &lt;a href=&#34;https://adventofcode.com/&#34;&gt;Advent of Code&lt;/a&gt; focused on working on personal projects every day throughout December.&lt;/p&gt;
+&lt;p&gt;As I find it hard to dedicate time to work on personal projects daily, my plan for the adventure is not necessarily to be productive every day but to stay focused on the things I want to do.&lt;/p&gt;
+&lt;p&gt;Here are my plans:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Make it possible to run large roms in &lt;a href=&#34;http://gustavolsson.com/projects/uxnfloppy/&#34;&gt;uxnfloppy&lt;/a&gt; and, if I have the time, add support for the File device and read/writes to the USB stick/floppy&lt;/li&gt;
+&lt;li&gt;Make a debug/gizmo renderer for my 3d game engine &lt;a href=&#34;http://gustavolsson.com/projects/sprout-engine/&#34;&gt;sprout&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;To show collision volumes, camera frustums and the like&lt;/li&gt;
+&lt;li&gt;Figure out how to handle singleton-like features that should be callable from anywhere (e.g. &lt;code&gt;gizmoDrawLine(...)&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Show the camera frustum of nodes with the Camera attribute&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Make an uxn rom with the forest or ocean scene I have been thinking about&lt;/li&gt;
+&lt;li&gt;Bring the camera with me more often, and take more pictures&lt;/li&gt;
+&lt;li&gt;Improve my daily routine, waste less time&lt;/li&gt;
+&lt;li&gt;Be more present when I&amp;rsquo;m not at the computer&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Others&amp;rsquo; adventures I&amp;rsquo;m following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://wastingmoves.com/december_adventure_2023.html&#34;&gt;tbsp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://plastic-idolatry.com/erik/2023/dec/&#34;&gt;d_m&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rabbits.srht.site/decadv/&#34;&gt;100 rabbits&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>uxnfloppy</title>
       <link>http://gustavolsson.com/projects/uxnfloppy/</link>
       <pubDate>Fri, 21 Jul 2023 00:00:00 +0000</pubDate>
@@ -21,6 +53,21 @@
 &lt;p&gt;uxnfloppy is a bootable &lt;a href=&#34;https://100r.co/site/uxn.html&#34;&gt;Uxn/Varvara emulator&lt;/a&gt;/operating system that aims to be able to run graphical Uxn roms on any x86 computer built since the early 90s using only a floppy disk or thumb drive, no pre-installed operating system necessary.&lt;/p&gt;
 &lt;p&gt;The project is written in 16bit x86 assembly targetting BIOS and uses VGA for graphics and PS/2 for mouse and keyboard input. It&amp;rsquo;s not portable to other architectures (such as ARM) or the newest PCs (that lack legacy BIOS support), but it has been a great learning experience and I actually like the fact that it only works on what&amp;rsquo;s usually called &amp;ldquo;obsolete tech&amp;rdquo;, especially in the light of the massive e-waste problem.&lt;/p&gt;
 &lt;p&gt;The project is currently very work-in-progress, but I will create a public open-source repository once it&amp;rsquo;s a bit more feature complete and cleaned up.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>sprout engine</title>
+      <link>http://gustavolsson.com/projects/sprout-engine/</link>
+      <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://gustavolsson.com/projects/sprout-engine/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/sprout-engine/1.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/sprout-engine/1_hufdcc95da6d2db8f82b3ec734305272f5_664054_1200x0_resize_q70_bgffffff_box_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;sprout-engine&#34;&gt;sprout engine&lt;/h2&gt;
+&lt;p&gt;Sprout is a minimalist 3d game engine written in C.&lt;/p&gt;
 </description>
     </item>
     
