@@ -51,6 +51,12 @@
 &lt;ul&gt;
 &lt;li&gt;Optimized uxnfloppy sprite drawing so that no non-screen memory is used when drawing a scanline!&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h3 id=&#34;day-5&#34;&gt;Day 5&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Reimplemented a slow version of Screen/pixel for vga mode 12 because I&amp;rsquo;m starting to feel jaded on the x86 assembly&lt;/li&gt;
+&lt;li&gt;Refactored DEO/DEI to use a device page. This gave a noticable speed-up!&lt;/li&gt;
+&lt;li&gt;noodle.tal is now running well on device in 640x480! Not sure if its 30fps or 60fps though, will need to investigate.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
