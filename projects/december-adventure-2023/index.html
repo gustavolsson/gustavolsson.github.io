@@ -32,8 +32,8 @@
 <ul>
 <li>Get my uxn emulator <a href="http://gustavolsson.com/projects/uxnfloppy/">uxnfloppy</a> to a releasable state
 <ul>
-<li>Optimize vga mode 12 (640x480) sprite drawing</li>
-<li>Refactor DEO/DEI to use a device page</li>
+<li><del>Optimize vga mode 12 (640x480) sprite drawing</del></li>
+<li><del>Refactor DEO/DEI to use a device page</del></li>
 <li>Make it possible to run large roms and, if I have the time, add support for the File device and read/writes to the USB stick/floppy</li>
 </ul>
 </li>
@@ -56,19 +56,28 @@
 <li><a href="https://rabbits.srht.site/decadv/">100 rabbits</a></li>
 </ul>
 <h2 id="progress">Progress</h2>
-<h3 id="day-2">Day 2</h3>
+<h3 id="day-7">Day 7</h3>
 <ul>
-<li>Thought about what I wanted and put up this page</li>
+<li>Implemented the Varvara&rsquo;s Datetime device using the BIOS CMOS real-time clock
+<ul>
+<li>It turned out to be easy and was a relief after the complicated vga mode 12/ps2 work</li>
 </ul>
-<h3 id="day-3-4">Day 3-4</h3>
-<ul>
-<li>Optimized uxnfloppy sprite drawing so that no non-screen memory is used when drawing a scanline!</li>
+</li>
+<li>With that done, bunnymark.tal reports correct fps and it runs at 30 fps up to 1000 bunnies, at which point it drops to 20 fps. I still want this emulator to be close to uxnemu in performance so there is still some ways to go, but I&rsquo;m happy for the time being. I want to investigate why bunnymark starts at 30 fps and not 60 fps with no bunnies at all, though.</li>
 </ul>
 <h3 id="day-5">Day 5</h3>
 <ul>
 <li>Reimplemented a slow version of Screen/pixel for vga mode 12 because I&rsquo;m starting to feel jaded on the x86 assembly</li>
 <li>Refactored DEO/DEI to use a device page. This gave a noticable speed-up!</li>
 <li>noodle.tal is now running well on device in 640x480! Not sure if its 30fps or 60fps though, will need to investigate.</li>
+</ul>
+<h3 id="day-3-4">Day 3-4</h3>
+<ul>
+<li>Optimized uxnfloppy sprite drawing so that no non-screen memory is used when drawing a scanline!</li>
+</ul>
+<h3 id="day-2">Day 2</h3>
+<ul>
+<li>Thought about what I wanted and put up this page</li>
 </ul>
 <div class="gallery">
 

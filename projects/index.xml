@@ -19,8 +19,8 @@
 &lt;ul&gt;
 &lt;li&gt;Get my uxn emulator &lt;a href=&#34;http://gustavolsson.com/projects/uxnfloppy/&#34;&gt;uxnfloppy&lt;/a&gt; to a releasable state
 &lt;ul&gt;
-&lt;li&gt;Optimize vga mode 12 (640x480) sprite drawing&lt;/li&gt;
-&lt;li&gt;Refactor DEO/DEI to use a device page&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;Optimize vga mode 12 (640x480) sprite drawing&lt;/del&gt;&lt;/li&gt;
+&lt;li&gt;&lt;del&gt;Refactor DEO/DEI to use a device page&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;Make it possible to run large roms and, if I have the time, add support for the File device and read/writes to the USB stick/floppy&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -43,19 +43,28 @@
 &lt;li&gt;&lt;a href=&#34;https://rabbits.srht.site/decadv/&#34;&gt;100 rabbits&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;progress&#34;&gt;Progress&lt;/h2&gt;
-&lt;h3 id=&#34;day-2&#34;&gt;Day 2&lt;/h3&gt;
+&lt;h3 id=&#34;day-7&#34;&gt;Day 7&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Thought about what I wanted and put up this page&lt;/li&gt;
+&lt;li&gt;Implemented the Varvara&amp;rsquo;s Datetime device using the BIOS CMOS real-time clock
+&lt;ul&gt;
+&lt;li&gt;It turned out to be easy and was a relief after the complicated vga mode 12/ps2 work&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;day-3-4&#34;&gt;Day 3-4&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Optimized uxnfloppy sprite drawing so that no non-screen memory is used when drawing a scanline!&lt;/li&gt;
+&lt;/li&gt;
+&lt;li&gt;With that done, bunnymark.tal reports correct fps and it runs at 30 fps up to 1000 bunnies, at which point it drops to 20 fps. I still want this emulator to be close to uxnemu in performance so there is still some ways to go, but I&amp;rsquo;m happy for the time being. I want to investigate why bunnymark starts at 30 fps and not 60 fps with no bunnies at all, though.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;day-5&#34;&gt;Day 5&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Reimplemented a slow version of Screen/pixel for vga mode 12 because I&amp;rsquo;m starting to feel jaded on the x86 assembly&lt;/li&gt;
 &lt;li&gt;Refactored DEO/DEI to use a device page. This gave a noticable speed-up!&lt;/li&gt;
 &lt;li&gt;noodle.tal is now running well on device in 640x480! Not sure if its 30fps or 60fps though, will need to investigate.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;day-3-4&#34;&gt;Day 3-4&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Optimized uxnfloppy sprite drawing so that no non-screen memory is used when drawing a scanline!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;day-2&#34;&gt;Day 2&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Thought about what I wanted and put up this page&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
