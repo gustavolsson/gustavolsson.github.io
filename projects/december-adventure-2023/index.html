@@ -56,6 +56,12 @@
 <li><a href="https://rabbits.srht.site/decadv/">100 rabbits</a></li>
 </ul>
 <h2 id="progress">Progress</h2>
+<h3 id="day-9">Day 9</h3>
+<ul>
+<li>Ran up against the slow vga bus again (6-8mhz) when blitting the backbuffer to screen which turned out to be why all roms were capped at 34 fps</li>
+<li>Optimized the blitting code to only blit changed layers and min/max byte offset</li>
+<li>noodle.tal now runs at 60 fps most of the time!</li>
+</ul>
 <h3 id="day-7">Day 7</h3>
 <ul>
 <li>Implemented the Varvara&rsquo;s Datetime device using the BIOS CMOS real-time clock
