@@ -166,9 +166,10 @@
       
       <guid>http://gustavolsson.com/contact/</guid>
       <description>&lt;p&gt;To get in touch with me, send an email to &lt;code&gt;contact@&amp;lt;my full name without spaces&amp;gt;.com&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you have a question regarding one of my Unity toolkits, send an email to &lt;code&gt;support@&amp;lt;my full name without spaces&amp;gt;.com&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;I make sure to answer every email I get but please note that I have a full-time job and that I only work on these projects in my spare time, so it can take some time for me to reply.&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;If you’re having a technical issue with any of my Unity3d toolkits, please prepare a &lt;code&gt;.unitypackage&lt;/code&gt; file that illustrates the problem so that I can quickly reproduce it on my end. Note that it usually takes some time for me to get back to you if the request requires testing on my end. Finally, I prioritize support for paid assets over free ones, but feel free to send me a question regardless!&lt;/p&gt;
+&lt;p&gt;If you’re having a technical issue with any of my Unity toolkits, please prepare a &lt;code&gt;.unitypackage&lt;/code&gt; file that illustrates the problem so that I can quickly reproduce it on my end. Note that it usually takes some time for me to get back to you if the request requires testing on my end. Finally, I prioritize support for paid assets over free ones, but feel free to send me a question regardless!&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
     </item>
