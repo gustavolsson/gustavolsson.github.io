@@ -435,38 +435,45 @@
       <description>&lt;p&gt;After getting an email from yet another person who enjoyed the original Seaside Racing back when it was released on the Xbox 360 in 2010, I decided to start working on a PC port last summer. After a few months of part-time work, it is finally done!&lt;/p&gt;
 &lt;p&gt;Check it out on itch.io here: &lt;a href=&#34;http://seasideracing.se&#34;&gt;seasideracing.se&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The gameplay should be exactly the same as the original and the graphics a bit better. The Xbox avatars have been replaced by my own set of randomly generated characters that look just mad enough. There is both keyboard and gamepad support now and there is also an option for 2 players to share a gamepad (in case you have fewer gamepads than players on the couch). There are also some small improvements: You can now see if someone is spectating (and waiting to join) and the host also has the ability to restart a race early (to let spectators into the game).&lt;/p&gt;
-&lt;p&gt;Most of the work I did was on the networking backend, I used the excellent MonoGame framework to replace the deprecated XNA framework and it worked very well for the most part, but the networking had to be re-written from scratch. Other Xbox Live Indie Games that supported networking should be able to use my work, please let me know if you know of any!&lt;/p&gt;
+&lt;p&gt;Most of the work I did was on the networking backend. I used the excellent MonoGame framework to replace the deprecated XNA framework and it worked very well for the most part, but the networking had to be re-written from scratch. Other Xbox Live Indie Games that supported networking should be able to use my work, please let me know if you know of any!&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Seaside Racing (Remaster)</title>
+      <title>Seaside Racing</title>
       <link>http://gustavolsson.com/projects/seaside-racing/</link>
       <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>http://gustavolsson.com/projects/seaside-racing/</guid>
       <description>&lt;div class=&#34;video&#34;&gt;
     &lt;iframe
-        src=&#34;https://www.youtube-nocookie.com/embed/PNfXdATtvCk&#34;
-        srcdoc=&#34;&lt;style&gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}&lt;/style&gt;&lt;a href=https://www.youtube-nocookie.com/embed/PNfXdATtvCk?autoplay=1&gt;&lt;img src=https://img.youtube.com/vi/PNfXdATtvCk/hqdefault.jpg&gt;&lt;span&gt;▶&lt;/span&gt;&lt;/a&gt;&#34;
+        src=&#34;https://www.youtube-nocookie.com/embed/p0fVm1LTZUw&#34;
+        srcdoc=&#34;&lt;style&gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;top:0;bottom:0;width:100%;margin:auto;}span{height:1.5em;text-align:center;font:60px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black;}&lt;/style&gt;&lt;a href=https://www.youtube-nocookie.com/embed/p0fVm1LTZUw?autoplay=1&gt;&lt;img src=https://img.youtube.com/vi/p0fVm1LTZUw/hqdefault.jpg&gt;&lt;span&gt;▶&lt;/span&gt;&lt;/a&gt;&#34;
         frameborder=&#34;0&#34;
         allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34;
         allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;h2 id=&#34;seaside-racing-remaster&#34;&gt;Seaside Racing (Remaster)&lt;/h2&gt;
-&lt;p&gt;Experience the thrill (or madness) of driving a soapbox car down a mountain, accidentally knocking your competitors into the sea or getting lost in green fields without as much as a road sign to help you find your way.&lt;/p&gt;
+&lt;h2 id=&#34;seaside-racing&#34;&gt;Seaside Racing&lt;/h2&gt;
+&lt;p&gt;Experience the thrill of driving a soapbox car down a mountain in this chaotic cult classic kart racer, accidentally knocking your competitors into the sea or getting lost in green fields without as much as a road sign to help you find your way.&lt;/p&gt;
+&lt;h4 id=&#34;actual-features&#34;&gt;Actual features&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;Physics-based multiplayer kart racing!&lt;/li&gt;
-&lt;li&gt;Up to 12 players over the Internet or LAN&lt;/li&gt;
+&lt;li&gt;Up to 12 players over the Internet or local network&lt;/li&gt;
 &lt;li&gt;1-4 local players split screen (online or offline)&lt;/li&gt;
-&lt;li&gt;Share-a-gamepad option (up to 4 players using 2 game pads)&lt;/li&gt;
-&lt;li&gt;3 playable maps&lt;/li&gt;
+&lt;li&gt;Share-a-gamepad option for up to 4 players using 2 game pads&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;about-the-original&#34;&gt;About the original&lt;/h4&gt;
-&lt;p&gt;This is a remastered version of the original Seaside Racing that was released on Xbox Live Indie Games in 2010. &lt;a href=&#34;https://www.youtube.com/playlist?list=PLZ4KknZfHyaXzsKm3J9DVHbW-vi0E9Fyr&#34;&gt;Here is a YouTube playlist&lt;/a&gt; of people playing the original game. Everything was made from scratch, the physics engine, the graphics and all of the assets. Counting the time it took to port the game to PC, the game is now 2.5 years in the making!&lt;/p&gt;
-&lt;h4 id=&#34;free-to-play&#34;&gt;Free-to-play&lt;/h4&gt;
-&lt;p&gt;The game is really meant to be played with others and in order to attract new players, the game is currently free. Donations at or over 3$ will get an &amp;ldquo;I support the developer&amp;rdquo;-badge in a future update though (when playing over the Internet), so keep that in mind when downloading ;)&lt;/p&gt;
+&lt;h4 id=&#34;questionable-features&#34;&gt;Questionable features&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;3 large seaside maps (no more, no less)&lt;/li&gt;
+&lt;li&gt;Randomly generated avatars (you can switch but not choose)&lt;/li&gt;
+&lt;li&gt;Possible to get lost (the game doesn&amp;rsquo;t even know where to go)&lt;/li&gt;
+&lt;li&gt;Unpredictable respawn logic (that makes it possible to reach tricky places)&lt;/li&gt;
+&lt;li&gt;No placement indicator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;cult-classic&#34;&gt;Cult classic&lt;/h4&gt;
+&lt;p&gt;This is a remastered version of the &lt;a href=&#34;http://gustavolsson.com/projects/seaside-racing-xblig/&#34;&gt;original Seaside Racing&lt;/a&gt; that was released on Xbox Live Indie Games in 2010.&lt;/p&gt;
+&lt;p&gt;The game has a cult following among &lt;em&gt;at least&lt;/em&gt; one group of friends in Indiana, USA, since its original release on Xbox Live Indie Games in 2010. Since publishing this, I&amp;rsquo;ve also been notified that there is a cult following in High Wycombe, England, UK in addition to the aforementioned cult following in the USA.&lt;/p&gt;
 </description>
     </item>
     
@@ -796,7 +803,7 @@
     </item>
     
     <item>
-      <title>Seaside Racing (Original)</title>
+      <title>Seaside Racing (XBLIG)</title>
       <link>http://gustavolsson.com/projects/seaside-racing-xblig/</link>
       <pubDate>Sun, 25 Jul 2010 00:00:00 +0000</pubDate>
       
@@ -805,8 +812,8 @@
 
 &lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/seaside-racing-xblig/logo.png&#34;&gt;&lt;img width=&#34;100%&#34; src=&#34;http://gustavolsson.com/projects/seaside-racing-xblig/logo_hueb100b72a2ac6c06d21dc19eb9d6ece7_103663_1200x0_resize_q70_bgffffff_box_3.jpg&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;seaside-racing-original&#34;&gt;Seaside Racing (Original)&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/seaside-racing/&#34;&gt;Check out the remastered version here!&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;seaside-racing-xbox-live-indie-games&#34;&gt;Seaside Racing (Xbox Live Indie Games)&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;http://gustavolsson.com/projects/seaside-racing/&#34;&gt;Check out the remastered Windows/Steam Deck/Linux version here!&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Compete with your friends in this multiplayer kart racer! Play 1-4 players splitscreen either locally, over system link or on Xbox Live for a total of 8 players. Use your own Xbox Avatar and race through 3 different seaside courses!&lt;/p&gt;
 &lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
 &lt;ul&gt;
