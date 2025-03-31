@@ -7,6 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://gustavolsson.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>December Adventure 2023</title>
       <link>http://gustavolsson.com/projects/december-adventure-2023/</link>
@@ -81,6 +82,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>uxnfloppy</title>
       <link>http://gustavolsson.com/projects/uxnfloppy/</link>
@@ -98,6 +101,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>sprout engine</title>
       <link>http://gustavolsson.com/projects/sprout-engine/</link>
@@ -112,6 +117,10 @@
 &lt;p&gt;Sprout is a minimalist 3d game engine written in C.&lt;/p&gt;
 </description>
     </item>
+    
+    
+    
+    
     
     <item>
       <title>turn3d</title>
@@ -152,6 +161,8 @@
 &lt;p&gt;Exported 3d scans are regular files and can be shared just like any other type of file (such as text documents or image files for example). Once a 3d scan is exported to a file, it is outside the control of the app and the sole responsibility of the user.&lt;/p&gt;
 </description>
     </item>
+    
+    
     
     <item>
       <title>Rope Toolkit</title>
@@ -235,6 +246,8 @@
 &lt;/ul&gt;
 </description>
     </item>
+    
+    
     
     <item>
       <title>Sharp Shadows Toolkit</title>
@@ -328,6 +341,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>Inversed Timing Belt</title>
       <link>http://gustavolsson.com/projects/inversed-timing-belt-idea/</link>
@@ -353,6 +368,8 @@
 &lt;p&gt;After coming up with the idea, I found a similar mechanism mentioned in the conference paper &lt;code&gt;ePaddle mechanism: Towards the development of a versatile amphibious locomotion mechanism&lt;/code&gt;. After publishing the video above I got a comment that directed me to a US patent (&lt;code&gt;US5954611&lt;/code&gt;) that seems to describe the same mechanism in detail.&lt;/p&gt;
 </description>
     </item>
+    
+    
     
     <item>
       <title>Seaside Racing</title>
@@ -392,6 +409,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>Sokol for Android</title>
       <link>http://gustavolsson.com/projects/sokol-android/</link>
@@ -406,6 +425,8 @@
 &lt;p&gt;As I had an Android phone at the time, I spent some time implementing Android support in the Sokol library that takes care of context creation, &lt;code&gt;sokol_app.h&lt;/code&gt;. My changes were merged in January 2019.&lt;/p&gt;
 </description>
     </item>
+    
+    
     
     <item>
       <title>PICO-8 Display Driver</title>
@@ -430,6 +451,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>Master&#39;s Thesis</title>
       <link>http://gustavolsson.com/projects/masters-thesis/</link>
@@ -451,6 +474,8 @@
 &lt;p&gt;Realistic simulation and rendering of water is a challenge within the field of computer graphics because of its inherent multi-scale nature. When observing a large body of water such as the sea, there are small waves and perturbations visible close to the observer. As the distance increases, the small scale details form large scale wave patterns that may be several kilometers away. A common approach to rendering large bodies of water in real-time is to simulate deep water waves in a small area and repeat the wave motions across the water surface at different spatial scales in order to minimize repetition patterns. This method gives excellent results at open sea but cannot react to changes in water depth or the terrain of the virtual scene. In this thesis, an algorithm for rendering large expanses of water that interact with the terrain of the virtual scene in real-time is presented. The proposed algorithm first simulates water waves in a pre-computation step and saves wavefront parameters on a coarse triangle mesh as proposed by Jeschke and Wojtan [2015]. Then, the stored simulation is evaluated and the water surface is rendered in real-time using a novel staggered update scheme. The staggered update scheme effectively improves the rendering performance by a factor of 8 and makes it possible to render water surfaces of up to 16 square kilometers with excellent visual quality and wave patterns at multiple spatial scales.&lt;/p&gt;
 </description>
     </item>
+    
+    
     
     <item>
       <title>Ocean Toolkit</title>
@@ -489,6 +514,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>Top-Down Resin 3d Printer</title>
       <link>http://gustavolsson.com/projects/resin-printer-idea/</link>
@@ -505,6 +532,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>Mail Monster (LD#33)</title>
       <link>http://gustavolsson.com/projects/mail-monster/</link>
@@ -520,6 +549,8 @@
 &lt;p&gt;&lt;code&gt;ARROWS TO MOVE+C TO JUMP&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>
+    
+    
     
     <item>
       <title>Dōbutsu Ball (NMS2014)</title>
@@ -547,6 +578,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>Quadcopter Autopilot</title>
       <link>http://gustavolsson.com/projects/autoquad/</link>
@@ -567,6 +600,8 @@
 &lt;p&gt;At the time, I was very new to electronics and I chose an embedded platform that required the code to run on a host computer. Thus, a sensor reading had to travel from the IMU on the quadcopter to the host computer (via USB) and then the control signal had to travel back again to the motor controllers. Unfortunately, this introduced a considerable delay in the control loop which made the quadcopter oscillate once airborne. However, the quadcopter actually flew a couple of times so I call the endeavour a success!&lt;/p&gt;
 </description>
     </item>
+    
+    
     
     <item>
       <title>Shadow Volumes Toolkit</title>
@@ -618,6 +653,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>Shatter Toolkit</title>
       <link>http://gustavolsson.com/projects/shatter-toolkit/</link>
@@ -652,6 +689,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>Buoyancy Toolkit</title>
       <link>http://gustavolsson.com/projects/buoyancy-toolkit/</link>
@@ -680,6 +719,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>Seaside Racing (XBLIG)</title>
       <link>http://gustavolsson.com/projects/seaside-racing-xblig/</link>
@@ -703,6 +744,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>Sailor (LD#11)</title>
       <link>http://gustavolsson.com/projects/sailor/</link>
@@ -717,6 +760,8 @@
 &lt;p&gt;The game let’s you build a boat and sail the sea. Try to stay afloat as long as possible, it’s not as easy as it sounds!&lt;/p&gt;
 </description>
     </item>
+    
+    
     
     <item>
       <title>Physics Engine</title>
@@ -735,6 +780,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>Real-Time Raytracer (CPU)</title>
       <link>http://gustavolsson.com/projects/real-time-raytracer-old/</link>
@@ -747,6 +794,8 @@
 &lt;p&gt;The inner workings of the algorithm is most visible in the first set of images in the gallery below:&lt;/p&gt;
 </description>
     </item>
+    
+    
     
     <item>
       <title>Early Projects (1999-2006)</title>
@@ -764,6 +813,7 @@
 &lt;p&gt;Robo was my first ever 3d game. I wrote it using Visual Basic 6 and DirectX8 when I was 13 years old, and I was very proud :)&lt;/p&gt;
 </description>
     </item>
+    
     
   </channel>
 </rss>

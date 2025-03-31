@@ -7,6 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 Sep 2020 21:55:57 +0200</lastBuildDate><atom:link href="http://gustavolsson.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>turn3d v1.1.2</title>
       <link>http://gustavolsson.com/blog/turn3d-v1.1/</link>
@@ -24,6 +25,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>Hello! (New website in 2020)</title>
       <link>http://gustavolsson.com/blog/hello-2020/</link>
@@ -33,6 +36,8 @@
       <description>&lt;p&gt;Welcome to yet another website&amp;hellip;&lt;/p&gt;
 </description>
     </item>
+    
+    
     
     <item>
       <title>Scan the world around you using turn3d!</title>
@@ -53,6 +58,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>Seaside Racing Remastered (Windows/macOS/Linux)</title>
       <link>http://gustavolsson.com/blog/seaside-racing-remastered/</link>
@@ -65,6 +72,8 @@
 &lt;p&gt;Most of the work I did was on the networking backend. I used the excellent MonoGame framework to replace the deprecated XNA framework and it worked very well for the most part, but the networking had to be re-written from scratch. Other Xbox Live Indie Games that supported networking should be able to use my work, please let me know if you know of any!&lt;/p&gt;
 </description>
     </item>
+    
+    
     
     <item>
       <title>Laser Scanner Prototype</title>
@@ -91,6 +100,8 @@
 </description>
     </item>
     
+    
+    
     <item>
       <title>Hello! (New website in 2015)</title>
       <link>http://gustavolsson.com/blog/hello-2015/</link>
@@ -102,6 +113,7 @@
 &lt;p&gt;Lately, I have been focused on physical projects so the log will start off with these and then as I get more free time from university I&amp;rsquo;ll start working on the go toolkits again. I have a long list of improvements I want to make to each of the toolkits, so stay tuned :)&lt;/p&gt;
 </description>
     </item>
+    
     
   </channel>
 </rss>
