@@ -15,7 +15,7 @@
       
       <guid>http://gustavolsson.com/projects/fade-browser/</guid>
       <description>&lt;h2 id=&#34;fade-browser-ios-app&#34;&gt;Fade Browser (iOS app)&lt;/h2&gt;
-&lt;p&gt;This is a very simple web browser that works like a normal browser except that the saturation and contrast of the image is reduced over time. The graphical effect is designed to make browsing possible, but not enjoyable, even after the time limit has been reached. The effect is reset each day.&lt;/p&gt;
+&lt;p&gt;This is a very simple web browser that works like a normal browser except that the saturation and contrast is reduced over time. The graphical effect is designed to make browsing possible, but not enjoyable, even after the time limit has been reached. The effect is reset each day.&lt;/p&gt;
 &lt;p&gt;Features &amp;amp; lack of features:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Gradually fades out the image over time when in use (Clear if you use it conservatively, dim otherwise)&lt;/li&gt;
